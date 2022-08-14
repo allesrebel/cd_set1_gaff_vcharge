@@ -1,0 +1,40 @@
+#!/bin/bash
+#SBATCH --job-name=vchemrun
+#SBATCH --output=vchemrun.out
+#SBATCH --error=vchemrun.err
+#SBATCH --partition=compute
+#SBATCH -N 1
+#SBATCH -n 16
+#SBATCH --time=72:00:00
+
+ulimit -s unlimited
+
+# Set locations and environment for Intel
+INTEL_LIBS=$VCHOME/lib/intel
+INTEL_MKL_LIBS=$INTEL_LIBS/mkl
+INTEL_MPI_LIBS=$INTEL_LIBS/mpi
+
+CUDA_LIBS=$VCHOME/lib/cuda:$VCHOME/lib/magma
+
+LD_LIBRARY_PATH=$INTEL_LIBS:$INTEL_MKL_LIBS:$INTEL_MPI_LIBS:$CUDA_LIBS
+export LD_LIBRARY_PATH
+
+PATH=$INTEL_MPI_LIBS:$PATH
+export PATH
+
+
+# Set number of OpenMP threads to run per MPI process
+export OMP_NUM_THREADS=16
+export MKL_NUM_THREADS=16
+export I_MPI_PIN_DOMAIN=omp
+export KMP_STACKSIZE=16m
+
+# Set VM2 executable to use
+VC_FORTRAN_EXE=$VCHOME/exe/VC_CompChemPackage_mpi_openmp.exe
+
+# Set VM2 input and output file names
+VC_IN_FILE=CD_guest-s20_vm2_rndm.inp
+VC_OUT_FILE=CD_guest-s20_vm2_rndm.out
+
+# Will run a total of 16 MPI processes on a single node
+mpirun -n 16 $VC_FORTRAN_EXE $VC_IN_FILE $VC_OUT_FILE
