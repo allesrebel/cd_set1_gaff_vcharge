@@ -1,0 +1,1269 @@
+REMARK: VM2 Rank=1      Conf_Id=1132   Probability(%)=7.58                      
+REMARK:   G=47.363            E=20.694            -TS=26.668                    
+REMARK: U+W=2.809             U=4.530               W=-1.721                    
+MODEL    1
+HETATM    1  C1  MOL     1      19.883  19.049  20.903                       C
+HETATM    2  H1  MOL     1      20.893  19.157  20.486                       H
+HETATM    3  H2  MOL     1      19.282  18.576  20.113                       H
+HETATM    4  C2  MOL     1      19.292  20.449  21.184                       C
+HETATM    5  H3  MOL     1      19.361  21.041  20.261                       H
+HETATM    6  H4  MOL     1      18.219  20.356  21.399                       H
+HETATM    7  C3  MOL     1      19.981  21.234  22.325                       C
+HETATM    8  H5  MOL     1      19.622  22.272  22.280                       H
+HETATM    9  H6  MOL     1      21.067  21.280  22.169                       H
+HETATM   10  C4  MOL     1      19.647  20.673  23.728                       C
+HETATM   11  H7  MOL     1      19.719  21.490  24.458                       H
+HETATM   12  H8  MOL     1      18.597  20.351  23.749                       H
+HETATM   13  C5  MOL     1      20.564  19.531  24.223                       C
+HETATM   14  H9  MOL     1      21.477  19.985  24.636                       H
+HETATM   15  C6  MOL     1      21.007  18.502  23.158                       C
+HETATM   16  H10 MOL     1      21.888  18.889  22.631                       H
+HETATM   17  H11 MOL     1      21.356  17.599  23.677                       H
+HETATM   18  C7  MOL     1      19.926  18.100  22.123                       C
+HETATM   19  H12 MOL     1      20.166  17.093  21.755                       H
+HETATM   20  H13 MOL     1      18.937  18.025  22.594                       H
+HETATM   21  O1  MOL     1      19.887  18.839  25.263                       O
+HETATM   22  H14 MOL     1      19.142  18.372  24.833                       H
+ENDMDL
+REMARK: VM2 Rank=2      Conf_Id=561    Probability(%)=7.28                      
+REMARK:   G=47.387            E=20.718            -TS=26.669                    
+REMARK: U+W=2.833             U=4.530               W=-1.697                    
+MODEL    2
+HETATM    1  C1  MOL     1      19.668  19.024  20.922                       C
+HETATM    2  H1  MOL     1      19.931  18.884  19.864                       H
+HETATM    3  H2  MOL     1      18.705  18.515  21.060                       H
+HETATM    4  C2  MOL     1      19.489  20.538  21.176                       C
+HETATM    5  H3  MOL     1      20.387  21.073  20.838                       H
+HETATM    6  H4  MOL     1      18.669  20.898  20.540                       H
+HETATM    7  C3  MOL     1      19.181  20.923  22.642                       C
+HETATM    8  H5  MOL     1      18.322  20.354  23.022                       H
+HETATM    9  H6  MOL     1      18.876  21.978  22.654                       H
+HETATM   10  C4  MOL     1      20.408  20.769  23.575                       C
+HETATM   11  H7  MOL     1      21.317  21.052  23.029                       H
+HETATM   12  H8  MOL     1      20.327  21.497  24.393                       H
+HETATM   13  C5  MOL     1      20.608  19.366  24.193                       C
+HETATM   14  H9  MOL     1      21.659  19.297  24.509                       H
+HETATM   15  C6  MOL     1      20.309  18.164  23.267                       C
+HETATM   16  H10 MOL     1      20.827  17.292  23.686                       H
+HETATM   17  H11 MOL     1      19.240  17.917  23.301                       H
+HETATM   18  C7  MOL     1      20.746  18.336  21.792                       C
+HETATM   19  H12 MOL     1      21.703  18.870  21.726                       H
+HETATM   20  H13 MOL     1      20.926  17.336  21.373                       H
+HETATM   21  O1  MOL     1      19.776  19.258  25.340                       O
+HETATM   22  H14 MOL     1      18.864  19.425  25.026                       H
+ENDMDL
+REMARK: VM2 Rank=3      Conf_Id=1237   Probability(%)=6.34                      
+REMARK:   G=47.470            E=20.456            -TS=27.013                    
+REMARK: U+W=2.572             U=3.922               W=-1.350                    
+MODEL    3
+HETATM    1  C1  MOL     1      19.977  19.187  21.073                       C
+HETATM    2  H1  MOL     1      20.920  19.695  20.832                       H
+HETATM    3  H2  MOL     1      19.599  18.785  20.123                       H
+HETATM    4  C2  MOL     1      18.930  20.189  21.611                       C
+HETATM    5  H3  MOL     1      18.488  20.725  20.760                       H
+HETATM    6  H4  MOL     1      18.096  19.637  22.064                       H
+HETATM    7  C3  MOL     1      19.466  21.248  22.608                       C
+HETATM    8  H5  MOL     1      18.633  21.582  23.242                       H
+HETATM    9  H6  MOL     1      19.773  22.137  22.039                       H
+HETATM   10  C4  MOL     1      20.660  20.835  23.511                       C
+HETATM   11  H7  MOL     1      21.588  20.896  22.929                       H
+HETATM   12  H8  MOL     1      20.765  21.592  24.300                       H
+HETATM   13  C5  MOL     1      20.586  19.446  24.185                       C
+HETATM   14  H9  MOL     1      21.255  19.469  25.057                       H
+HETATM   15  C6  MOL     1      21.085  18.307  23.268                       C
+HETATM   16  H10 MOL     1      22.106  18.542  22.940                       H
+HETATM   17  H11 MOL     1      21.172  17.394  23.872                       H
+HETATM   18  C7  MOL     1      20.219  17.990  22.024                       C
+HETATM   19  H12 MOL     1      20.722  17.195  21.457                       H
+HETATM   20  H13 MOL     1      19.256  17.564  22.339                       H
+HETATM   21  O1  MOL     1      19.264  19.175  24.626                       O
+HETATM   22  H14 MOL     1      18.722  19.254  23.816                       H
+ENDMDL
+REMARK: VM2 Rank=4      Conf_Id=122    Probability(%)=6.04                      
+REMARK:   G=47.498            E=20.485            -TS=27.013                    
+REMARK: U+W=2.600             U=3.922               W=-1.322                    
+MODEL    4
+HETATM    1  C1  MOL     1      19.281  18.897  21.380                       C
+HETATM    2  H1  MOL     1      19.087  18.518  20.367                       H
+HETATM    3  H2  MOL     1      18.322  18.807  21.906                       H
+HETATM    4  C2  MOL     1      19.672  20.390  21.281                       C
+HETATM    5  H3  MOL     1      20.722  20.501  20.979                       H
+HETATM    6  H4  MOL     1      19.076  20.840  20.475                       H
+HETATM    7  C3  MOL     1      19.381  21.182  22.578                       C
+HETATM    8  H5  MOL     1      18.360  20.971  22.923                       H
+HETATM    9  H6  MOL     1      19.395  22.254  22.337                       H
+HETATM   10  C4  MOL     1      20.386  20.942  23.732                       C
+HETATM   11  H7  MOL     1      21.365  21.342  23.440                       H
+HETATM   12  H8  MOL     1      20.069  21.538  24.597                       H
+HETATM   13  C5  MOL     1      20.567  19.479  24.195                       C
+HETATM   14  H9  MOL     1      21.230  19.503  25.072                       H
+HETATM   15  C6  MOL     1      21.248  18.591  23.128                       C
+HETATM   16  H10 MOL     1      22.043  19.171  22.642                       H
+HETATM   17  H11 MOL     1      21.764  17.771  23.645                       H
+HETATM   18  C7  MOL     1      20.334  17.970  22.037                       C
+HETATM   19  H12 MOL     1      20.986  17.570  21.248                       H
+HETATM   20  H13 MOL     1      19.815  17.096  22.456                       H
+HETATM   21  O1  MOL     1      19.316  18.928  24.578                       O
+HETATM   22  H14 MOL     1      18.818  18.862  23.739                       H
+ENDMDL
+REMARK: VM2 Rank=5      Conf_Id=517    Probability(%)=4.86                      
+REMARK:   G=47.628            E=20.970            -TS=26.657                    
+REMARK: U+W=3.085             U=5.433               W=-2.348                    
+MODEL    5
+HETATM    1  C1  MOL     1      19.871  19.104  20.841                       C
+HETATM    2  H1  MOL     1      20.362  18.926  19.875                       H
+HETATM    3  H2  MOL     1      18.800  18.930  20.669                       H
+HETATM    4  C2  MOL     1      20.092  20.583  21.242                       C
+HETATM    5  H3  MOL     1      21.148  20.772  21.479                       H
+HETATM    6  H4  MOL     1      19.862  21.203  20.366                       H
+HETATM    7  C3  MOL     1      19.175  21.035  22.402                       C
+HETATM    8  H5  MOL     1      18.193  20.554  22.300                       H
+HETATM    9  H6  MOL     1      18.986  22.113  22.308                       H
+HETATM   10  C4  MOL     1      19.737  20.770  23.822                       C
+HETATM   11  H7  MOL     1      20.418  21.589  24.086                       H
+HETATM   12  H8  MOL     1      18.903  20.827  24.534                       H
+HETATM   13  C5  MOL     1      20.497  19.439  24.027                       C
+HETATM   14  H9  MOL     1      21.526  19.566  23.663                       H
+HETATM   15  C6  MOL     1      19.878  18.225  23.299                       C
+HETATM   16  H10 MOL     1      20.140  17.314  23.854                       H
+HETATM   17  H11 MOL     1      18.782  18.286  23.311                       H
+HETATM   18  C7  MOL     1      20.403  18.061  21.851                       C
+HETATM   19  H12 MOL     1      21.501  18.086  21.857                       H
+HETATM   20  H13 MOL     1      20.127  17.062  21.489                       H
+HETATM   21  O1  MOL     1      20.534  19.162  25.422                       O
+HETATM   22  H14 MOL     1      20.974  19.926  25.850                       H
+ENDMDL
+REMARK: VM2 Rank=6      Conf_Id=810    Probability(%)=4.66                      
+REMARK:   G=47.654            E=20.996            -TS=26.657                    
+REMARK: U+W=3.111             U=5.433               W=-2.322                    
+MODEL    6
+HETATM    1  C1  MOL     1      20.357  19.229  20.995                       C
+HETATM    2  H1  MOL     1      21.414  19.432  21.211                       H
+HETATM    3  H2  MOL     1      20.319  18.893  19.949                       H
+HETATM    4  C2  MOL     1      19.512  20.521  21.103                       C
+HETATM    5  H3  MOL     1      19.792  21.193  20.280                       H
+HETATM    6  H4  MOL     1      18.452  20.278  20.942                       H
+HETATM    7  C3  MOL     1      19.662  21.296  22.432                       C
+HETATM    8  H5  MOL     1      18.968  22.147  22.413                       H
+HETATM    9  H6  MOL     1      20.669  21.733  22.488                       H
+HETATM   10  C4  MOL     1      19.390  20.465  23.710                       C
+HETATM   11  H7  MOL     1      19.307  21.165  24.552                       H
+HETATM   12  H8  MOL     1      18.422  19.952  23.642                       H
+HETATM   13  C5  MOL     1      20.518  19.456  24.019                       C
+HETATM   14  H9  MOL     1      21.470  19.898  23.690                       H
+HETATM   15  C6  MOL     1      20.356  18.078  23.338                       C
+HETATM   16  H10 MOL     1      21.335  17.582  23.348                       H
+HETATM   17  H11 MOL     1      19.690  17.448  23.943                       H
+HETATM   18  C7  MOL     1      19.820  18.083  21.884                       C
+HETATM   19  H12 MOL     1      18.722  18.114  21.897                       H
+HETATM   20  H13 MOL     1      20.082  17.121  21.423                       H
+HETATM   21  O1  MOL     1      20.571  19.250  25.426                       O
+HETATM   22  H14 MOL     1      21.324  18.646  25.595                       H
+ENDMDL
+REMARK: VM2 Rank=7      Conf_Id=1328   Probability(%)=4.59                      
+REMARK:   G=47.662            E=20.999            -TS=26.663                    
+REMARK: U+W=3.114             U=5.411               W=-2.297                    
+MODEL    7
+HETATM    1  C1  MOL     1      19.872  19.104  20.842                       C
+HETATM    2  H1  MOL     1      18.801  18.931  20.669                       H
+HETATM    3  H2  MOL     1      20.364  18.926  19.876                       H
+HETATM    4  C2  MOL     1      20.094  20.583  21.243                       C
+HETATM    5  H3  MOL     1      21.150  20.771  21.482                       H
+HETATM    6  H4  MOL     1      19.866  21.204  20.366                       H
+HETATM    7  C3  MOL     1      19.176  21.037  22.402                       C
+HETATM    8  H5  MOL     1      18.192  20.560  22.296                       H
+HETATM    9  H6  MOL     1      18.991  22.116  22.309                       H
+HETATM   10  C4  MOL     1      19.733  20.767  23.822                       C
+HETATM   11  H7  MOL     1      20.413  21.584  24.095                       H
+HETATM   12  H8  MOL     1      18.898  20.820  24.534                       H
+HETATM   13  C5  MOL     1      20.495  19.438  24.026                       C
+HETATM   14  H9  MOL     1      21.523  19.571  23.659                       H
+HETATM   15  C6  MOL     1      19.875  18.224  23.299                       C
+HETATM   16  H10 MOL     1      20.130  17.310  23.850                       H
+HETATM   17  H11 MOL     1      18.779  18.290  23.307                       H
+HETATM   18  C7  MOL     1      20.402  18.061  21.852                       C
+HETATM   19  H12 MOL     1      21.500  18.083  21.858                       H
+HETATM   20  H13 MOL     1      20.125  17.062  21.489                       H
+HETATM   21  O1  MOL     1      20.538  19.164  25.421                       O
+HETATM   22  H14 MOL     1      21.089  18.361  25.534                       H
+ENDMDL
+REMARK: VM2 Rank=8      Conf_Id=775    Probability(%)=4.45                      
+REMARK:   G=47.680            E=21.017            -TS=26.663                    
+REMARK: U+W=3.132             U=5.411               W=-2.279                    
+MODEL    8
+HETATM    1  C1  MOL     1      20.358  19.229  20.996                       C
+HETATM    2  H1  MOL     1      20.323  18.894  19.950                       H
+HETATM    3  H2  MOL     1      21.416  19.431  21.213                       H
+HETATM    4  C2  MOL     1      19.513  20.521  21.104                       C
+HETATM    5  H3  MOL     1      19.794  21.193  20.281                       H
+HETATM    6  H4  MOL     1      18.454  20.278  20.942                       H
+HETATM    7  C3  MOL     1      19.662  21.297  22.433                       C
+HETATM    8  H5  MOL     1      18.967  22.147  22.412                       H
+HETATM    9  H6  MOL     1      20.669  21.733  22.489                       H
+HETATM   10  C4  MOL     1      19.388  20.465  23.710                       C
+HETATM   11  H7  MOL     1      19.297  21.167  24.549                       H
+HETATM   12  H8  MOL     1      18.422  19.950  23.636                       H
+HETATM   13  C5  MOL     1      20.517  19.456  24.018                       C
+HETATM   14  H9  MOL     1      21.469  19.893  23.684                       H
+HETATM   15  C6  MOL     1      20.350  18.078  23.339                       C
+HETATM   16  H10 MOL     1      21.328  17.579  23.358                       H
+HETATM   17  H11 MOL     1      19.682  17.453  23.946                       H
+HETATM   18  C7  MOL     1      19.821  18.082  21.883                       C
+HETATM   19  H12 MOL     1      20.086  17.120  21.423                       H
+HETATM   20  H13 MOL     1      18.723  18.110  21.891                       H
+HETATM   21  O1  MOL     1      20.576  19.251  25.425                       O
+HETATM   22  H14 MOL     1      20.758  20.124  25.831                       H
+ENDMDL
+REMARK: VM2 Rank=9      Conf_Id=485    Probability(%)=4.38                      
+REMARK:   G=47.689            E=21.017            -TS=26.672                    
+REMARK: U+W=3.132             U=5.406               W=-2.274                    
+MODEL    9
+HETATM    1  C1  MOL     1      19.579  19.119  21.016                       C
+HETATM    2  H1  MOL     1      19.645  18.866  19.949                       H
+HETATM    3  H2  MOL     1      18.513  19.057  21.277                       H
+HETATM    4  C2  MOL     1      20.108  20.561  21.200                       C
+HETATM    5  H3  MOL     1      21.205  20.543  21.256                       H
+HETATM    6  H4  MOL     1      19.870  21.144  20.300                       H
+HETATM    7  C3  MOL     1      19.537  21.318  22.423                       C
+HETATM    8  H5  MOL     1      18.567  21.755  22.151                       H
+HETATM    9  H6  MOL     1      20.198  22.169  22.638                       H
+HETATM   10  C4  MOL     1      19.346  20.487  23.716                       C
+HETATM   11  H7  MOL     1      19.255  21.188  24.556                       H
+HETATM   12  H8  MOL     1      18.385  19.959  23.668                       H
+HETATM   13  C5  MOL     1      20.470  19.467  24.006                       C
+HETATM   14  H9  MOL     1      21.433  19.868  23.659                       H
+HETATM   15  C6  MOL     1      20.211  18.098  23.336                       C
+HETATM   16  H10 MOL     1      20.890  17.358  23.778                       H
+HETATM   17  H11 MOL     1      19.196  17.761  23.583                       H
+HETATM   18  C7  MOL     1      20.402  18.070  21.800                       C
+HETATM   19  H12 MOL     1      21.468  18.192  21.564                       H
+HETATM   20  H13 MOL     1      20.128  17.069  21.440                       H
+HETATM   21  O1  MOL     1      20.534  19.258  25.411                       O
+HETATM   22  H14 MOL     1      20.755  20.123  25.815                       H
+ENDMDL
+REMARK: VM2 Rank=10     Conf_Id=1257   Probability(%)=4.30                      
+REMARK:   G=47.700            E=21.028            -TS=26.672                    
+REMARK: U+W=3.143             U=5.406               W=-2.262                    
+MODEL   10
+HETATM    1  C1  MOL     1      20.393  19.260  20.970                       C
+HETATM    2  H1  MOL     1      21.394  19.689  21.110                       H
+HETATM    3  H2  MOL     1      20.346  18.962  19.914                       H
+HETATM    4  C2  MOL     1      19.325  20.348  21.231                       C
+HETATM    5  H3  MOL     1      19.215  20.943  20.314                       H
+HETATM    6  H4  MOL     1      18.342  19.895  21.418                       H
+HETATM    7  C3  MOL     1      19.715  21.315  22.375                       C
+HETATM    8  H5  MOL     1      19.044  22.184  22.343                       H
+HETATM    9  H6  MOL     1      20.724  21.708  22.191                       H
+HETATM   10  C4  MOL     1      19.652  20.708  23.797                       C
+HETATM   11  H7  MOL     1      20.010  21.466  24.507                       H
+HETATM   12  H8  MOL     1      18.605  20.516  24.065                       H
+HETATM   13  C5  MOL     1      20.476  19.416  23.999                       C
+HETATM   14  H9  MOL     1      21.494  19.566  23.611                       H
+HETATM   15  C6  MOL     1      19.831  18.193  23.308                       C
+HETATM   16  H10 MOL     1      20.081  17.279  23.862                       H
+HETATM   17  H11 MOL     1      18.739  18.282  23.364                       H
+HETATM   18  C7  MOL     1      20.250  17.982  21.832                       C
+HETATM   19  H12 MOL     1      19.517  17.313  21.361                       H
+HETATM   20  H13 MOL     1      21.206  17.442  21.804                       H
+HETATM   21  O1  MOL     1      20.544  19.157  25.395                       O
+HETATM   22  H14 MOL     1      21.116  18.369  25.508                       H
+ENDMDL
+REMARK: VM2 Rank=11     Conf_Id=1095   Probability(%)=4.28                      
+REMARK:   G=47.704            E=21.056            -TS=26.648                    
+REMARK: U+W=3.171             U=5.483               W=-2.312                    
+MODEL   11
+HETATM    1  C1  MOL     1      20.391  19.260  20.969                       C
+HETATM    2  H1  MOL     1      20.344  18.962  19.913                       H
+HETATM    3  H2  MOL     1      21.393  19.689  21.108                       H
+HETATM    4  C2  MOL     1      19.324  20.348  21.231                       C
+HETATM    5  H3  MOL     1      18.341  19.895  21.420                       H
+HETATM    6  H4  MOL     1      19.213  20.943  20.314                       H
+HETATM    7  C3  MOL     1      19.716  21.314  22.374                       C
+HETATM    8  H5  MOL     1      19.046  22.184  22.342                       H
+HETATM    9  H6  MOL     1      20.725  21.707  22.190                       H
+HETATM   10  C4  MOL     1      19.652  20.709  23.797                       C
+HETATM   11  H7  MOL     1      20.005  21.472  24.504                       H
+HETATM   12  H8  MOL     1      18.605  20.515  24.061                       H
+HETATM   13  C5  MOL     1      20.477  19.417  23.999                       C
+HETATM   14  H9  MOL     1      21.495  19.563  23.613                       H
+HETATM   15  C6  MOL     1      19.834  18.193  23.308                       C
+HETATM   16  H10 MOL     1      20.092  17.283  23.866                       H
+HETATM   17  H11 MOL     1      18.741  18.277  23.370                       H
+HETATM   18  C7  MOL     1      20.250  17.982  21.832                       C
+HETATM   19  H12 MOL     1      21.206  17.442  21.803                       H
+HETATM   20  H13 MOL     1      19.515  17.313  21.362                       H
+HETATM   21  O1  MOL     1      20.542  19.155  25.396                       O
+HETATM   22  H14 MOL     1      20.996  19.921  25.806                       H
+ENDMDL
+REMARK: VM2 Rank=12     Conf_Id=988    Probability(%)=4.06                      
+REMARK:   G=47.735            E=21.108            -TS=26.627                    
+REMARK: U+W=3.223             U=5.233               W=-2.010                    
+MODEL   12
+HETATM    1  C1  MOL     1      20.355  19.228  20.994                       C
+HETATM    2  H1  MOL     1      21.413  19.431  21.208                       H
+HETATM    3  H2  MOL     1      20.316  18.892  19.949                       H
+HETATM    4  C2  MOL     1      19.511  20.520  21.104                       C
+HETATM    5  H3  MOL     1      19.790  21.192  20.281                       H
+HETATM    6  H4  MOL     1      18.451  20.278  20.945                       H
+HETATM    7  C3  MOL     1      19.664  21.296  22.432                       C
+HETATM    8  H5  MOL     1      18.973  22.149  22.413                       H
+HETATM    9  H6  MOL     1      20.673  21.729  22.487                       H
+HETATM   10  C4  MOL     1      19.390  20.466  23.710                       C
+HETATM   11  H7  MOL     1      19.308  21.169  24.550                       H
+HETATM   12  H8  MOL     1      18.420  19.956  23.638                       H
+HETATM   13  C5  MOL     1      20.517  19.456  24.020                       C
+HETATM   14  H9  MOL     1      21.470  19.897  23.695                       H
+HETATM   15  C6  MOL     1      20.360  18.078  23.337                       C
+HETATM   16  H10 MOL     1      21.344  17.592  23.344                       H
+HETATM   17  H11 MOL     1      19.704  17.438  23.941                       H
+HETATM   18  C7  MOL     1      19.821  18.083  21.885                       C
+HETATM   19  H12 MOL     1      20.082  17.121  21.423                       H
+HETATM   20  H13 MOL     1      18.722  18.113  21.899                       H
+HETATM   21  O1  MOL     1      20.569  19.250  25.426                       O
+HETATM   22  H14 MOL     1      19.697  18.889  25.685                       H
+ENDMDL
+REMARK: VM2 Rank=13     Conf_Id=222    Probability(%)=3.85                      
+REMARK:   G=47.766            E=21.133            -TS=26.633                    
+REMARK: U+W=3.248             U=5.336               W=-2.088                    
+MODEL   13
+HETATM    1  C1  MOL     1      19.579  19.119  21.016                       C
+HETATM    2  H1  MOL     1      19.645  18.866  19.949                       H
+HETATM    3  H2  MOL     1      18.514  19.056  21.278                       H
+HETATM    4  C2  MOL     1      20.107  20.561  21.199                       C
+HETATM    5  H3  MOL     1      21.204  20.544  21.254                       H
+HETATM    6  H4  MOL     1      19.868  21.144  20.299                       H
+HETATM    7  C3  MOL     1      19.537  21.318  22.423                       C
+HETATM    8  H5  MOL     1      18.567  21.756  22.152                       H
+HETATM    9  H6  MOL     1      20.199  22.169  22.638                       H
+HETATM   10  C4  MOL     1      19.347  20.488  23.717                       C
+HETATM   11  H7  MOL     1      19.266  21.191  24.557                       H
+HETATM   12  H8  MOL     1      18.383  19.966  23.672                       H
+HETATM   13  C5  MOL     1      20.469  19.466  24.005                       C
+HETATM   14  H9  MOL     1      21.432  19.869  23.661                       H
+HETATM   15  C6  MOL     1      20.210  18.097  23.335                       C
+HETATM   16  H10 MOL     1      20.890  17.356  23.776                       H
+HETATM   17  H11 MOL     1      19.194  17.758  23.576                       H
+HETATM   18  C7  MOL     1      20.404  18.070  21.801                       C
+HETATM   19  H12 MOL     1      21.470  18.195  21.566                       H
+HETATM   20  H13 MOL     1      20.133  17.069  21.438                       H
+HETATM   21  O1  MOL     1      20.534  19.258  25.410                       O
+HETATM   22  H14 MOL     1      19.661  18.903  25.678                       H
+ENDMDL
+REMARK: VM2 Rank=14     Conf_Id=1290   Probability(%)=3.75                      
+REMARK:   G=47.783            E=21.066            -TS=26.717                    
+REMARK: U+W=3.181             U=4.701               W=-1.520                    
+MODEL   14
+HETATM    1  C1  MOL     1      19.692  18.984  20.946                       C
+HETATM    2  H1  MOL     1      20.403  18.753  20.141                       H
+HETATM    3  H2  MOL     1      18.700  18.737  20.544                       H
+HETATM    4  C2  MOL     1      19.758  20.505  21.221                       C
+HETATM    5  H3  MOL     1      20.798  20.849  21.132                       H
+HETATM    6  H4  MOL     1      19.210  21.018  20.419                       H
+HETATM    7  C3  MOL     1      19.183  20.950  22.585                       C
+HETATM    8  H5  MOL     1      18.292  20.364  22.846                       H
+HETATM    9  H6  MOL     1      18.842  21.990  22.485                       H
+HETATM   10  C4  MOL     1      20.238  20.911  23.720                       C
+HETATM   11  H7  MOL     1      21.136  21.452  23.395                       H
+HETATM   12  H8  MOL     1      19.851  21.474  24.580                       H
+HETATM   13  C5  MOL     1      20.657  19.509  24.214                       C
+HETATM   14  H9  MOL     1      21.517  19.649  24.886                       H
+HETATM   15  C6  MOL     1      21.096  18.520  23.106                       C
+HETATM   16  H10 MOL     1      21.925  18.951  22.529                       H
+HETATM   17  H11 MOL     1      21.510  17.635  23.606                       H
+HETATM   18  C7  MOL     1      19.971  18.049  22.147                       C
+HETATM   19  H12 MOL     1      20.245  17.064  21.745                       H
+HETATM   20  H13 MOL     1      19.040  17.880  22.702                       H
+HETATM   21  O1  MOL     1      19.591  18.950  24.969                       O
+HETATM   22  H14 MOL     1      18.839  18.891  24.347                       H
+ENDMDL
+REMARK: VM2 Rank=15     Conf_Id=943    Probability(%)=3.71                      
+REMARK:   G=47.790            E=21.138            -TS=26.651                    
+REMARK: U+W=3.254             U=5.651               W=-2.397                    
+MODEL   15
+HETATM    1  C1  MOL     1      19.669  19.024  20.920                       C
+HETATM    2  H1  MOL     1      19.933  18.885  19.863                       H
+HETATM    3  H2  MOL     1      18.706  18.513  21.058                       H
+HETATM    4  C2  MOL     1      19.487  20.538  21.176                       C
+HETATM    5  H3  MOL     1      20.382  21.075  20.835                       H
+HETATM    6  H4  MOL     1      18.664  20.895  20.542                       H
+HETATM    7  C3  MOL     1      19.182  20.922  22.643                       C
+HETATM    8  H5  MOL     1      18.329  20.347  23.029                       H
+HETATM    9  H6  MOL     1      18.871  21.975  22.657                       H
+HETATM   10  C4  MOL     1      20.411  20.770  23.572                       C
+HETATM   11  H7  MOL     1      21.319  21.048  23.022                       H
+HETATM   12  H8  MOL     1      20.332  21.504  24.385                       H
+HETATM   13  C5  MOL     1      20.608  19.367  24.194                       C
+HETATM   14  H9  MOL     1      21.660  19.297  24.507                       H
+HETATM   15  C6  MOL     1      20.307  18.167  23.267                       C
+HETATM   16  H10 MOL     1      20.819  17.291  23.688                       H
+HETATM   17  H11 MOL     1      19.236  17.929  23.303                       H
+HETATM   18  C7  MOL     1      20.746  18.336  21.792                       C
+HETATM   19  H12 MOL     1      21.704  18.870  21.726                       H
+HETATM   20  H13 MOL     1      20.925  17.336  21.374                       H
+HETATM   21  O1  MOL     1      19.776  19.254  25.343                       O
+HETATM   22  H14 MOL     1      19.999  20.007  25.929                       H
+ENDMDL
+REMARK: VM2 Rank=16     Conf_Id=330    Probability(%)=3.52                      
+REMARK:   G=47.821            E=21.169            -TS=26.651                    
+REMARK: U+W=3.284             U=5.651               W=-2.366                    
+MODEL   16
+HETATM    1  C1  MOL     1      19.880  19.049  20.902                       C
+HETATM    2  H1  MOL     1      20.890  19.154  20.482                       H
+HETATM    3  H2  MOL     1      19.277  18.575  20.115                       H
+HETATM    4  C2  MOL     1      19.293  20.450  21.182                       C
+HETATM    5  H3  MOL     1      19.363  21.042  20.260                       H
+HETATM    6  H4  MOL     1      18.219  20.358  21.397                       H
+HETATM    7  C3  MOL     1      19.981  21.234  22.325                       C
+HETATM    8  H5  MOL     1      19.622  22.272  22.282                       H
+HETATM    9  H6  MOL     1      21.067  21.281  22.169                       H
+HETATM   10  C4  MOL     1      19.646  20.670  23.727                       C
+HETATM   11  H7  MOL     1      19.711  21.486  24.459                       H
+HETATM   12  H8  MOL     1      18.600  20.338  23.746                       H
+HETATM   13  C5  MOL     1      20.565  19.530  24.224                       C
+HETATM   14  H9  MOL     1      21.478  19.986  24.634                       H
+HETATM   15  C6  MOL     1      21.010  18.503  23.155                       C
+HETATM   16  H10 MOL     1      21.887  18.896  22.626                       H
+HETATM   17  H11 MOL     1      21.364  17.599  23.667                       H
+HETATM   18  C7  MOL     1      19.927  18.102  22.124                       C
+HETATM   19  H12 MOL     1      20.161  17.093  21.759                       H
+HETATM   20  H13 MOL     1      18.940  18.032  22.603                       H
+HETATM   21  O1  MOL     1      19.885  18.840  25.267                       O
+HETATM   22  H14 MOL     1      20.492  18.141  25.586                       H
+ENDMDL
+REMARK: VM2 Rank=17     Conf_Id=871    Probability(%)=3.41                      
+REMARK:   G=47.838            E=21.157            -TS=26.682                    
+REMARK: U+W=3.272             U=5.679               W=-2.407                    
+MODEL   17
+HETATM    1  C1  MOL     1      19.886  19.052  20.900                       C
+HETATM    2  H1  MOL     1      20.899  19.157  20.488                       H
+HETATM    3  H2  MOL     1      19.289  18.580  20.107                       H
+HETATM    4  C2  MOL     1      19.297  20.453  21.178                       C
+HETATM    5  H3  MOL     1      19.375  21.047  20.257                       H
+HETATM    6  H4  MOL     1      18.222  20.361  21.385                       H
+HETATM    7  C3  MOL     1      19.978  21.234  22.327                       C
+HETATM    8  H5  MOL     1      19.618  22.271  22.285                       H
+HETATM    9  H6  MOL     1      21.065  21.282  22.177                       H
+HETATM   10  C4  MOL     1      19.638  20.665  23.726                       C
+HETATM   11  H7  MOL     1      19.693  21.482  24.456                       H
+HETATM   12  H8  MOL     1      18.594  20.325  23.735                       H
+HETATM   13  C5  MOL     1      20.564  19.530  24.222                       C
+HETATM   14  H9  MOL     1      21.481  19.990  24.620                       H
+HETATM   15  C6  MOL     1      21.002  18.496  23.158                       C
+HETATM   16  H10 MOL     1      21.890  18.874  22.635                       H
+HETATM   17  H11 MOL     1      21.337  17.590  23.681                       H
+HETATM   18  C7  MOL     1      19.922  18.102  22.121                       C
+HETATM   19  H12 MOL     1      20.154  17.093  21.755                       H
+HETATM   20  H13 MOL     1      18.934  18.035  22.595                       H
+HETATM   21  O1  MOL     1      19.897  18.845  25.276                       O
+HETATM   22  H14 MOL     1      19.674  19.518  25.953                       H
+ENDMDL
+REMARK: VM2 Rank=18     Conf_Id=846    Probability(%)=3.38                      
+REMARK:   G=47.844            E=21.162            -TS=26.682                    
+REMARK: U+W=3.277             U=5.678               W=-2.401                    
+MODEL   18
+HETATM    1  C1  MOL     1      19.674  19.026  20.915                       C
+HETATM    2  H1  MOL     1      19.945  18.888  19.860                       H
+HETATM    3  H2  MOL     1      18.709  18.518  21.045                       H
+HETATM    4  C2  MOL     1      19.495  20.539  21.173                       C
+HETATM    5  H3  MOL     1      20.395  21.075  20.841                       H
+HETATM    6  H4  MOL     1      18.678  20.901  20.534                       H
+HETATM    7  C3  MOL     1      19.180  20.921  22.639                       C
+HETATM    8  H5  MOL     1      18.325  20.345  23.019                       H
+HETATM    9  H6  MOL     1      18.868  21.974  22.652                       H
+HETATM   10  C4  MOL     1      20.402  20.771  23.577                       C
+HETATM   11  H7  MOL     1      21.313  21.063  23.038                       H
+HETATM   12  H8  MOL     1      20.308  21.493  24.399                       H
+HETATM   13  C5  MOL     1      20.607  19.366  24.192                       C
+HETATM   14  H9  MOL     1      21.662  19.298  24.494                       H
+HETATM   15  C6  MOL     1      20.296  18.168  23.266                       C
+HETATM   16  H10 MOL     1      20.798  17.286  23.685                       H
+HETATM   17  H11 MOL     1      19.222  17.942  23.296                       H
+HETATM   18  C7  MOL     1      20.743  18.334  21.794                       C
+HETATM   19  H12 MOL     1      21.703  18.864  21.732                       H
+HETATM   20  H13 MOL     1      20.921  17.333  21.377                       H
+HETATM   21  O1  MOL     1      19.789  19.253  25.351                       O
+HETATM   22  H14 MOL     1      19.974  18.374  25.742                       H
+ENDMDL
+REMARK: VM2 Rank=19     Conf_Id=272    Probability(%)=2.79                      
+REMARK:   G=47.958            E=21.387            -TS=26.571                    
+REMARK: U+W=3.502             U=5.864               W=-2.362                    
+MODEL   19
+HETATM    1  C1  MOL     1      19.880  19.082  20.794                       C
+HETATM    2  H1  MOL     1      19.126  18.410  20.362                       H
+HETATM    3  H2  MOL     1      20.542  19.360  19.962                       H
+HETATM    4  C2  MOL     1      19.157  20.350  21.307                       C
+HETATM    5  H3  MOL     1      18.194  20.068  21.756                       H
+HETATM    6  H4  MOL     1      18.904  20.971  20.437                       H
+HETATM    7  C3  MOL     1      19.963  21.203  22.314                       C
+HETATM    8  H5  MOL     1      19.607  22.239  22.243                       H
+HETATM    9  H6  MOL     1      21.027  21.227  22.041                       H
+HETATM   10  C4  MOL     1      19.777  20.739  23.780                       C
+HETATM   11  H7  MOL     1      20.169  21.523  24.440                       H
+HETATM   12  H8  MOL     1      18.705  20.661  24.003                       H
+HETATM   13  C5  MOL     1      20.473  19.410  24.146                       C
+HETATM   14  H9  MOL     1      21.561  19.558  24.083                       H
+HETATM   15  C6  MOL     1      20.094  18.212  23.247                       C
+HETATM   16  H10 MOL     1      20.469  17.300  23.729                       H
+HETATM   17  H11 MOL     1      19.003  18.103  23.188                       H
+HETATM   18  C7  MOL     1      20.716  18.296  21.833                       C
+HETATM   19  H12 MOL     1      21.721  18.733  21.902                       H
+HETATM   20  H13 MOL     1      20.865  17.278  21.448                       H
+HETATM   21  O1  MOL     1      20.126  19.086  25.486                       O
+HETATM   22  H14 MOL     1      20.419  19.837  26.044                       H
+ENDMDL
+REMARK: VM2 Rank=20     Conf_Id=613    Probability(%)=2.68                      
+REMARK:   G=47.982            E=21.426            -TS=26.556                    
+REMARK: U+W=3.541             U=5.491               W=-1.950                    
+MODEL   20
+HETATM    1  C1  MOL     1      19.881  19.082  20.795                       C
+HETATM    2  H1  MOL     1      20.543  19.359  19.963                       H
+HETATM    3  H2  MOL     1      19.126  18.411  20.363                       H
+HETATM    4  C2  MOL     1      19.158  20.351  21.307                       C
+HETATM    5  H3  MOL     1      18.908  20.973  20.436                       H
+HETATM    6  H4  MOL     1      18.194  20.071  21.753                       H
+HETATM    7  C3  MOL     1      19.964  21.203  22.314                       C
+HETATM    8  H5  MOL     1      19.608  22.240  22.244                       H
+HETATM    9  H6  MOL     1      21.028  21.226  22.044                       H
+HETATM   10  C4  MOL     1      19.775  20.739  23.780                       C
+HETATM   11  H7  MOL     1      20.170  21.519  24.443                       H
+HETATM   12  H8  MOL     1      18.702  20.667  24.002                       H
+HETATM   13  C5  MOL     1      20.470  19.410  24.145                       C
+HETATM   14  H9  MOL     1      21.558  19.560  24.082                       H
+HETATM   15  C6  MOL     1      20.093  18.210  23.247                       C
+HETATM   16  H10 MOL     1      20.471  17.298  23.727                       H
+HETATM   17  H11 MOL     1      19.003  18.097  23.183                       H
+HETATM   18  C7  MOL     1      20.716  18.296  21.833                       C
+HETATM   19  H12 MOL     1      21.721  18.735  21.904                       H
+HETATM   20  H13 MOL     1      20.867  17.278  21.448                       H
+HETATM   21  O1  MOL     1      20.129  19.088  25.486                       O
+HETATM   22  H14 MOL     1      19.161  18.944  25.498                       H
+ENDMDL
+REMARK: VM2 Rank=21     Conf_Id=1339   Probability(%)=2.60                      
+REMARK:   G=48.000            E=21.429            -TS=26.571                    
+REMARK: U+W=3.544             U=5.864               W=-2.320                    
+MODEL   21
+HETATM    1  C1  MOL     1      19.475  19.005  21.068                       C
+HETATM    2  H1  MOL     1      19.451  18.667  20.023                       H
+HETATM    3  H2  MOL     1      18.538  18.644  21.514                       H
+HETATM    4  C2  MOL     1      19.485  20.553  21.069                       C
+HETATM    5  H3  MOL     1      20.117  20.907  20.244                       H
+HETATM    6  H4  MOL     1      18.469  20.901  20.836                       H
+HETATM    7  C3  MOL     1      19.965  21.239  22.371                       C
+HETATM    8  H5  MOL     1      19.593  22.273  22.366                       H
+HETATM    9  H6  MOL     1      21.060  21.320  22.361                       H
+HETATM   10  C4  MOL     1      19.512  20.550  23.681                       C
+HETATM   11  H7  MOL     1      19.473  21.313  24.469                       H
+HETATM   12  H8  MOL     1      18.492  20.156  23.583                       H
+HETATM   13  C5  MOL     1      20.482  19.441  24.146                       C
+HETATM   14  H9  MOL     1      21.505  19.842  24.116                       H
+HETATM   15  C6  MOL     1      20.439  18.149  23.301                       C
+HETATM   16  H10 MOL     1      21.207  17.465  23.684                       H
+HETATM   17  H11 MOL     1      19.477  17.643  23.459                       H
+HETATM   18  C7  MOL     1      20.674  18.341  21.783                       C
+HETATM   19  H12 MOL     1      20.827  17.348  21.339                       H
+HETATM   20  H13 MOL     1      21.600  18.903  21.597                       H
+HETATM   21  O1  MOL     1      20.155  19.100  25.487                       O
+HETATM   22  H14 MOL     1      20.811  18.432  25.777                       H
+ENDMDL
+REMARK: VM2 Rank=22     Conf_Id=199    Probability(%)=1.93                      
+REMARK:   G=48.179            E=21.156            -TS=27.023                    
+REMARK: U+W=3.271             U=4.573               W=-1.301                    
+MODEL   22
+HETATM    1  C1  MOL     1      19.335  18.868  21.406                       C
+HETATM    2  H1  MOL     1      19.081  18.464  20.416                       H
+HETATM    3  H2  MOL     1      18.566  18.487  22.090                       H
+HETATM    4  C2  MOL     1      19.286  20.410  21.305                       C
+HETATM    5  H3  MOL     1      20.090  20.753  20.639                       H
+HETATM    6  H4  MOL     1      18.348  20.700  20.812                       H
+HETATM    7  C3  MOL     1      19.382  21.170  22.647                       C
+HETATM    8  H5  MOL     1      18.450  21.043  23.212                       H
+HETATM    9  H6  MOL     1      19.434  22.243  22.420                       H
+HETATM   10  C4  MOL     1      20.606  20.806  23.533                       C
+HETATM   11  H7  MOL     1      21.533  20.912  22.954                       H
+HETATM   12  H8  MOL     1      20.672  21.553  24.334                       H
+HETATM   13  C5  MOL     1      20.567  19.411  24.206                       C
+HETATM   14  H9  MOL     1      21.262  19.437  25.057                       H
+HETATM   15  C6  MOL     1      21.009  18.228  23.311                       C
+HETATM   16  H10 MOL     1      22.089  18.083  23.445                       H
+HETATM   17  H11 MOL     1      20.545  17.308  23.691                       H
+HETATM   18  C7  MOL     1      20.735  18.337  21.790                       C
+HETATM   19  H12 MOL     1      21.506  18.963  21.320                       H
+HETATM   20  H13 MOL     1      20.864  17.337  21.353                       H
+HETATM   21  O1  MOL     1      19.265  19.149  24.711                       O
+HETATM   22  H14 MOL     1      18.684  19.191  23.925                       H
+ENDMDL
+REMARK: VM2 Rank=23     Conf_Id=1352   Probability(%)=1.74                      
+REMARK:   G=48.240            E=21.217            -TS=27.023                    
+REMARK: U+W=3.332             U=4.573               W=-1.240                    
+MODEL   23
+HETATM    1  C1  MOL     1      19.711  18.996  21.043                       C
+HETATM    2  H1  MOL     1      20.528  19.335  20.392                       H
+HETATM    3  H2  MOL     1      19.012  18.458  20.387                       H
+HETATM    4  C2  MOL     1      18.986  20.229  21.631                       C
+HETATM    5  H3  MOL     1      18.494  20.751  20.798                       H
+HETATM    6  H4  MOL     1      18.180  19.931  22.314                       H
+HETATM    7  C3  MOL     1      19.953  21.225  22.310                       C
+HETATM    8  H5  MOL     1      19.532  22.236  22.228                       H
+HETATM    9  H6  MOL     1      20.899  21.256  21.751                       H
+HETATM   10  C4  MOL     1      20.242  20.952  23.807                       C
+HETATM   11  H7  MOL     1      21.110  21.560  24.095                       H
+HETATM   12  H8  MOL     1      19.408  21.339  24.407                       H
+HETATM   13  C5  MOL     1      20.518  19.489  24.230                       C
+HETATM   14  H9  MOL     1      21.191  19.535  25.099                       H
+HETATM   15  C6  MOL     1      21.205  18.605  23.159                       C
+HETATM   16  H10 MOL     1      22.016  19.167  22.679                       H
+HETATM   17  H11 MOL     1      21.693  17.775  23.685                       H
+HETATM   18  C7  MOL     1      20.270  17.994  22.079                       C
+HETATM   19  H12 MOL     1      20.837  17.230  21.530                       H
+HETATM   20  H13 MOL     1      19.442  17.449  22.551                       H
+HETATM   21  O1  MOL     1      19.301  18.890  24.650                       O
+HETATM   22  H14 MOL     1      18.765  18.824  23.834                       H
+ENDMDL
+REMARK: VM2 Rank=24     Conf_Id=1050   Probability(%)=0.81                      
+REMARK:   G=48.699            E=21.997            -TS=26.702                    
+REMARK: U+W=4.112             U=6.373               W=-2.262                    
+MODEL   24
+HETATM    1  C1  MOL     1      20.103  19.181  20.975                       C
+HETATM    2  H1  MOL     1      21.163  19.444  20.859                       H
+HETATM    3  H2  MOL     1      19.798  18.757  20.008                       H
+HETATM    4  C2  MOL     1      19.276  20.467  21.215                       C
+HETATM    5  H3  MOL     1      19.711  21.274  20.610                       H
+HETATM    6  H4  MOL     1      18.260  20.315  20.825                       H
+HETATM    7  C3  MOL     1      19.158  20.943  22.683                       C
+HETATM    8  H5  MOL     1      18.345  20.398  23.179                       H
+HETATM    9  H6  MOL     1      18.839  21.994  22.671                       H
+HETATM   10  C4  MOL     1      20.462  20.827  23.515                       C
+HETATM   11  H7  MOL     1      21.329  21.080  22.891                       H
+HETATM   12  H8  MOL     1      20.434  21.588  24.305                       H
+HETATM   13  C5  MOL     1      20.688  19.454  24.196                       C
+HETATM   14  H9  MOL     1      21.575  19.554  24.838                       H
+HETATM   15  C6  MOL     1      20.965  18.279  23.231                       C
+HETATM   16  H10 MOL     1      21.976  18.391  22.820                       H
+HETATM   17  H11 MOL     1      20.988  17.354  23.823                       H
+HETATM   18  C7  MOL     1      19.958  18.096  22.067                       C
+HETATM   19  H12 MOL     1      20.155  17.119  21.606                       H
+HETATM   20  H13 MOL     1      18.928  18.053  22.445                       H
+HETATM   21  O1  MOL     1      19.576  19.130  25.024                       O
+HETATM   22  H14 MOL     1      19.403  19.917  25.580                       H
+ENDMDL
+REMARK: VM2 Rank=25     Conf_Id=858    Probability(%)=0.78                      
+REMARK:   G=48.721            E=22.019            -TS=26.702                    
+REMARK: U+W=4.134             U=6.373               W=-2.240                    
+MODEL   25
+HETATM    1  C1  MOL     1      19.705  18.986  20.939                       C
+HETATM    2  H1  MOL     1      20.435  18.754  20.151                       H
+HETATM    3  H2  MOL     1      18.722  18.735  20.518                       H
+HETATM    4  C2  MOL     1      19.759  20.507  21.216                       C
+HETATM    5  H3  MOL     1      20.796  20.859  21.128                       H
+HETATM    6  H4  MOL     1      19.207  21.018  20.414                       H
+HETATM    7  C3  MOL     1      19.180  20.945  22.581                       C
+HETATM    8  H5  MOL     1      18.299  20.344  22.846                       H
+HETATM    9  H6  MOL     1      18.826  21.980  22.486                       H
+HETATM   10  C4  MOL     1      20.233  20.910  23.718                       C
+HETATM   11  H7  MOL     1      21.129  21.457  23.397                       H
+HETATM   12  H8  MOL     1      19.839  21.468  24.577                       H
+HETATM   13  C5  MOL     1      20.657  19.509  24.214                       C
+HETATM   14  H9  MOL     1      21.523  19.655  24.875                       H
+HETATM   15  C6  MOL     1      21.092  18.520  23.103                       C
+HETATM   16  H10 MOL     1      21.917  18.953  22.523                       H
+HETATM   17  H11 MOL     1      21.510  17.633  23.595                       H
+HETATM   18  C7  MOL     1      19.959  18.058  22.151                       C
+HETATM   19  H12 MOL     1      20.206  17.060  21.765                       H
+HETATM   20  H13 MOL     1      19.024  17.929  22.712                       H
+HETATM   21  O1  MOL     1      19.601  18.944  24.985                       O
+HETATM   22  H14 MOL     1      19.889  18.042  25.234                       H
+ENDMDL
+REMARK: VM2 Rank=26     Conf_Id=919    Probability(%)=0.36                      
+REMARK:   G=49.177            E=22.504            -TS=26.673                    
+REMARK: U+W=4.619             U=6.656               W=-2.037                    
+MODEL   26
+HETATM    1  C1  MOL     1      19.974  19.189  21.069                       C
+HETATM    2  H1  MOL     1      20.912  19.704  20.824                       H
+HETATM    3  H2  MOL     1      19.588  18.791  20.120                       H
+HETATM    4  C2  MOL     1      18.927  20.180  21.628                       C
+HETATM    5  H3  MOL     1      18.436  20.693  20.790                       H
+HETATM    6  H4  MOL     1      18.130  19.615  22.132                       H
+HETATM    7  C3  MOL     1      19.478  21.257  22.593                       C
+HETATM    8  H5  MOL     1      18.648  21.619  23.215                       H
+HETATM    9  H6  MOL     1      19.803  22.124  22.003                       H
+HETATM   10  C4  MOL     1      20.657  20.839  23.511                       C
+HETATM   11  H7  MOL     1      21.590  20.895  22.936                       H
+HETATM   12  H8  MOL     1      20.761  21.596  24.299                       H
+HETATM   13  C5  MOL     1      20.577  19.446  24.180                       C
+HETATM   14  H9  MOL     1      21.257  19.473  25.044                       H
+HETATM   15  C6  MOL     1      21.084  18.307  23.264                       C
+HETATM   16  H10 MOL     1      22.107  18.543  22.942                       H
+HETATM   17  H11 MOL     1      21.167  17.394  23.868                       H
+HETATM   18  C7  MOL     1      20.227  17.990  22.013                       C
+HETATM   19  H12 MOL     1      19.266  17.561  22.330                       H
+HETATM   20  H13 MOL     1      20.734  17.199  21.445                       H
+HETATM   21  O1  MOL     1      19.262  19.170  24.648                       O
+HETATM   22  H14 MOL     1      18.932  20.003  25.042                       H
+ENDMDL
+REMARK: VM2 Rank=27     Conf_Id=492    Probability(%)=0.34                      
+REMARK:   G=49.207            E=22.533            -TS=26.674                    
+REMARK: U+W=4.648             U=6.656               W=-2.008                    
+MODEL   27
+HETATM    1  C1  MOL     1      19.273  18.899  21.399                       C
+HETATM    2  H1  MOL     1      19.026  18.511  20.401                       H
+HETATM    3  H2  MOL     1      18.345  18.819  21.981                       H
+HETATM    4  C2  MOL     1      19.669  20.388  21.276                       C
+HETATM    5  H3  MOL     1      20.717  20.493  20.966                       H
+HETATM    6  H4  MOL     1      19.068  20.832  20.471                       H
+HETATM    7  C3  MOL     1      19.388  21.190  22.570                       C
+HETATM    8  H5  MOL     1      18.367  20.981  22.918                       H
+HETATM    9  H6  MOL     1      19.407  22.261  22.327                       H
+HETATM   10  C4  MOL     1      20.386  20.942  23.727                       C
+HETATM   11  H7  MOL     1      21.368  21.340  23.441                       H
+HETATM   12  H8  MOL     1      20.066  21.536  24.593                       H
+HETATM   13  C5  MOL     1      20.561  19.476  24.189                       C
+HETATM   14  H9  MOL     1      21.234  19.504  25.058                       H
+HETATM   15  C6  MOL     1      21.247  18.587  23.125                       C
+HETATM   16  H10 MOL     1      22.046  19.170  22.647                       H
+HETATM   17  H11 MOL     1      21.763  17.766  23.640                       H
+HETATM   18  C7  MOL     1      20.347  17.973  22.020                       C
+HETATM   19  H12 MOL     1      21.002  17.607  21.218                       H
+HETATM   20  H13 MOL     1      19.843  17.082  22.419                       H
+HETATM   21  O1  MOL     1      19.315  18.923  24.601                       O
+HETATM   22  H14 MOL     1      19.457  17.959  24.680                       H
+ENDMDL
+REMARK: VM2 Rank=28     Conf_Id=1294   Probability(%)=0.31                      
+REMARK:   G=49.268            E=22.627            -TS=26.641                    
+REMARK: U+W=4.742             U=6.897               W=-2.155                    
+MODEL   28
+HETATM    1  C1  MOL     1      19.728  19.002  21.022                       C
+HETATM    2  H1  MOL     1      20.565  19.333  20.392                       H
+HETATM    3  H2  MOL     1      19.039  18.471  20.352                       H
+HETATM    4  C2  MOL     1      19.001  20.236  21.603                       C
+HETATM    5  H3  MOL     1      18.511  20.761  20.771                       H
+HETATM    6  H4  MOL     1      18.199  19.928  22.288                       H
+HETATM    7  C3  MOL     1      19.963  21.225  22.299                       C
+HETATM    8  H5  MOL     1      19.552  22.239  22.205                       H
+HETATM    9  H6  MOL     1      20.924  21.246  21.767                       H
+HETATM   10  C4  MOL     1      20.200  20.948  23.804                       C
+HETATM   11  H7  MOL     1      21.027  21.590  24.134                       H
+HETATM   12  H8  MOL     1      19.323  21.293  24.369                       H
+HETATM   13  C5  MOL     1      20.521  19.493  24.229                       C
+HETATM   14  H9  MOL     1      21.231  19.567  25.065                       H
+HETATM   15  C6  MOL     1      21.192  18.604  23.150                       C
+HETATM   16  H10 MOL     1      22.000  19.163  22.661                       H
+HETATM   17  H11 MOL     1      21.684  17.772  23.669                       H
+HETATM   18  C7  MOL     1      20.243  18.000  22.079                       C
+HETATM   19  H12 MOL     1      20.783  17.202  21.552                       H
+HETATM   20  H13 MOL     1      19.388  17.508  22.561                       H
+HETATM   21  O1  MOL     1      19.338  18.869  24.721                       O
+HETATM   22  H14 MOL     1      19.573  17.936  24.903                       H
+ENDMDL
+REMARK: VM2 Rank=29     Conf_Id=663    Probability(%)=0.29                      
+REMARK:   G=49.300            E=22.659            -TS=26.642                    
+REMARK: U+W=4.774             U=6.897               W=-2.123                    
+MODEL   29
+HETATM    1  C1  MOL     1      19.349  18.881  21.377                       C
+HETATM    2  H1  MOL     1      19.098  18.478  20.386                       H
+HETATM    3  H2  MOL     1      18.578  18.508  22.065                       H
+HETATM    4  C2  MOL     1      19.303  20.423  21.286                       C
+HETATM    5  H3  MOL     1      20.121  20.778  20.644                       H
+HETATM    6  H4  MOL     1      18.374  20.717  20.779                       H
+HETATM    7  C3  MOL     1      19.363  21.151  22.647                       C
+HETATM    8  H5  MOL     1      18.433  20.965  23.200                       H
+HETATM    9  H6  MOL     1      19.376  22.232  22.450                       H
+HETATM   10  C4  MOL     1      20.594  20.801  23.526                       C
+HETATM   11  H7  MOL     1      21.515  20.912  22.941                       H
+HETATM   12  H8  MOL     1      20.660  21.552  24.323                       H
+HETATM   13  C5  MOL     1      20.570  19.407  24.204                       C
+HETATM   14  H9  MOL     1      21.309  19.437  25.018                       H
+HETATM   15  C6  MOL     1      20.970  18.210  23.304                       C
+HETATM   16  H10 MOL     1      22.037  18.004  23.464                       H
+HETATM   17  H11 MOL     1      20.446  17.313  23.660                       H
+HETATM   18  C7  MOL     1      20.742  18.347  21.778                       C
+HETATM   19  H12 MOL     1      21.524  18.981  21.339                       H
+HETATM   20  H13 MOL     1      20.881  17.355  21.327                       H
+HETATM   21  O1  MOL     1      19.295  19.159  24.786                       O
+HETATM   22  H14 MOL     1      19.054  19.969  25.280                       H
+ENDMDL
+REMARK: VM2 Rank=30     Conf_Id=1038   Probability(%)=0.17                      
+REMARK:   G=49.613            E=22.877            -TS=26.736                    
+REMARK: U+W=4.992             U=7.115               W=-2.123                    
+MODEL   30
+HETATM    1  C1  MOL     1      19.975  19.188  21.067                       C
+HETATM    2  H1  MOL     1      20.914  19.701  20.824                       H
+HETATM    3  H2  MOL     1      19.590  18.789  20.119                       H
+HETATM    4  C2  MOL     1      18.929  20.180  21.624                       C
+HETATM    5  H3  MOL     1      18.442  20.695  20.785                       H
+HETATM    6  H4  MOL     1      18.130  19.618  22.126                       H
+HETATM    7  C3  MOL     1      19.478  21.256  22.593                       C
+HETATM    8  H5  MOL     1      18.646  21.607  23.219                       H
+HETATM    9  H6  MOL     1      19.798  22.129  22.008                       H
+HETATM   10  C4  MOL     1      20.656  20.841  23.514                       C
+HETATM   11  H7  MOL     1      21.592  20.904  22.945                       H
+HETATM   12  H8  MOL     1      20.748  21.594  24.307                       H
+HETATM   13  C5  MOL     1      20.577  19.446  24.181                       C
+HETATM   14  H9  MOL     1      21.260  19.471  25.042                       H
+HETATM   15  C6  MOL     1      21.084  18.310  23.261                       C
+HETATM   16  H10 MOL     1      22.103  18.555  22.933                       H
+HETATM   17  H11 MOL     1      21.182  17.396  23.860                       H
+HETATM   18  C7  MOL     1      20.224  17.989  22.014                       C
+HETATM   19  H12 MOL     1      20.731  17.198  21.446                       H
+HETATM   20  H13 MOL     1      19.263  17.562  22.329                       H
+HETATM   21  O1  MOL     1      19.263  19.167  24.653                       O
+HETATM   22  H14 MOL     1      19.272  18.242  24.970                       H
+ENDMDL
+REMARK: VM2 Rank=31     Conf_Id=258    Probability(%)=0.16                      
+REMARK:   G=49.661            E=22.925            -TS=26.736                    
+REMARK: U+W=5.040             U=7.115               W=-2.075                    
+MODEL   31
+HETATM    1  C1  MOL     1      19.275  18.900  21.395                       C
+HETATM    2  H1  MOL     1      19.031  18.514  20.397                       H
+HETATM    3  H2  MOL     1      18.345  18.819  21.975                       H
+HETATM    4  C2  MOL     1      19.668  20.390  21.275                       C
+HETATM    5  H3  MOL     1      20.717  20.497  20.967                       H
+HETATM    6  H4  MOL     1      19.067  20.835  20.471                       H
+HETATM    7  C3  MOL     1      19.385  21.189  22.570                       C
+HETATM    8  H5  MOL     1      18.364  20.979  22.917                       H
+HETATM    9  H6  MOL     1      19.403  22.260  22.329                       H
+HETATM   10  C4  MOL     1      20.387  20.941  23.724                       C
+HETATM   11  H7  MOL     1      21.369  21.332  23.428                       H
+HETATM   12  H8  MOL     1      20.080  21.545  24.587                       H
+HETATM   13  C5  MOL     1      20.561  19.475  24.189                       C
+HETATM   14  H9  MOL     1      21.236  19.507  25.057                       H
+HETATM   15  C6  MOL     1      21.248  18.584  23.126                       C
+HETATM   16  H10 MOL     1      22.052  19.161  22.652                       H
+HETATM   17  H11 MOL     1      21.751  17.759  23.646                       H
+HETATM   18  C7  MOL     1      20.346  17.974  22.020                       C
+HETATM   19  H12 MOL     1      21.000  17.599  21.221                       H
+HETATM   20  H13 MOL     1      19.837  17.090  22.427                       H
+HETATM   21  O1  MOL     1      19.316  18.925  24.606                       O
+HETATM   22  H14 MOL     1      18.904  19.586  25.198                       H
+ENDMDL
+REMARK: VM2 Rank=32     Conf_Id=138    Probability(%)=0.14                      
+REMARK:   G=49.740            E=23.113            -TS=26.627                    
+REMARK: U+W=5.228             U=7.482               W=-2.254                    
+MODEL   32
+HETATM    1  C1  MOL     1      19.729  19.003  21.021                       C
+HETATM    2  H1  MOL     1      20.566  19.332  20.391                       H
+HETATM    3  H2  MOL     1      19.039  18.472  20.351                       H
+HETATM    4  C2  MOL     1      19.001  20.237  21.600                       C
+HETATM    5  H3  MOL     1      18.514  20.762  20.768                       H
+HETATM    6  H4  MOL     1      18.198  19.929  22.283                       H
+HETATM    7  C3  MOL     1      19.963  21.224  22.297                       C
+HETATM    8  H5  MOL     1      19.555  22.239  22.202                       H
+HETATM    9  H6  MOL     1      20.925  21.243  21.767                       H
+HETATM   10  C4  MOL     1      20.198  20.948  23.803                       C
+HETATM   11  H7  MOL     1      21.027  21.589  24.131                       H
+HETATM   12  H8  MOL     1      19.323  21.300  24.365                       H
+HETATM   13  C5  MOL     1      20.520  19.492  24.230                       C
+HETATM   14  H9  MOL     1      21.233  19.569  25.063                       H
+HETATM   15  C6  MOL     1      21.191  18.604  23.150                       C
+HETATM   16  H10 MOL     1      22.005  19.158  22.665                       H
+HETATM   17  H11 MOL     1      21.673  17.769  23.674                       H
+HETATM   18  C7  MOL     1      20.242  18.002  22.079                       C
+HETATM   19  H12 MOL     1      20.779  17.200  21.554                       H
+HETATM   20  H13 MOL     1      19.387  17.514  22.566                       H
+HETATM   21  O1  MOL     1      19.341  18.866  24.727                       O
+HETATM   22  H14 MOL     1      18.985  19.450  25.428                       H
+ENDMDL
+REMARK: VM2 Rank=33     Conf_Id=277    Probability(%)=0.14                      
+REMARK:   G=49.763            E=23.136            -TS=26.627                    
+REMARK: U+W=5.252             U=7.482               W=-2.230                    
+MODEL   33
+HETATM    1  C1  MOL     1      19.350  18.881  21.374                       C
+HETATM    2  H1  MOL     1      19.101  18.479  20.382                       H
+HETATM    3  H2  MOL     1      18.577  18.508  22.060                       H
+HETATM    4  C2  MOL     1      19.303  20.423  21.284                       C
+HETATM    5  H3  MOL     1      20.121  20.779  20.644                       H
+HETATM    6  H4  MOL     1      18.374  20.717  20.778                       H
+HETATM    7  C3  MOL     1      19.362  21.149  22.646                       C
+HETATM    8  H5  MOL     1      18.436  20.958  23.203                       H
+HETATM    9  H6  MOL     1      19.371  22.230  22.453                       H
+HETATM   10  C4  MOL     1      20.593  20.801  23.527                       C
+HETATM   11  H7  MOL     1      21.517  20.918  22.947                       H
+HETATM   12  H8  MOL     1      20.650  21.548  24.329                       H
+HETATM   13  C5  MOL     1      20.570  19.406  24.204                       C
+HETATM   14  H9  MOL     1      21.311  19.437  25.016                       H
+HETATM   15  C6  MOL     1      20.969  18.209  23.302                       C
+HETATM   16  H10 MOL     1      22.036  18.006  23.461                       H
+HETATM   17  H11 MOL     1      20.449  17.308  23.653                       H
+HETATM   18  C7  MOL     1      20.743  18.349  21.776                       C
+HETATM   19  H12 MOL     1      21.525  18.985  21.340                       H
+HETATM   20  H13 MOL     1      20.884  17.358  21.324                       H
+HETATM   21  O1  MOL     1      19.296  19.159  24.793                       O
+HETATM   22  H14 MOL     1      19.354  18.288  25.237                       H
+ENDMDL
+REMARK: VM2 Rank=34     Conf_Id=951    Probability(%)=0.06                      
+REMARK:   G=50.213            E=23.586            -TS=26.627                    
+REMARK: U+W=5.701             U=7.208               W=-1.507                    
+MODEL   34
+HETATM    1  C1  MOL     1      19.875  19.196  20.918                       C
+HETATM    2  H1  MOL     1      20.452  19.822  20.224                       H
+HETATM    3  H2  MOL     1      19.288  18.515  20.287                       H
+HETATM    4  C2  MOL     1      18.874  20.081  21.704                       C
+HETATM    5  H3  MOL     1      18.203  20.571  20.985                       H
+HETATM    6  H4  MOL     1      18.220  19.447  22.315                       H
+HETATM    7  C3  MOL     1      19.517  21.176  22.588                       C
+HETATM    8  H5  MOL     1      18.736  21.610  23.227                       H
+HETATM    9  H6  MOL     1      19.866  21.996  21.945                       H
+HETATM   10  C4  MOL     1      20.703  20.718  23.477                       C
+HETATM   11  H7  MOL     1      21.622  20.711  22.879                       H
+HETATM   12  H8  MOL     1      20.877  21.483  24.246                       H
+HETATM   13  C5  MOL     1      20.542  19.347  24.180                       C
+HETATM   14  H9  MOL     1      21.438  19.198  24.800                       H
+HETATM   15  C6  MOL     1      20.419  18.113  23.242                       C
+HETATM   16  H10 MOL     1      21.044  17.315  23.665                       H
+HETATM   17  H11 MOL     1      19.397  17.713  23.259                       H
+HETATM   18  C7  MOL     1      20.854  18.342  21.771                       C
+HETATM   19  H12 MOL     1      21.856  18.789  21.749                       H
+HETATM   20  H13 MOL     1      20.969  17.365  21.282                       H
+HETATM   21  O1  MOL     1      19.402  19.405  25.026                       O
+HETATM   22  H14 MOL     1      18.670  19.698  24.447                       H
+ENDMDL
+REMARK: VM2 Rank=35     Conf_Id=615    Probability(%)=0.06                      
+REMARK:   G=50.219            E=23.593            -TS=26.626                    
+REMARK: U+W=5.708             U=7.208               W=-1.500                    
+MODEL   35
+HETATM    1  C1  MOL     1      19.168  18.941  21.502                       C
+HETATM    2  H1  MOL     1      18.749  18.456  20.611                       H
+HETATM    3  H2  MOL     1      18.348  18.951  22.232                       H
+HETATM    4  C2  MOL     1      19.556  20.396  21.134                       C
+HETATM    5  H3  MOL     1      20.297  20.384  20.324                       H
+HETATM    6  H4  MOL     1      18.663  20.880  20.714                       H
+HETATM    7  C3  MOL     1      20.083  21.283  22.297                       C
+HETATM    8  H5  MOL     1      19.678  22.295  22.165                       H
+HETATM    9  H6  MOL     1      21.171  21.401  22.212                       H
+HETATM   10  C4  MOL     1      19.723  20.785  23.721                       C
+HETATM   11  H7  MOL     1      19.929  21.596  24.431                       H
+HETATM   12  H8  MOL     1      18.640  20.620  23.784                       H
+HETATM   13  C5  MOL     1      20.498  19.529  24.211                       C
+HETATM   14  H9  MOL     1      21.268  19.876  24.917                       H
+HETATM   15  C6  MOL     1      21.228  18.713  23.115                       C
+HETATM   16  H10 MOL     1      21.976  19.350  22.629                       H
+HETATM   17  H11 MOL     1      21.810  17.921  23.603                       H
+HETATM   18  C7  MOL     1      20.328  18.064  22.031                       C
+HETATM   19  H12 MOL     1      20.965  17.768  21.186                       H
+HETATM   20  H13 MOL     1      19.905  17.131  22.426                       H
+HETATM   21  O1  MOL     1      19.603  18.665  24.895                       O
+HETATM   22  H14 MOL     1      19.049  18.266  24.195                       H
+ENDMDL
+REMARK: VM2 Rank=36     Conf_Id=111    Probability(%)=0.02                      
+REMARK:   G=50.782            E=24.514            -TS=26.268                    
+REMARK: U+W=6.630             U=8.892               W=-2.262                    
+MODEL   36
+HETATM    1  C1  MOL     1      19.176  18.952  21.470                       C
+HETATM    2  H1  MOL     1      18.776  18.474  20.565                       H
+HETATM    3  H2  MOL     1      18.335  18.973  22.176                       H
+HETATM    4  C2  MOL     1      19.602  20.401  21.118                       C
+HETATM    5  H3  MOL     1      20.391  20.375  20.355                       H
+HETATM    6  H4  MOL     1      18.743  20.892  20.640                       H
+HETATM    7  C3  MOL     1      20.066  21.292  22.306                       C
+HETATM    8  H5  MOL     1      19.627  22.290  22.178                       H
+HETATM    9  H6  MOL     1      21.151  21.448  22.253                       H
+HETATM   10  C4  MOL     1      19.690  20.764  23.717                       C
+HETATM   11  H7  MOL     1      19.847  21.572  24.442                       H
+HETATM   12  H8  MOL     1      18.613  20.553  23.753                       H
+HETATM   13  C5  MOL     1      20.500  19.532  24.207                       C
+HETATM   14  H9  MOL     1      21.288  19.909  24.874                       H
+HETATM   15  C6  MOL     1      21.213  18.710  23.103                       C
+HETATM   16  H10 MOL     1      21.948  19.349  22.599                       H
+HETATM   17  H11 MOL     1      21.811  17.923  23.582                       H
+HETATM   18  C7  MOL     1      20.299  18.053  22.038                       C
+HETATM   19  H12 MOL     1      20.930  17.703  21.210                       H
+HETATM   20  H13 MOL     1      19.837  17.154  22.467                       H
+HETATM   21  O1  MOL     1      19.640  18.674  24.948                       O
+HETATM   22  H14 MOL     1      20.170  17.885  25.184                       H
+ENDMDL
+REMARK: VM2 Rank=37     Conf_Id=309    Probability(%)=0.02                      
+REMARK:   G=50.785            E=24.517            -TS=26.267                    
+REMARK: U+W=6.632             U=8.892               W=-2.260                    
+MODEL   37
+HETATM    1  C1  MOL     1      19.913  19.220  20.905                       C
+HETATM    2  H1  MOL     1      20.532  19.861  20.264                       H
+HETATM    3  H2  MOL     1      19.350  18.571  20.220                       H
+HETATM    4  C2  MOL     1      18.885  20.093  21.671                       C
+HETATM    5  H3  MOL     1      18.236  20.594  20.941                       H
+HETATM    6  H4  MOL     1      18.214  19.451  22.256                       H
+HETATM    7  C3  MOL     1      19.496  21.172  22.597                       C
+HETATM    8  H5  MOL     1      18.702  21.553  23.253                       H
+HETATM    9  H6  MOL     1      19.819  22.026  21.986                       H
+HETATM   10  C4  MOL     1      20.695  20.714  23.466                       C
+HETATM   11  H7  MOL     1      21.600  20.699  22.847                       H
+HETATM   12  H8  MOL     1      20.889  21.483  24.224                       H
+HETATM   13  C5  MOL     1      20.544  19.344  24.175                       C
+HETATM   14  H9  MOL     1      21.468  19.187  24.749                       H
+HETATM   15  C6  MOL     1      20.372  18.114  23.241                       C
+HETATM   16  H10 MOL     1      20.949  17.287  23.675                       H
+HETATM   17  H11 MOL     1      19.330  17.769  23.250                       H
+HETATM   18  C7  MOL     1      20.836  18.319  21.775                       C
+HETATM   19  H12 MOL     1      21.859  18.717  21.768                       H
+HETATM   20  H13 MOL     1      20.909  17.336  21.290                       H
+HETATM   21  O1  MOL     1      19.446  19.402  25.078                       O
+HETATM   22  H14 MOL     1      19.559  20.220  25.603                       H
+ENDMDL
+REMARK: VM2 Rank=38     Conf_Id=1039   Probability(%)=0.02                      
+REMARK:   G=50.975            E=24.157            -TS=26.818                    
+REMARK: U+W=6.273             U=8.574               W=-2.301                    
+MODEL   38
+HETATM    1  C1  MOL     1      20.031  19.135  20.850                       C
+HETATM    2  H1  MOL     1      20.934  18.780  20.336                       H
+HETATM    3  H2  MOL     1      19.232  19.124  20.095                       H
+HETATM    4  C2  MOL     1      20.267  20.595  21.305                       C
+HETATM    5  H3  MOL     1      21.295  20.704  21.673                       H
+HETATM    6  H4  MOL     1      20.215  21.243  20.419                       H
+HETATM    7  C3  MOL     1      19.268  21.127  22.365                       C
+HETATM    8  H5  MOL     1      18.247  21.078  21.963                       H
+HETATM    9  H6  MOL     1      19.477  22.195  22.514                       H
+HETATM   10  C4  MOL     1      19.305  20.428  23.756                       C
+HETATM   11  H7  MOL     1      19.264  21.206  24.531                       H
+HETATM   12  H8  MOL     1      18.394  19.833  23.898                       H
+HETATM   13  C5  MOL     1      20.539  19.531  24.019                       C
+HETATM   14  H9  MOL     1      21.440  20.099  23.752                       H
+HETATM   15  C6  MOL     1      20.538  18.189  23.236                       C
+HETATM   16  H10 MOL     1      21.572  17.941  22.965                       H
+HETATM   17  H11 MOL     1      20.201  17.385  23.904                       H
+HETATM   18  C7  MOL     1      19.652  18.131  21.964                       C
+HETATM   19  H12 MOL     1      19.703  17.117  21.547                       H
+HETATM   20  H13 MOL     1      18.599  18.273  22.240                       H
+HETATM   21  O1  MOL     1      20.586  19.242  25.411                       O
+HETATM   22  H14 MOL     1      21.403  18.720  25.563                       H
+ENDMDL
+REMARK: VM2 Rank=39     Conf_Id=1359   Probability(%)=0.02                      
+REMARK:   G=51.016            E=24.167            -TS=26.849                    
+REMARK: U+W=6.282             U=8.574               W=-2.292                    
+MODEL   39
+HETATM    1  C1  MOL     1      20.562  19.285  21.067                       C
+HETATM    2  H1  MOL     1      21.566  19.504  21.452                       H
+HETATM    3  H2  MOL     1      20.717  19.013  20.014                       H
+HETATM    4  C2  MOL     1      19.699  20.570  21.110                       C
+HETATM    5  H3  MOL     1      20.326  21.421  20.813                       H
+HETATM    6  H4  MOL     1      18.913  20.495  20.346                       H
+HETATM    7  C3  MOL     1      19.023  20.886  22.465                       C
+HETATM    8  H5  MOL     1      18.152  20.232  22.599                       H
+HETATM    9  H6  MOL     1      18.611  21.903  22.416                       H
+HETATM   10  C4  MOL     1      19.949  20.786  23.706                       C
+HETATM   11  H7  MOL     1      20.759  21.520  23.610                       H
+HETATM   12  H8  MOL     1      19.359  21.100  24.578                       H
+HETATM   13  C5  MOL     1      20.573  19.392  23.993                       C
+HETATM   14  H9  MOL     1      21.606  19.380  23.618                       H
+HETATM   15  C6  MOL     1      19.813  18.204  23.354                       C
+HETATM   16  H10 MOL     1      20.163  17.273  23.819                       H
+HETATM   17  H11 MOL     1      18.751  18.276  23.619                       H
+HETATM   18  C7  MOL     1      19.964  18.063  21.811                       C
+HETATM   19  H12 MOL     1      18.989  17.809  21.373                       H
+HETATM   20  H13 MOL     1      20.614  17.200  21.609                       H
+HETATM   21  O1  MOL     1      20.604  19.192  25.401                       O
+HETATM   22  H14 MOL     1      21.135  19.924  25.778                       H
+ENDMDL
+REMARK: VM2 Rank=40     Conf_Id=245    Probability(%)=0.02                      
+REMARK:   G=51.040            E=24.230            -TS=26.810                    
+REMARK: U+W=6.345             U=8.609               W=-2.264                    
+MODEL   40
+HETATM    1  C1  MOL     1      20.004  19.133  20.848                       C
+HETATM    2  H1  MOL     1      20.888  18.774  20.303                       H
+HETATM    3  H2  MOL     1      19.181  19.133  20.120                       H
+HETATM    4  C2  MOL     1      20.270  20.588  21.303                       C
+HETATM    5  H3  MOL     1      21.301  20.676  21.667                       H
+HETATM    6  H4  MOL     1      20.226  21.238  20.418                       H
+HETATM    7  C3  MOL     1      19.285  21.138  22.368                       C
+HETATM    8  H5  MOL     1      18.264  21.123  21.965                       H
+HETATM    9  H6  MOL     1      19.526  22.198  22.526                       H
+HETATM   10  C4  MOL     1      19.301  20.426  23.752                       C
+HETATM   11  H7  MOL     1      19.236  21.197  24.530                       H
+HETATM   12  H8  MOL     1      18.392  19.822  23.869                       H
+HETATM   13  C5  MOL     1      20.538  19.535  24.024                       C
+HETATM   14  H9  MOL     1      21.440  20.110  23.773                       H
+HETATM   15  C6  MOL     1      20.561  18.199  23.229                       C
+HETATM   16  H10 MOL     1      21.598  17.982  22.941                       H
+HETATM   17  H11 MOL     1      20.260  17.382  23.898                       H
+HETATM   18  C7  MOL     1      19.657  18.126  21.969                       C
+HETATM   19  H12 MOL     1      18.606  18.250  22.259                       H
+HETATM   20  H13 MOL     1      19.719  17.111  21.552                       H
+HETATM   21  O1  MOL     1      20.570  19.233  25.414                       O
+HETATM   22  H14 MOL     1      20.617  20.089  25.889                       H
+ENDMDL
+REMARK: VM2 Rank=41     Conf_Id=523    Probability(%)=0.02                      
+REMARK:   G=51.041            E=24.193            -TS=26.849                    
+REMARK: U+W=6.308             U=8.609               W=-2.301                    
+MODEL   41
+HETATM    1  C1  MOL     1      20.561  19.292  21.068                       C
+HETATM    2  H1  MOL     1      20.724  19.021  20.016                       H
+HETATM    3  H2  MOL     1      21.559  19.528  21.456                       H
+HETATM    4  C2  MOL     1      19.676  20.561  21.107                       C
+HETATM    5  H3  MOL     1      20.284  21.417  20.782                       H
+HETATM    6  H4  MOL     1      18.876  20.461  20.361                       H
+HETATM    7  C3  MOL     1      19.026  20.891  22.471                       C
+HETATM    8  H5  MOL     1      18.150  20.248  22.624                       H
+HETATM    9  H6  MOL     1      18.624  21.912  22.423                       H
+HETATM   10  C4  MOL     1      19.972  20.789  23.698                       C
+HETATM   11  H7  MOL     1      20.796  21.504  23.578                       H
+HETATM   12  H8  MOL     1      19.408  21.128  24.577                       H
+HETATM   13  C5  MOL     1      20.574  19.387  23.996                       C
+HETATM   14  H9  MOL     1      21.611  19.365  23.633                       H
+HETATM   15  C6  MOL     1      19.808  18.206  23.351                       C
+HETATM   16  H10 MOL     1      20.134  17.268  23.819                       H
+HETATM   17  H11 MOL     1      18.742  18.294  23.597                       H
+HETATM   18  C7  MOL     1      19.983  18.060  21.811                       C
+HETATM   19  H12 MOL     1      20.656  17.213  21.623                       H
+HETATM   20  H13 MOL     1      19.020  17.780  21.363                       H
+HETATM   21  O1  MOL     1      20.586  19.192  25.405                       O
+HETATM   22  H14 MOL     1      21.025  18.331  25.568                       H
+ENDMDL
+REMARK: VM2 Rank=42     Conf_Id=998    Probability(%)=0.01                      
+REMARK:   G=51.092            E=24.436            -TS=26.656                    
+REMARK: U+W=6.551             U=8.927               W=-2.375                    
+MODEL   42
+HETATM    1  C1  MOL     1      19.431  19.072  21.064                       C
+HETATM    2  H1  MOL     1      19.611  18.660  20.061                       H
+HETATM    3  H2  MOL     1      18.340  19.182  21.142                       H
+HETATM    4  C2  MOL     1      20.087  20.475  21.134                       C
+HETATM    5  H3  MOL     1      21.178  20.381  21.067                       H
+HETATM    6  H4  MOL     1      19.800  21.043  20.238                       H
+HETATM    7  C3  MOL     1      19.702  21.314  22.379                       C
+HETATM    8  H5  MOL     1      18.802  21.897  22.140                       H
+HETATM    9  H6  MOL     1      20.494  22.050  22.574                       H
+HETATM   10  C4  MOL     1      19.411  20.510  23.672                       C
+HETATM   11  H7  MOL     1      19.198  21.222  24.480                       H
+HETATM   12  H8  MOL     1      18.488  19.931  23.543                       H
+HETATM   13  C5  MOL     1      20.544  19.570  24.142                       C
+HETATM   14  H9  MOL     1      21.412  20.186  24.417                       H
+HETATM   15  C6  MOL     1      21.013  18.519  23.103                       C
+HETATM   16  H10 MOL     1      21.870  18.915  22.546                       H
+HETATM   17  H11 MOL     1      21.412  17.647  23.638                       H
+HETATM   18  C7  MOL     1      19.921  18.031  22.113                       C
+HETATM   19  H12 MOL     1      19.061  17.658  22.685                       H
+HETATM   20  H13 MOL     1      20.314  17.158  21.573                       H
+HETATM   21  O1  MOL     1      20.078  18.887  25.300                       O
+HETATM   22  H14 MOL     1      20.819  18.329  25.617                       H
+ENDMDL
+REMARK: VM2 Rank=43     Conf_Id=448    Probability(%)=0.01                      
+REMARK:   G=51.105            E=24.304            -TS=26.802                    
+REMARK: U+W=6.419             U=8.780               W=-2.361                    
+MODEL   43
+HETATM    1  C1  MOL     1      20.469  19.354  21.009                       C
+HETATM    2  H1  MOL     1      21.435  19.797  21.284                       H
+HETATM    3  H2  MOL     1      20.565  19.098  19.945                       H
+HETATM    4  C2  MOL     1      19.345  20.410  21.162                       C
+HETATM    5  H3  MOL     1      19.595  21.256  20.507                       H
+HETATM    6  H4  MOL     1      18.402  20.002  20.774                       H
+HETATM    7  C3  MOL     1      19.113  20.961  22.596                       C
+HETATM    8  H5  MOL     1      18.219  20.499  23.036                       H
+HETATM    9  H6  MOL     1      18.868  22.029  22.517                       H
+HETATM   10  C4  MOL     1      20.312  20.796  23.566                       C
+HETATM   11  H7  MOL     1      21.215  21.203  23.094                       H
+HETATM   12  H8  MOL     1      20.139  21.437  24.441                       H
+HETATM   13  C5  MOL     1      20.600  19.345  24.052                       C
+HETATM   14  H9  MOL     1      21.681  19.166  23.962                       H
+HETATM   15  C6  MOL     1      19.858  18.217  23.293                       C
+HETATM   16  H10 MOL     1      20.044  17.263  23.803                       H
+HETATM   17  H11 MOL     1      18.775  18.373  23.366                       H
+HETATM   18  C7  MOL     1      20.256  18.045  21.805                       C
+HETATM   19  H12 MOL     1      21.183  17.458  21.751                       H
+HETATM   20  H13 MOL     1      19.486  17.440  21.307                       H
+HETATM   21  O1  MOL     1      20.233  19.249  25.424                       O
+HETATM   22  H14 MOL     1      20.477  18.347  25.719                       H
+ENDMDL
+REMARK: VM2 Rank=44     Conf_Id=214    Probability(%)=0.01                      
+REMARK:   G=51.119            E=24.304            -TS=26.816                    
+REMARK: U+W=6.419             U=8.781               W=-2.362                    
+MODEL   44
+HETATM    1  C1  MOL     1      19.646  19.098  20.927                       C
+HETATM    2  H1  MOL     1      20.174  18.708  20.046                       H
+HETATM    3  H2  MOL     1      18.590  19.173  20.632                       H
+HETATM    4  C2  MOL     1      20.204  20.515  21.217                       C
+HETATM    5  H3  MOL     1      21.285  20.457  21.399                       H
+HETATM    6  H4  MOL     1      20.101  21.124  20.309                       H
+HETATM    7  C3  MOL     1      19.523  21.265  22.385                       C
+HETATM    8  H5  MOL     1      18.537  21.622  22.058                       H
+HETATM    9  H6  MOL     1      20.112  22.167  22.602                       H
+HETATM   10  C4  MOL     1      19.344  20.457  23.694                       C
+HETATM   11  H7  MOL     1      19.144  21.169  24.505                       H
+HETATM   12  H8  MOL     1      18.437  19.844  23.623                       H
+HETATM   13  C5  MOL     1      20.546  19.566  24.095                       C
+HETATM   14  H9  MOL     1      21.439  20.204  24.160                       H
+HETATM   15  C6  MOL     1      20.870  18.386  23.132                       C
+HETATM   16  H10 MOL     1      21.820  18.587  22.622                       H
+HETATM   17  H11 MOL     1      21.055  17.482  23.727                       H
+HETATM   18  C7  MOL     1      19.783  18.058  22.073                       C
+HETATM   19  H12 MOL     1      20.012  17.082  21.625                       H
+HETATM   20  H13 MOL     1      18.816  17.919  22.573                       H
+HETATM   21  O1  MOL     1      20.270  19.032  25.385                       O
+HETATM   22  H14 MOL     1      20.127  19.795  25.982                       H
+ENDMDL
+REMARK: VM2 Rank=45     Conf_Id=213    Probability(%)=0.01                      
+REMARK:   G=51.215            E=24.416            -TS=26.798                    
+REMARK: U+W=6.531             U=8.919               W=-2.388                    
+MODEL   45
+HETATM    1  C1  MOL     1      20.204  19.355  20.895                       C
+HETATM    2  H1  MOL     1      21.068  20.013  20.734                       H
+HETATM    3  H2  MOL     1      19.949  18.969  19.898                       H
+HETATM    4  C2  MOL     1      19.011  20.193  21.422                       C
+HETATM    5  H3  MOL     1      18.649  20.839  20.610                       H
+HETATM    6  H4  MOL     1      18.169  19.526  21.651                       H
+HETATM    7  C3  MOL     1      19.327  21.089  22.652                       C
+HETATM    8  H5  MOL     1      18.456  21.103  23.321                       H
+HETATM    9  H6  MOL     1      19.448  22.123  22.300                       H
+HETATM   10  C4  MOL     1      20.597  20.718  23.464                       C
+HETATM   11  H7  MOL     1      21.481  20.794  22.820                       H
+HETATM   12  H8  MOL     1      20.751  21.480  24.240                       H
+HETATM   13  C5  MOL     1      20.586  19.325  24.135                       C
+HETATM   14  H9  MOL     1      21.620  19.097  24.433                       H
+HETATM   15  C6  MOL     1      20.080  18.165  23.249                       C
+HETATM   16  H10 MOL     1      20.369  17.223  23.733                       H
+HETATM   17  H11 MOL     1      18.983  18.159  23.243                       H
+HETATM   18  C7  MOL     1      20.613  18.151  21.791                       C
+HETATM   19  H12 MOL     1      21.708  18.064  21.801                       H
+HETATM   20  H13 MOL     1      20.247  17.232  21.314                       H
+HETATM   21  O1  MOL     1      19.769  19.382  25.299                       O
+HETATM   22  H14 MOL     1      20.110  20.119  25.847                       H
+ENDMDL
+REMARK: VM2 Rank=46     Conf_Id=1043   Probability(%)=0.00                      
+REMARK:   G=52.187            E=25.238            -TS=26.949                    
+REMARK: U+W=7.353             U=8.455               W=-1.102                    
+MODEL   46
+HETATM    1  C1  MOL     1      19.335  18.777  21.429                       C
+HETATM    2  H1  MOL     1      19.186  18.570  20.361                       H
+HETATM    3  H2  MOL     1      18.661  18.083  21.949                       H
+HETATM    4  C2  MOL     1      18.898  20.248  21.695                       C
+HETATM    5  H3  MOL     1      18.560  20.676  20.741                       H
+HETATM    6  H4  MOL     1      18.012  20.268  22.344                       H
+HETATM    7  C3  MOL     1      19.987  21.186  22.275                       C
+HETATM    8  H5  MOL     1      19.615  22.218  22.230                       H
+HETATM    9  H6  MOL     1      20.867  21.182  21.619                       H
+HETATM   10  C4  MOL     1      20.423  20.900  23.739                       C
+HETATM   11  H7  MOL     1      21.420  21.334  23.890                       H
+HETATM   12  H8  MOL     1      19.759  21.457  24.413                       H
+HETATM   13  C5  MOL     1      20.450  19.429  24.221                       C
+HETATM   14  H9  MOL     1      20.990  19.416  25.178                       H
+HETATM   15  C6  MOL     1      21.161  18.416  23.290                       C
+HETATM   16  H10 MOL     1      22.246  18.556  23.389                       H
+HETATM   17  H11 MOL     1      20.962  17.410  23.682                       H
+HETATM   18  C7  MOL     1      20.805  18.433  21.778                       C
+HETATM   19  H12 MOL     1      21.481  19.114  21.246                       H
+HETATM   20  H13 MOL     1      21.035  17.440  21.367                       H
+HETATM   21  O1  MOL     1      19.126  18.989  24.480                       O
+HETATM   22  H14 MOL     1      18.692  19.018  23.605                       H
+ENDMDL
+REMARK: VM2 Rank=47     Conf_Id=567    Probability(%)=0.00                      
+REMARK:   G=54.009            E=27.803            -TS=26.206                    
+REMARK: U+W=9.919             U=11.966              W=-2.048                    
+MODEL   47
+HETATM    1  C1  MOL     1      19.324  18.776  21.443                       C
+HETATM    2  H1  MOL     1      19.138  18.533  20.388                       H
+HETATM    3  H2  MOL     1      18.659  18.115  22.015                       H
+HETATM    4  C2  MOL     1      18.911  20.257  21.681                       C
+HETATM    5  H3  MOL     1      18.578  20.679  20.723                       H
+HETATM    6  H4  MOL     1      18.030  20.285  22.337                       H
+HETATM    7  C3  MOL     1      20.006  21.185  22.263                       C
+HETATM    8  H5  MOL     1      19.651  22.223  22.199                       H
+HETATM    9  H6  MOL     1      20.899  21.157  21.628                       H
+HETATM   10  C4  MOL     1      20.396  20.906  23.740                       C
+HETATM   11  H7  MOL     1      21.374  21.366  23.928                       H
+HETATM   12  H8  MOL     1      19.691  21.440  24.391                       H
+HETATM   13  C5  MOL     1      20.446  19.432  24.214                       C
+HETATM   14  H9  MOL     1      21.008  19.432  25.160                       H
+HETATM   15  C6  MOL     1      21.173  18.432  23.277                       C
+HETATM   16  H10 MOL     1      22.254  18.607  23.357                       H
+HETATM   17  H11 MOL     1      21.015  17.422  23.678                       H
+HETATM   18  C7  MOL     1      20.797  18.423  21.769                       C
+HETATM   19  H12 MOL     1      21.469  19.087  21.213                       H
+HETATM   20  H13 MOL     1      21.009  17.420  21.375                       H
+HETATM   21  O1  MOL     1      19.134  18.968  24.519                       O
+HETATM   22  H14 MOL     1      19.217  18.019  24.740                       H
+ENDMDL

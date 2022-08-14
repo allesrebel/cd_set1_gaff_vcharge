@@ -1,0 +1,276 @@
+
+     --------------------------------------------------------------------------------
+                        Running Program VCPack. Version 2.8
+
+                           VeraChem LLC, PO Box 2206
+                           Germantown, MD 20875, U.S.A.
+
+                                Tel. 240-686-0565
+                                www.verachem.com
+     --------------------------------------------------------------------------------
+
+
+     Input file          :   guest-6_vm2.inp
+
+     Output file         :   guest-6_vm2.out
+
+     Summary output file :   guest-6_vm2.summary.out
+
+     Executable : /data/comblab/vcCompChem_3b/exe/VC_CompChemPackage_mpi.exe
+
+     Build date : Aug 13 2021  17:26:14
+
+     This is a multiple processor run.
+
+     MPI processes              :   16
+     OpenMP threads per process :    0
+     CUDA enabled               :  no
+
+     TIME STAMP: VCPack job started : Saturday, August 06, 2022 at 17:10:22
+
+     --------------------------------------------------------------------------------
+                            Basic Calculation Control.
+     --------------------------------------------------------------------------------
+
+     Molecular system type                :  ligand          
+
+     Calculation type                     :  vm2             
+
+     Energy potential                     :  mm              
+
+     Post-processing type                 :  none            
+
+     Post-processing energy potential     :  none            
+
+     Time limit in wall clock hours       :  96.00
+
+     Read in starting conformers          :  no
+     Type of conformers to read in        :  none
+     Conformer source files(s)            :  none
+
+     Use input .crd for complex build     :  no
+     Place ligand confs. at input .crd    :  no
+     Use input .crd as start conformer    :  yes
+
+     Formatted output files               :  xyz     
+                                          :  pdb     
+                                          :  mol2    
+                                          :  sdf     
+                                          :  xyz     
+                                          :  gms     
+                                          :  csv     
+
+     Split formatted output files         :  crd     
+
+     Limit conformers in formatted files  :  bycount
+     Maximum conformer count              :  1000
+
+     Atoms to include in formatted files  :  all     
+
+     Binary file restart type             :  none
+
+
+     --------------------------------------------------------------------------------
+                            Math Related Control and Set Up.
+     --------------------------------------------------------------------------------
+
+     Random number generator seeds :  bywallclock
+
+     Seed 1 :           7337992
+     Seed 2 :            646073
+     Seed 3 :               749
+     Seed 4 :             29650
+
+
+     --------------------------------------------------------------------------------
+                            Basic Molecular System Set Up.
+     --------------------------------------------------------------------------------
+
+     ------------------
+     Ligand Data Files.
+     ------------------
+
+     Standard crd coordinate file            :  guest-6.crd
+     VeraChem topology file                  :  guest-6.top
+     Standard mol/sdf file                   :  guest-6.mol
+
+     Total number of ligand atoms            :        13
+
+     Included in this calculation.
+     Number of real and live ligand atoms    :        13
+     Number of real but fixed ligand atoms   :         0
+
+     Ligand placement method                 :  none
+
+     Snap ligand to template atoms           :      no
+
+     -------------------------------
+     Final Real/Live Set Atom Count.
+     -------------------------------
+
+     Total number of real atoms              :        13
+     Total number of live atoms              :        13
+
+
+     --------------------------------------------------------------------------------
+                            Generate Initial Molecular Conformation.
+     --------------------------------------------------------------------------------
+
+     Mandatory input crd file(s) used for generation of a single starting conformer.
+
+
+     --------------------------------------------------------------------------------
+                             Energy Potential Settings.
+     --------------------------------------------------------------------------------
+
+
+     Molecular Mechanics package          :  vchem           
+
+     Quantum Mechanics package            :  none            
+
+
+     --------------------------------------------------------------------------------
+                    Running VM2 Mining Minima Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Iteration    Free Energy G             G Diff            # Conformers     # Diff
+        1           -44.828534             -44.828534               4               4
+        2           -44.828573              -0.000040               4               0
+        3           -44.828610              -0.000037               4               0
+        4           -44.828614              -0.000004               4               0
+
+     VM2 Free Energy converged after    4 iterations.
+
+     Final VM2 Free Energy is     -44.828614 Kcal/mol.
+
+          --------------------------------
+          Final Individual Conformer Data.
+          --------------------------------
+
+          List data for conformers with probability of at least :  0.01 %
+          Rankings are with respect to : Free Energy (G)
+
+          ------------------------
+          Free Energy: G = E - TS
+          ------------------------
+
+          ------------------------------------------------------------------------------------------
+          Rank    ID     ln(Zx)    Prob(%)  Sum Prob(%)  Del G        G            E            -TS
+          ------------------------------------------------------------------------------------------
+             1      1     40.28407   88.65    88.65      0.00       -44.76       -49.83         5.08
+             2      0     37.18779    4.01    92.66      1.85       -42.91       -48.50         5.58
+             3    181     37.10848    3.70    96.36      1.89       -42.86       -48.23         5.36
+             4      4     37.09028    3.64   100.00      1.90       -42.85       -48.21         5.36
+          ------------------------------------------------------------------------------------------
+
+          --------------------------------------------------------
+          Potential Energy: E = (U+W) + H.O. Equipartion energy
+          --------------------------------------------------------
+
+          ------------------------------------------------------------------------------------------
+          Rank    ID         E          U+W            U        W(PBSA)          PB           SA
+          ------------------------------------------------------------------------------------------
+             1      1       -49.83       -59.67         7.39       -67.06       -68.77         1.71
+             2      0       -48.50       -58.33         8.39       -66.72       -68.45         1.73
+             3    181       -48.23       -58.06         9.78       -67.84       -69.54         1.70
+             4      4       -48.21       -58.05         9.78       -67.83       -69.54         1.70
+          ------------------------------------------------------------------------------------------
+
+          ----------------------------------------
+          Gas Phase Internal Potential Energy: U
+          ----------------------------------------
+
+          ------------------------------------------------------------------------------------------
+          Rank    ID         U         Valence     Coulomb        VdW         VdW6        VdW12
+          ------------------------------------------------------------------------------------------
+             1      1         7.39         5.82         1.26         0.31        -3.06         3.37
+             2      0         8.39         6.33         1.22         0.84        -3.34         4.19
+             3    181         9.78         6.12         3.45         0.21        -3.76         3.97
+             4      4         9.78         6.12         3.45         0.21        -3.76         3.97
+          ------------------------------------------------------------------------------------------
+
+          -------------------------------
+          Bonded Energy Terms: Valence
+          -------------------------------
+
+          ------------------------------------------------------------------------------------------
+          Rank    ID     Valence       Bond        Angle         Pdih         Idih       Tether
+          ------------------------------------------------------------------------------------------
+             1      1         5.82         0.06         2.24         3.52         0.00         0.00
+             2      0         6.33         0.09         2.71         3.53         0.00         0.00
+             3    181         6.12         0.08         2.43         3.62         0.00         0.00
+             4      4         6.12         0.08         2.43         3.62         0.00         0.00
+          ------------------------------------------------------------------------------------------
+
+          Calculating single reference conformer RMSDs ...
+
+          ---------------------------------
+          Conformer RMSDs are in Angstroms.
+          ---------------------------------
+
+          ------------------------------------------------------------------------------------------
+                              RMSD wrt Input Crd                    RMSD wrt Rank 1
+                         ---------------------------------------------------------------------------
+          Rank    ID        Complex    Receptor  Ligand          Complex    Receptor  Ligand
+          ------------------------------------------------------------------------------------------
+             1      1                             0.885                               0.000
+             2      0                             0.028                               0.886
+             3    181                             0.942                               1.712
+             4      4                             1.440                               1.815
+          ------------------------------------------------------------------------------------------
+
+          --------------------------------
+          Final Boltzmann Averaged Data.
+          --------------------------------
+
+          -------------------------------------------------------------------
+          Results of Boltzmann Averaging Over All    4 Conformers (kcal/mol).
+          -------------------------------------------------------------------
+
+          Free Energy                        G             -44.8286140174
+          Average Potential Energy         < E >           -49.6626333845
+          Entropy                           -TS              4.8340193672
+          -------------------------------------------------------------------
+
+          Average Potential Energy < E > Components.
+
+          < U >                     7.6046697681
+          < W(PBSA) >             -67.1036126634
+          < H.O. P.E. >             9.8366719205
+
+          Average Solvation Energy < W(PBSA) > Components.
+
+          < PB >                  -68.8106479892
+          < SA >                    1.7070353258
+
+          Average Gas Phase Internal Potential Energy < U > Components.
+
+          < Valence >               5.8647265026
+          < Coulomb >               1.4146290869
+          < VdW >                   0.3253141786
+
+          Average Van der Waals Energy < VdW > Components.
+
+          < VdW6  >                -3.1237110144
+          < VdW12 >                 3.4490251930
+
+          Average Bonded Energy < Valence > Components.
+
+          < Bond >                  0.0618530928
+          < Angle >                 2.2732465523
+          < Pdihed >                3.5291123720
+          < Idihed >                0.0005144855
+          < Tether >                0.0000000000
+
+          -------------------------------------------------------------------
+                        End of VM2 Calculation Results Summary.
+          -------------------------------------------------------------------
+
+
+     Total cpu time for run          3.47 seconds.
+                                     0.06 minutes.
+
+     Total wall time for run         3.71 seconds.
+                                     0.06 minutes.
+
+     TIME STAMP: VCPack job finished normally : Saturday, August 06, 2022 at 17:10:25
