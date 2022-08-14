@@ -1,0 +1,580 @@
+
+     --------------------------------------------------------------------------------
+                        Running Program VCPack. Version 2.8
+
+                           VeraChem LLC, PO Box 2206
+                           Germantown, MD 20875, U.S.A.
+
+                                Tel. 240-686-0565
+                                www.verachem.com
+     --------------------------------------------------------------------------------
+
+
+     Input file          :   CD_guest-1_fast_vm2_single.inp
+
+     Output file         :   CD_guest-1_fast_vm2_single.out
+
+     Summary output file :   CD_guest-1_fast_vm2_single.summary.out
+
+     Executable : /data/comblab/vcCompChem_3b/exe/VC_CompChemPackage_mpi_openmp.exe
+
+     Build date : Aug 13 2021  17:26:49
+
+     This is a multiple processor run.
+
+     MPI processes              :   16
+     OpenMP threads per process :   16
+     CUDA enabled               :  no
+
+     TIME STAMP: VCPack job started : Saturday, August 06, 2022 at 17:08:48
+
+     --------------------------------------------------------------------------------
+                            Basic Calculation Control.
+     --------------------------------------------------------------------------------
+
+     Molecular system type                :  host+ligand     
+
+     Calculation type                     :  feprocess       
+
+     Energy potential                     :  mm              
+
+     Post-processing type                 :  none            
+
+     Post-processing energy potential     :  none            
+
+     Time limit in wall clock hours       :  96.00
+
+     Read in starting conformers          :  no
+     Type of conformers to read in        :  none
+     Conformer source files(s)            :  none
+
+     Use input .crd for complex build     :  no
+     Place ligand confs. at input .crd    :  no
+     Use input .crd as start conformer    :  yes
+
+     Formatted output files               :  xyz     
+                                          :  pdb     
+                                          :  mol2    
+                                          :  sdf     
+                                          :  xyz     
+                                          :  gms     
+                                          :  csv     
+
+     Split formatted output files         :  crd     
+
+     Limit conformers in formatted files  :  bycount
+     Maximum conformer count              :  1000
+
+     Atoms to include in formatted files  :  all     
+
+     Binary file restart type             :  none
+
+
+     --------------------------------------------------------------------------------
+                            Math Related Control and Set Up.
+     --------------------------------------------------------------------------------
+
+     Random number generator seeds :  bywallclock
+
+     Seed 1 :           6397586
+     Seed 2 :            602353
+     Seed 3 :               655
+     Seed 4 :             27423
+
+
+     ... Finished math related control and set up.
+
+
+     --------------------------------------------------------------------------------
+                            Basic Molecular System Set Up.
+     --------------------------------------------------------------------------------
+
+     ----------------
+     Host Data Files.
+     ----------------
+
+     Standard crd coordinate file            :  CD.crd
+     VeraChem topology file                  :  CD.top
+     Standard mol/sdf file                   :  CD.mol
+
+     Total number of host atoms              :       126
+
+     ------------------
+     Ligand Data Files.
+     ------------------
+
+     Standard crd coordinate file            :  guest-1.crd
+     VeraChem topology file                  :  guest-1.top
+     Standard mol/sdf file                   :  guest-1.mol
+
+     Total number of ligand atoms            :        17
+
+     Included in this calculation.
+     Number of real and live ligand atoms    :        17
+     Number of real but fixed ligand atoms   :         0
+
+     Ligand placement method                 :  byreceptorcog
+
+     NOTE: The placement of the ligand redefines the ligand .crd input coordinates.
+
+     Snap ligand to template atoms           :      no
+
+     -------------------------------
+     Final Real/Live Set Atom Count.
+     -------------------------------
+
+     Total number of real atoms              :       143
+     Total number of live atoms              :       143
+
+
+     ... Finished reading molecular system data files.
+
+     -----------------------------------------
+     Generate Internal Coordinate Definitions.
+     -----------------------------------------
+
+     There are   2 non-bonded molecular fragments. Adding virtual bonds and angles.
+
+     Add virtual bond                   :  Atoms     93    132
+     Add virtual angle                  :  Atoms     92     93    132
+     Add virtual angle                  :  Atoms     93    132    131
+
+     ... Done.
+
+     All atoms are defined correctly.
+
+     Total number of BAT coordinates    :      423
+
+     ... Done.
+
+
+     Merge the 2 molecules together ...
+
+
+     ... Finished basic molecular system set up.
+
+
+     --------------------------------------------------------------------------------
+                            Generate Initial Molecular Conformation.
+     --------------------------------------------------------------------------------
+
+     Mandatory input crd file(s) used for generation of a single starting conformer.
+
+
+     ... Finished generation of starting conformer.
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vpotential Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read energy potential control input ...
+
+
+     ----------------------------------------------
+     Energy Potential Settings.
+     ----------------------------------------------
+
+
+     Molecular Mechanics package          :  vchem           
+
+     Quantum Mechanics package            :  none            
+
+
+     Molecular Mechanics Set Up ...
+
+     ----------------------------------------------
+     Forcefield Potential Forms.
+     ----------------------------------------------
+
+     Host                                  :  AMBER   
+     Ligand                                :  AMBER   
+
+     ----------------------------------------------
+     Check Forcefield Parameters.
+     ----------------------------------------------
+
+     LJ parameter(s) for hydrogen atom     7 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    11 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    21 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    28 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    32 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    42 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    49 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    53 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    63 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    70 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    74 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    84 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    91 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom    95 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom   105 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom   112 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom   116 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     LJ parameter(s) for hydrogen atom   126 is zero. Modifying now.
+     Emin   : -0.01570
+     Rmin/2 :  0.60000
+
+     WARNING: The program has adjusted some hydrogen LJ parameters to non-zero values.
+
+     ... Forcefield parameter check complete.
+
+     ----------------------------------------------
+     Construct Nonbonded Pair List.
+     ----------------------------------------------
+
+     Number of non-bonded pairs for Coulomb and VdW energies.
+
+     Flexible-flexible plus flexible-fixed :     10153
+     Fixed-fixed                           :         0
+     Total                                 :     10153
+
+     ----------------------------------------------
+     Generalized Born Initialization.
+     ----------------------------------------------
+
+     Generalized Born method       :    Still 97
+     Salt concentration            :       0.00  M
+     Solvent dielectric (external) :      80.00
+     Solvent dielectric (internal) :       1.00
+
+
+     Set atomic cavity radii to be used for GB solvation model ...
+
+     Atomic cavity radii  : Rmin/2
+                          : any H atoms bonded to hetero atom 1.15 Angs.
+                          : any covalently bound F atom 2.00 Angs.
+
+
+     Number of atom pairs for GB solvation energy ...
+
+     Flexible-flexible plus flexible-fixed :     10153
+     Fixed-fixed                           :         0
+     Total                                 :     10153
+
+
+     Set Still GB P1-P5 parameter set to be used ...
+
+     P1-P5 Parameter Set:  Still (J.Phys.Chem.(A),(1997)101,3005)
+
+
+     Calculate initial atom volumes ...
+
+
+     ... GB set up complete.
+
+     ----------------------------------------------
+     Poisson-Boltzmann Surface Area Initialization.
+     ----------------------------------------------
+
+     Poisson Boltzmann solver      :    Linear finite difference
+     Salt concentration            :       0.00  M
+     Solvent dielectric (external) :      80.00
+     Solvent dielectric (internal) :       1.00
+     SASA probe radius             :       1.40  Angs.
+
+     Set atomic cavity radii to be used for PBSA solvation model ...
+
+     Radii used for PB electrostatic term.
+
+     Atomic cavity radii  : Rmin/2
+                          : any H atoms bonded to hetero atom 1.15 Angs.
+                          : any covalently bound F atom 2.00 Angs.
+
+     Radii used for SA non-polar term.
+
+     Atomic cavity radii  : Rmin/2
+                          : any H atoms bonded to hetero atom 1.15 Angs.
+                          : any covalently bound F atom 2.00 Angs.
+
+
+     ... PBSA set up complete.
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vstereochem Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read stereochemistry control input ...
+
+
+     Number of peptide bond arrangements found   :      0
+     Number of cis/trans bond arrangements found :      0
+
+
+     --------------------------------------------------------------------------------
+                    Initialize VfreeE Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read Free Energy processing control input ...
+
+     Temperature in Kelvin          :    300.00
+
+     Mode scanning                  :  on
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vhessian Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read hessian calculation control input ...
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vgeomopt Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read geometry optimization control input ...
+
+     Standard convergence criteria.
+
+     Maximum gradient allowed for any atom      :    0.001000
+     Molecular RMS gradient below               :    0.000333
+
+     Loose convergence criteria.
+
+     Maximum gradient allowed for any atom      :    0.010000
+     Molecular RMS gradient below               :    0.003333
+
+     Pre-optimization control.
+
+     Carry out damped gradient pre-optimization :     yes
+     Pre-optimization method                    :  Conjugate-gradient
+     Maxiumum pre-optimization steps            :     100
+
+     Full optimization control.
+
+     Full optimization method                   :  Quasi-Newton
+     Maxiumum full optimization steps           :    5000
+
+
+     --------------------------------------------------------------------------------
+                    Initialize VRMSD Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read conformer geometries RMSD control input ...
+
+     Pre-RMSD conformer alignment by  :  receptor
+
+
+     --------------------------------------------------------------------------------
+                    Initialize Vfilter Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read conformer filter control input ...
+
+     Total bond-energy difference below which conformer pairs compared geometrically.
+
+     Energy difference cutoff 1      :     0.500
+     Energy difference cutoff 2      :     1.000
+
+     Conformer pair RMSD below which one of the conformers is discarded.
+
+     Pair RMSD cutoff 1              :     0.200
+     Pair RMSD cutoff 2              :     0.300
+
+     Energy relative to lowest energy conformer above which conformers are discarded.
+
+     Initial cull relative energy    :   100.000
+     Cull relative energy            :    10.000
+
+
+     --------------------------------------------------------------------------------
+                       Running VfreeE Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+          -------------------------------
+          Initial GB energy and gradient.
+          -------------------------------
+
+          In Vacuo energy                :       385.1844685028 Kcal/mol
+          GB Solvation energy            :       -89.5557481456 Kcal/mol
+          GB Energy                      :       295.6287203572 Kcal/mol
+
+          RMS gradient                   :        11.0893861647 Kcal/mol/Angs
+          Max gradient                   :        37.5110657116 Kcal/mol/Angs
+
+          --------------------------------
+          Initial PBSA single point energy.
+          --------------------------------
+
+          PBSA Energy                    :       296.2344965936 Kcal/mol
+
+          --------------------------------------------
+          GB Conjugate Gradient Geometry Optimization.
+          --------------------------------------------
+
+          In Vacuo energy                :       356.2572138458 Kcal/mol
+          GB Solvation energy            :       -99.4506259343 Kcal/mol
+          GB Energy                      :       256.8065879115 Kcal/mol
+
+          RMS gradient                   :         0.4060590246 Kcal/mol/Angs
+          Max gradient                   :         1.4095598614 Kcal/mol/Angs
+          Total geometry steps           :    100
+
+          Geometry optimization failed to converge.
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :       327.4587915259 Kcal/mol
+          GB Solvation energy            :       -89.4328208211 Kcal/mol
+          GB Energy                      :       238.0259707048 Kcal/mol
+
+          RMS gradient                   :         0.0002699896 Kcal/mol/Angs
+          Max gradient                   :         0.0008952433 Kcal/mol/Angs
+          Total geometry steps           :   4278
+
+          Geometry optimization converged.
+
+          ----------------
+          Check Structure.
+          ----------------
+
+          Check parity                                          : Correct
+          Check general cis/trans bond arrangements maintained  : Yes
+
+          Structure accepted.
+
+          ... Done with initial geometry energy minimzation.
+
+          ----------------------
+          Single-point energies.
+          ----------------------
+
+          GB energy of GB optimized structure                238.0259707048 kcal/mol
+          Difference w.r.t input structure GB energy         -57.6027496524 kcal/mol
+
+          PBSA energy of GB optimized structure              238.2719287144 kcal/mol
+          Difference w.r.t input structure PBSA energy       -57.9625678792 kcal/mol
+
+          ----------------------------------------------------------------------
+               Calculate the Configuration Integral and Free Energy
+               of each Conformer in the Newly Generated Set.
+          ----------------------------------------------------------------------
+
+          Calculate prefactor ...
+
+          ln(prefactor) =       287.1178148844
+
+          Number of newly generated conformers to process :     1
+
+
+          -------------------------------------------------------
+          Process new conformer     1 (unique conformer ID     1)
+          -------------------------------------------------------
+
+          ------------------------------------------
+          Resulting Conformer Energetics (kcal/mol).
+          ------------------------------------------
+
+          Free Energy         552.7615212148
+          Enthalpy            364.3601778773
+          Entropy (-TS)       188.4013433375
+
+
+          ... Done processing the new set of conformers.
+
+          Conformer set        : Established
+          Number of conformers :    1
+          Temperature          :  300.00 K
+
+          Boltzmann averaging took  0.001 seconds.
+
+          -------------------------------------------------------------------
+          Results of Boltzmann Averaging Over All    1 Conformers (kcal/mol).
+          -------------------------------------------------------------------
+
+          Free Energy                        G             552.7615212148
+          Average Potential Energy         < E >           364.3601778773
+          Entropy                           -TS            188.4013433375
+          -------------------------------------------------------------------
+
+          --------------------------
+          Individual Conformer Data.
+          --------------------------
+
+          List data for conformers with probability of at least :  1.00 %
+          Rankings are with respect to : Free Energy (G)
+
+          ------------------------
+          Free Energy: G = E - TS
+          ------------------------
+
+          ------------------------------------------------------------------------------------------
+          Rank    ID     ln(Zx)    Prob(%)  Sum Prob(%)  Del G        G            E            -TS
+          ------------------------------------------------------------------------------------------
+             1      1  -1214.31811  100.00   100.00      0.00       552.76       364.36       188.40
+          ------------------------------------------------------------------------------------------
+
+          --------------------------------------------------------
+          Potential Energy: E = (U+W) + H.O. Equipartion energy
+          --------------------------------------------------------
+
+          ------------------------------------------------------------------------------------------
+          Rank    ID         E          U+W            U        W(PBSA)          PB           SA
+          ------------------------------------------------------------------------------------------
+             1      1       364.36       238.27       327.46       -89.19       -95.25         6.06
+          ------------------------------------------------------------------------------------------
+
+          Calculating single reference conformer RMSDs ...
+
+     Total cpu time for run        105.23 seconds.
+                                     1.75 minutes.
+
+     Total wall time for run        46.65 seconds.
+                                     0.78 minutes.
+
+     TIME STAMP: VCPack job finished normally : Saturday, August 06, 2022 at 17:09:34
