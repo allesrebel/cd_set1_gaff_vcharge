@@ -1,0 +1,89 @@
+
+Instructions for VM2 calculation result summary extraction starting from 
+completed VM2 runs in ../host1/run/2_vm2_runs/fast_vm2_rndm or 
+vm2_rndm or fast_vm2_single or vm2_single.
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+This step requires a file in the results directory containing experimental data.
+The file name must contain 'experimental_data' e.g. cdset1_experimental_data.txt
+Each line of the file should have the complex name i.e. hostname_ligandname, where
+the names are the same found in the run directories followed by a comma and then
+the binding energy from experiment, for example:
+
+a-cyclodex_guest-1, -1.575
+a-cyclodex_guest-2, -3.533
+a-cyclodex_guest-3, -4.606
+a-cyclodex_guest-4, -2.130
+a-cyclodex_guest-5, -2.510
+
+
+If you just want to extract results and not compare to any experimental data
+just supply zeros in this file.
+
+--------------------------------------------------------------------------------
+
+Run the create_summaries.py script_data e.g.
+
+    ./create_vm2_summaries.py -c vm2_rndm
+
+The commandline argument included above is mandatory with the following
+options:
+
+    -c or --calctype       fast_vm2_rndm       : Identify the calculation type
+                                                 to collect and summarize run
+                           vm2_rndm              data for.
+
+                           fast_vm2_single
+
+                           vm2_single
+
+
+Non mandatory arguments:
+
+   -n or --receptorname   <name of host>       : Provide the name of the receptor
+                                                 e.g. for this case the receptor
+                                                 is named 'host1'. Useful if more
+                                                 than one host and separate summary
+                                                 files are required for each host. 
+
+                          all                  : This is the default. Data for all
+                                                 hosts present (one or more) will 
+                                                 be placed in the same files. The
+                                                 file names are prepended with all
+                                                 the host names.
+
+
+   -l or refligand                             : Provide the name of the reference
+                                                 ligand to be used in relative binding
+                                                 affinity calculation i.e. for Delta(DeltaG)
+                                                 When multiple hosts are being processed
+                                                 the reference correction energy is
+                                                 derived from the first experimental energy
+                                                 encountered in the 'experimental_data'
+                                                 file that involves this ligand name.
+
+
+   -g or --getconfs      <number of confs>     : The number of conformers to keep in the
+                                                 extracted formated conformer files e.g.
+                                                 .sdf, .mol2, .pdb. The default is 8 plus
+                                                 a set of formatted files each with the
+                                                 lowest energy conformer.
+
+
+This script will create four csv files in the results directory for each calculation type e.g.
+
+    ./create_vm2_summaries.py -c vm2_rndm
+
+will result in the files:
+
+a-cyclodex_vm2_rndm_complexes.csv
+a-cyclodex_vm2_rndm_ligands.csv
+a-cyclodex_vm2_rndm_hosts.csv
+a-cyclodex_vm2_rndm_SUMMARY.csv
+
+These files can be opened with a spreadsheet program to view the raw data
+from the VM2 runs and the calculated binding energies.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+

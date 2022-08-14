@@ -1,0 +1,10 @@
+# Set locations and environment for Intel
+setenv INTEL_LIBS $VCHOME/lib/intel
+setenv INTEL_MKL_LIBS $INTEL_LIBS/mkl
+setenv INTEL_MPI_LIBS $INTEL_LIBS/mpi
+
+LD_LIBRARY_PATH=$INTEL_LIBS\:$INTEL_MKL_LIBS\:$INTEL_MKL_LIBS
+setenv LD_LIBRARY_PATH
+
+PATH=$INTEL_MPI_LIBS\:$PATH
+setenv PATH

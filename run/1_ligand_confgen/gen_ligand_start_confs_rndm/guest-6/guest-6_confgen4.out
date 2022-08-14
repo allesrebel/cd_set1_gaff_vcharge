@@ -1,0 +1,4181 @@
+
+     --------------------------------------------------------------------------------
+                        Running Program VCPack. Version 2.8
+
+                           VeraChem LLC, PO Box 2206
+                           Germantown, MD 20875, U.S.A.
+
+                                Tel. 240-686-0565
+                                www.verachem.com
+     --------------------------------------------------------------------------------
+
+
+     Input file          :   guest-6_confgen4.inp
+
+     Output file         :   guest-6_confgen4.out
+
+     Summary output file :   guest-6_confgen4.summary.out
+
+     Executable : /data/comblab/vcCompChem_3b/exe/VC_CompChemPackage_mpi.exe
+
+     Build date : Aug 13 2021  17:26:14
+
+     This is a multiple processor run.
+
+     MPI processes              :   16
+     OpenMP threads per process :    0
+     CUDA enabled               :  no
+
+     TIME STAMP: VCPack job started : Saturday, August 06, 2022 at 16:09:12
+
+     --------------------------------------------------------------------------------
+                            Basic Calculation Control.
+     --------------------------------------------------------------------------------
+
+     Molecular system type                :  ligand          
+
+     Calculation type                     :  confsearch      
+
+     Energy potential                     :  mm              
+
+     Post-processing type                 :  none            
+
+     Post-processing energy potential     :  none            
+
+     Time limit in wall clock hours       :  96.00
+
+     Read in starting conformers          :  no
+     Type of conformers to read in        :  none
+     Conformer source files(s)            :  none
+
+     Use input .crd for complex build     :  no
+     Place ligand confs. at input .crd    :  no
+     Use input .crd as start conformer    :  yes
+
+     Formatted output files               :  xyz     
+                                          :  pdb     
+                                          :  mol2    
+                                          :  sdf     
+                                          :  xyz     
+
+     Split formatted output files         :  crd     
+
+     Limit conformers in formatted files  :  bycount
+     Maximum conformer count              :  1000
+
+     Atoms to include in formatted files  :  all     
+
+     Binary file restart type             :  none
+
+
+     --------------------------------------------------------------------------------
+                            Math Related Control and Set Up.
+     --------------------------------------------------------------------------------
+
+     Random number generator seeds :  bywallclock
+
+     Seed 1 :            645474
+     Seed 2 :            698353
+     Seed 3 :               679
+     Seed 4 :             33012
+
+
+     ... Finished math related control and set up.
+
+
+     --------------------------------------------------------------------------------
+                            Basic Molecular System Set Up.
+     --------------------------------------------------------------------------------
+
+     ------------------
+     Ligand Data Files.
+     ------------------
+
+     Standard crd coordinate file            :  guest-6.crd
+     VeraChem topology file                  :  guest-6.top
+     Standard mol/sdf file                   :  guest-6.mol
+
+     Total number of ligand atoms            :        13
+
+     Included in this calculation.
+     Number of real and live ligand atoms    :        13
+     Number of real but fixed ligand atoms   :         0
+
+     Ligand placement method                 :  none
+
+     Snap ligand to template atoms           :      no
+
+     -------------------------------
+     Final Real/Live Set Atom Count.
+     -------------------------------
+
+     Total number of real atoms              :        13
+     Total number of live atoms              :        13
+
+
+     ... Finished reading molecular system data files.
+
+     -----------------------------------------
+     Generate Internal Coordinate Definitions.
+     -----------------------------------------
+
+     All atoms are defined correctly.
+
+     Total number of BAT coordinates    :       33
+
+     ... Done.
+
+
+     ... Finished basic molecular system set up.
+
+
+     --------------------------------------------------------------------------------
+                            Generate Initial Molecular Conformation.
+     --------------------------------------------------------------------------------
+
+     Mandatory input crd file(s) used for generation of a single starting conformer.
+
+
+     ... Finished generation of starting conformer.
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vpotential Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read energy potential control input ...
+
+
+     ----------------------------------------------
+     Energy Potential Settings.
+     ----------------------------------------------
+
+
+     Molecular Mechanics package          :  vchem           
+
+     Quantum Mechanics package            :  none            
+
+
+     Molecular Mechanics Set Up ...
+
+     ----------------------------------------------
+     Forcefield Potential Forms.
+     ----------------------------------------------
+
+     Ligand                                :  AMBER   
+
+     ----------------------------------------------
+     Check Forcefield Parameters.
+     ----------------------------------------------
+
+     WARNING: The program has adjusted some hydrogen LJ parameters to non-zero values.
+
+     ... Forcefield parameter check complete.
+
+     ----------------------------------------------
+     Construct Nonbonded Pair List.
+     ----------------------------------------------
+
+     Number of non-bonded pairs for Coulomb and VdW energies.
+
+     Flexible-flexible plus flexible-fixed :        78
+     Fixed-fixed                           :         0
+     Total                                 :        78
+
+     ----------------------------------------------
+     Generalized Born Initialization.
+     ----------------------------------------------
+
+     Generalized Born method       :    Still 97
+     Salt concentration            :       0.00  M
+     Solvent dielectric (external) :      80.00
+     Solvent dielectric (internal) :       1.00
+
+
+     Set atomic cavity radii to be used for GB solvation model ...
+
+     Atomic cavity radii  : Rmin/2
+                          : any H atoms bonded to hetero atom 1.15 Angs.
+                          : any covalently bound F atom 2.00 Angs.
+
+
+     Number of atom pairs for GB solvation energy ...
+
+     Flexible-flexible plus flexible-fixed :        78
+     Fixed-fixed                           :         0
+     Total                                 :        78
+
+
+     Set Still GB P1-P5 parameter set to be used ...
+
+     P1-P5 Parameter Set:  Still (J.Phys.Chem.(A),(1997)101,3005)
+
+
+     Calculate initial atom volumes ...
+
+
+     ... GB set up complete.
+
+     ----------------------------------------------
+     Poisson-Boltzmann Surface Area Initialization.
+     ----------------------------------------------
+
+     Poisson Boltzmann solver      :    Linear finite difference
+     Salt concentration            :       0.00  M
+     Solvent dielectric (external) :      80.00
+     Solvent dielectric (internal) :       1.00
+     SASA probe radius             :       1.40  Angs.
+
+     Set atomic cavity radii to be used for PBSA solvation model ...
+
+     Radii used for PB electrostatic term.
+
+     Atomic cavity radii  : Rmin/2
+                          : any H atoms bonded to hetero atom 1.15 Angs.
+                          : any covalently bound F atom 2.00 Angs.
+
+     Radii used for SA non-polar term.
+
+     Atomic cavity radii  : Rmin/2
+                          : any H atoms bonded to hetero atom 1.15 Angs.
+                          : any covalently bound F atom 2.00 Angs.
+
+
+     ... PBSA set up complete.
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vstereochem Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read stereochemistry control input ...
+
+
+     Number of peptide bond arrangements found   :      0
+     Number of cis/trans bond arrangements found :      0
+
+
+     --------------------------------------------------------------------------------
+                    Initialize Vconf Search Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read conformational search control input ...
+
+     Maximum number of Vconf iterations              :        1
+
+     Vconf convergence criterion                     :   0.01000
+
+     Conformational search style                     :   confgen4        
+
+
+     Mode Based Search Limits.
+
+     Number of searches per mode type per iteration  :      400
+     Maximum mode distortion angle                   :    180.0
+     Random angle distortions starting at iteration  :        7
+
+
+     Ligand Rigid Body Rotation-Translation Search Limits.
+
+     Systematic ligand searches per iteration        :        0
+     Random ligand searches per iteration            :        0
+
+
+     Search Mode Exclusions and Energy Cutoffs.
+
+     User supplied excluded atoms file               :   none
+     Exclude modes with force constants above        :   5000.0
+     Level one conformer energy cutoff               :     20.0
+
+
+     Concurrent Search Settings.
+
+     Search different conformers concurrently        :   yes
+
+     Frequency of concurrent searches    :  every 2 iteration(s)
+     Method of conformer choice          :  random2 
+     Conformer choice pool size          :   64
+
+
+     Distortion Behavior Setttings.
+
+     Relax non-driver atoms during distortions       :   yes
+
+
+     Spatial Boundary Based Conformer Rejection.
+
+     Boxed non-ligand atoms                          :   no
+
+     Ligand spherical box boundary                   :   on
+     Ligand spherical box radius (Angs.)             :   1.00
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vhessian Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read hessian calculation control input ...
+
+
+     --------------------------------------------------------------------------------
+                      Initialize Vgeomopt Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read geometry optimization control input ...
+
+     Standard convergence criteria.
+
+     Maximum gradient allowed for any atom      :    0.001000
+     Molecular RMS gradient below               :    0.000333
+
+     Loose convergence criteria.
+
+     Maximum gradient allowed for any atom      :    0.010000
+     Molecular RMS gradient below               :    0.003333
+
+     Pre-optimization control.
+
+     Carry out damped gradient pre-optimization :     yes
+     Pre-optimization method                    :  Conjugate-gradient
+     Maxiumum pre-optimization steps            :     100
+
+     Full optimization control.
+
+     Full optimization method                   :  Quasi-Newton
+     Maxiumum full optimization steps           :    5000
+
+
+     --------------------------------------------------------------------------------
+                    Initialize VRMSD Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read conformer geometries RMSD control input ...
+
+     Pre-RMSD conformer alignment by  :  ligand
+
+
+     --------------------------------------------------------------------------------
+                    Initialize Vfilter Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     Read conformer filter control input ...
+
+     Total bond-energy difference below which conformer pairs compared geometrically.
+
+     Energy difference cutoff 1      :     2.000
+     Energy difference cutoff 2      :     2.000
+
+     Conformer pair RMSD below which one of the conformers is discarded.
+
+     Pair RMSD cutoff 1              :     0.300
+     Pair RMSD cutoff 2              :     0.300
+
+     Energy relative to lowest energy conformer above which conformers are discarded.
+
+     Initial cull relative energy    :    20.000
+     Cull relative energy            :    10.000
+
+
+     --------------------------------------------------------------------------------
+                    Running Vconf Search Module. Version 2.8
+     --------------------------------------------------------------------------------
+
+     ----------------------------------
+     ----------------------------------
+     VConf Iteration   1
+
+     Conformational Search Step.
+     ----------------------------------
+     ----------------------------------
+
+          ----------------------------------------------------------------------
+                              Prepare Starting Structure.
+          ----------------------------------------------------------------------
+
+          -------------------------------
+          Initial GB energy and gradient.
+          -------------------------------
+
+          In Vacuo energy                :         9.3810809905 Kcal/mol
+          GB Solvation energy            :       -65.8149430427 Kcal/mol
+          GB Energy                      :       -56.4338620521 Kcal/mol
+
+          RMS gradient                   :         5.2707773829 Kcal/mol/Angs
+          Max gradient                   :        23.3301581986 Kcal/mol/Angs
+
+          --------------------------------
+          Initial PBSA single point energy.
+          --------------------------------
+
+          PBSA Energy                    :       -57.8267060801 Kcal/mol
+
+          --------------------------------------------
+          GB Conjugate Gradient Geometry Optimization.
+          --------------------------------------------
+
+          In Vacuo energy                :         8.3899525761 Kcal/mol
+          GB Solvation energy            :       -65.4395909333 Kcal/mol
+          GB Energy                      :       -57.0496383572 Kcal/mol
+
+          RMS gradient                   :         0.0012225882 Kcal/mol/Angs
+          Max gradient                   :         0.0027351467 Kcal/mol/Angs
+          Total geometry steps           :     99
+
+          Geometry optimization failed to converge.
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         8.3899470394 Kcal/mol
+          GB Solvation energy            :       -65.4395218014 Kcal/mol
+          GB Energy                      :       -57.0495747619 Kcal/mol
+
+          RMS gradient                   :         0.0002725928 Kcal/mol/Angs
+          Max gradient                   :         0.0006930884 Kcal/mol/Angs
+          Total geometry steps           :     26
+
+          Geometry optimization converged.
+
+          ----------------
+          Check Structure.
+          ----------------
+
+          Check parity                                          : Correct
+          Check general cis/trans bond arrangements maintained  : Yes
+
+          Structure accepted.
+
+          ... Done with initial geometry energy minimzation.
+
+          ----------------------
+          Single-point energies.
+          ----------------------
+
+          GB energy of GB optimized structure                -57.0495747619 kcal/mol
+          Difference w.r.t input structure GB energy          -0.6157127098 kcal/mol
+
+          PBSA energy of GB optimized structure              -58.3320289435 kcal/mol
+          Difference w.r.t input structure PBSA energy        -0.5053228634 kcal/mol
+
+          ... Starting structure preparation complete.
+
+          ----------------------------------------------------------------------
+                            Vconf Conformational Search Procedure.
+          ----------------------------------------------------------------------
+
+          -----------------------
+          Mode based Tork search.
+          -----------------------
+
+          Check that the number of drivers is not zero ...
+
+          Number of dihedrals                       :       8
+          Total number of unique rotatable bonds    :       3
+          Number after removing excluded atoms      :       3
+          Number after removing double-bonds        :       3
+          Number after removing aromatic bonds      :       3
+
+          Number of regular Tork drivers            :       3
+
+          -------------------
+          Single mode search.
+          -------------------
+
+          Build initial drivers for the search ...
+
+          Number of regular Tork drivers            :       3
+          Number of drivers below energy cutoff     :       3
+          Number of drivers to be selected for use  :       3
+
+          Selection method: largest number of significantly weighted bond torsions.
+
+          ... Done with building drivers.
+
+          ----------------------------------------
+          MPI parallelization over search drivers.
+          ----------------------------------------
+
+          Number of MPI processes     :   16
+          MPI process work assignment : each process assigned    2 searches
+          MPI process communication   : none (independent searches)
+          MPI load balancing          : off
+
+          Lowest energy (U+W) of process rank 0 for each MPI search ...
+
+                                                              CPU Time (mins)
+          MPI Rank    Search    Energy found (kcal/mol)     Search    MPI Commn.
+               0         1             -59.6715110955         0.00        0.00
+               0         2             -59.6715110955         0.00        0.00
+
+
+          Parallel search details ...
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     1
+          -----------------------------------------------------------------------
+
+          Process Rank:     0
+
+          Unique Conformer ID:         1
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 1
+                                   ID                     2
+                                   Direction             -1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -53.8222583563 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3888993112 Kcal/mol
+          GB Solvation energy            :       -65.7781420048 Kcal/mol
+          GB Energy                      :       -58.3892426936 Kcal/mol
+
+          RMS gradient                   :         0.0031267162 Kcal/mol/Angs
+          Max gradient                   :         0.0088418113 Kcal/mol/Angs
+          Total geometry steps           :    312
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892426936 kcal/mol
+          Difference w.r.t current lowest energy         -1.3396679317 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889930967 Kcal/mol
+          GB Solvation energy            :       -65.7779488090 Kcal/mol
+          GB Energy                      :       -58.3889557123 Kcal/mol
+
+          RMS gradient                   :         0.0002638407 Kcal/mol/Angs
+          Max gradient                   :         0.0005438403 Kcal/mol/Angs
+          Total geometry steps           :     65
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889557123 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393809503 kcal/mol
+
+          PBSA energy of this structure                 -59.6715110955 kcal/mol
+          Difference w.r.t current lowest energy         -1.3391518080 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     2
+          -----------------------------------------------------------------------
+
+          Process Rank:     1
+
+          Unique Conformer ID:         2
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 1
+                                   ID                     2
+                                   Direction              1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -53.8122455568 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886937563 Kcal/mol
+          GB Solvation energy            :       -65.7781800457 Kcal/mol
+          GB Energy                      :       -58.3894862894 Kcal/mol
+
+          RMS gradient                   :         0.0025715431 Kcal/mol/Angs
+          Max gradient                   :         0.0059456203 Kcal/mol/Angs
+          Total geometry steps           :    288
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3894862894 kcal/mol
+          Difference w.r.t current lowest energy         -1.3399115274 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887232409 Kcal/mol
+          GB Solvation energy            :       -65.7780536781 Kcal/mol
+          GB Energy                      :       -58.3893304372 Kcal/mol
+
+          RMS gradient                   :         0.0003254098 Kcal/mol/Angs
+          Max gradient                   :         0.0008283586 Kcal/mol/Angs
+          Total geometry steps           :     66
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893304372 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397556753 kcal/mol
+
+          PBSA energy of this structure                 -59.5225943334 kcal/mol
+          Difference w.r.t current lowest energy         -1.1902350458 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     3
+          -----------------------------------------------------------------------
+
+          Process Rank:     2
+
+          Unique Conformer ID:         3
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 2
+                                   ID                     3
+                                   Direction             -1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -50.2635421281 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7818580270 Kcal/mol
+          GB Solvation energy            :       -66.5569284903 Kcal/mol
+          GB Energy                      :       -56.7750704633 Kcal/mol
+
+          RMS gradient                   :         0.0030782001 Kcal/mol/Angs
+          Max gradient                   :         0.0078231566 Kcal/mol/Angs
+          Total geometry steps           :    205
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750704633 kcal/mol
+          Difference w.r.t current lowest energy          0.2745042986 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7817318227 Kcal/mol
+          GB Solvation energy            :       -66.5567348649 Kcal/mol
+          GB Energy                      :       -56.7750030422 Kcal/mol
+
+          RMS gradient                   :         0.0003122263 Kcal/mol/Angs
+          Max gradient                   :         0.0009698419 Kcal/mol/Angs
+          Total geometry steps           :     53
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750030422 kcal/mol
+          Difference w.r.t current lowest energy          0.2745717198 kcal/mol
+
+          PBSA energy of this structure                 -58.0284532327 kcal/mol
+          Difference w.r.t current lowest energy          0.3039060549 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     4
+          -----------------------------------------------------------------------
+
+          Process Rank:     3
+
+          Unique Conformer ID:         4
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 2
+                                   ID                     3
+                                   Direction              1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -50.2658197056 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7812593531 Kcal/mol
+          GB Solvation energy            :       -66.5573603776 Kcal/mol
+          GB Energy                      :       -56.7761010245 Kcal/mol
+
+          RMS gradient                   :         0.0022630504 Kcal/mol/Angs
+          Max gradient                   :         0.0058438328 Kcal/mol/Angs
+          Total geometry steps           :    188
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7761010245 kcal/mol
+          Difference w.r.t current lowest energy          0.2734737375 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809839906 Kcal/mol
+          GB Solvation energy            :       -66.5569054838 Kcal/mol
+          GB Energy                      :       -56.7759214932 Kcal/mol
+
+          RMS gradient                   :         0.0002455165 Kcal/mol/Angs
+          Max gradient                   :         0.0008682050 Kcal/mol/Angs
+          Total geometry steps           :     53
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7759214932 kcal/mol
+          Difference w.r.t current lowest energy          0.2736532687 kcal/mol
+
+          PBSA energy of this structure                 -58.0510292343 kcal/mol
+          Difference w.r.t current lowest energy          0.2813300533 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     5
+          -----------------------------------------------------------------------
+
+          Process Rank:     4
+
+          Unique Conformer ID:         5
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 3
+                                   ID                     1
+                                   Direction             -1
+                                   Force Constant      16.0
+
+          *** Hit distortion energy limit. Partial distortion carried out. ***
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -58.1939921147 kcal/mol
+                                   Steps                  4
+                                   Size                  72.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3884227276 Kcal/mol
+          GB Solvation energy            :       -65.7781817376 Kcal/mol
+          GB Energy                      :       -58.3897590100 Kcal/mol
+
+          RMS gradient                   :         0.0028979590 Kcal/mol/Angs
+          Max gradient                   :         0.0066923084 Kcal/mol/Angs
+          Total geometry steps           :    151
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3897590100 kcal/mol
+          Difference w.r.t current lowest energy         -1.3401842481 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887239339 Kcal/mol
+          GB Solvation energy            :       -65.7780521217 Kcal/mol
+          GB Energy                      :       -58.3893281879 Kcal/mol
+
+          RMS gradient                   :         0.0003313860 Kcal/mol/Angs
+          Max gradient                   :         0.0008010379 Kcal/mol/Angs
+          Total geometry steps           :     47
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893281879 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397534259 kcal/mol
+
+          PBSA energy of this structure                 -59.5210201324 kcal/mol
+          Difference w.r.t current lowest energy         -1.1886608448 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     6
+          -----------------------------------------------------------------------
+
+          Process Rank:     5
+
+          Unique Conformer ID:         6
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 3
+                                   ID                     1
+                                   Direction              1
+                                   Force Constant      16.0
+
+          *** Hit distortion energy limit. Partial distortion carried out. ***
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -58.1870079197 kcal/mol
+                                   Steps                  4
+                                   Size                  72.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887847335 Kcal/mol
+          GB Solvation energy            :       -65.7780411557 Kcal/mol
+          GB Energy                      :       -58.3892564222 Kcal/mol
+
+          RMS gradient                   :         0.0024119134 Kcal/mol/Angs
+          Max gradient                   :         0.0060181956 Kcal/mol/Angs
+          Total geometry steps           :    139
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892564222 kcal/mol
+          Difference w.r.t current lowest energy         -1.3396816603 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889973797 Kcal/mol
+          GB Solvation energy            :       -65.7779506895 Kcal/mol
+          GB Energy                      :       -58.3889533098 Kcal/mol
+
+          RMS gradient                   :         0.0001646576 Kcal/mol/Angs
+          Max gradient                   :         0.0005195170 Kcal/mol/Angs
+          Total geometry steps           :     59
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889533098 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393785478 kcal/mol
+
+          PBSA energy of this structure                 -59.6697716210 kcal/mol
+          Difference w.r.t current lowest energy         -1.3374123334 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     7
+          -----------------------------------------------------------------------
+
+          Process Rank:     6
+
+          Unique Conformer ID:         7
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 4
+                                   ID                     2
+                                   Direction             -1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -53.8222583563 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3888993112 Kcal/mol
+          GB Solvation energy            :       -65.7781420048 Kcal/mol
+          GB Energy                      :       -58.3892426936 Kcal/mol
+
+          RMS gradient                   :         0.0031267162 Kcal/mol/Angs
+          Max gradient                   :         0.0088418113 Kcal/mol/Angs
+          Total geometry steps           :    312
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892426936 kcal/mol
+          Difference w.r.t current lowest energy         -1.3396679317 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889930967 Kcal/mol
+          GB Solvation energy            :       -65.7779488090 Kcal/mol
+          GB Energy                      :       -58.3889557123 Kcal/mol
+
+          RMS gradient                   :         0.0002638407 Kcal/mol/Angs
+          Max gradient                   :         0.0005438403 Kcal/mol/Angs
+          Total geometry steps           :     65
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889557123 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393809503 kcal/mol
+
+          PBSA energy of this structure                 -59.6715110955 kcal/mol
+          Difference w.r.t current lowest energy         -1.3391518080 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     8
+          -----------------------------------------------------------------------
+
+          Process Rank:     7
+
+          Unique Conformer ID:         8
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 4
+                                   ID                     2
+                                   Direction              1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -53.8122455568 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886937563 Kcal/mol
+          GB Solvation energy            :       -65.7781800457 Kcal/mol
+          GB Energy                      :       -58.3894862894 Kcal/mol
+
+          RMS gradient                   :         0.0025715431 Kcal/mol/Angs
+          Max gradient                   :         0.0059456203 Kcal/mol/Angs
+          Total geometry steps           :    288
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3894862894 kcal/mol
+          Difference w.r.t current lowest energy         -1.3399115274 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887232409 Kcal/mol
+          GB Solvation energy            :       -65.7780536781 Kcal/mol
+          GB Energy                      :       -58.3893304372 Kcal/mol
+
+          RMS gradient                   :         0.0003254098 Kcal/mol/Angs
+          Max gradient                   :         0.0008283586 Kcal/mol/Angs
+          Total geometry steps           :     66
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893304372 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397556753 kcal/mol
+
+          PBSA energy of this structure                 -59.5225943334 kcal/mol
+          Difference w.r.t current lowest energy         -1.1902350458 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number     9
+          -----------------------------------------------------------------------
+
+          Process Rank:     8
+
+          Unique Conformer ID:         9
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 5
+                                   ID                     3
+                                   Direction             -1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -50.2635421281 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7818580270 Kcal/mol
+          GB Solvation energy            :       -66.5569284903 Kcal/mol
+          GB Energy                      :       -56.7750704633 Kcal/mol
+
+          RMS gradient                   :         0.0030782001 Kcal/mol/Angs
+          Max gradient                   :         0.0078231566 Kcal/mol/Angs
+          Total geometry steps           :    205
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750704633 kcal/mol
+          Difference w.r.t current lowest energy          0.2745042986 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7817318227 Kcal/mol
+          GB Solvation energy            :       -66.5567348649 Kcal/mol
+          GB Energy                      :       -56.7750030422 Kcal/mol
+
+          RMS gradient                   :         0.0003122263 Kcal/mol/Angs
+          Max gradient                   :         0.0009698419 Kcal/mol/Angs
+          Total geometry steps           :     53
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750030422 kcal/mol
+          Difference w.r.t current lowest energy          0.2745717198 kcal/mol
+
+          PBSA energy of this structure                 -58.0284532327 kcal/mol
+          Difference w.r.t current lowest energy          0.3039060549 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    10
+          -----------------------------------------------------------------------
+
+          Process Rank:     9
+
+          Unique Conformer ID:        10
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 5
+                                   ID                     3
+                                   Direction              1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -50.2658197056 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7812593531 Kcal/mol
+          GB Solvation energy            :       -66.5573603776 Kcal/mol
+          GB Energy                      :       -56.7761010245 Kcal/mol
+
+          RMS gradient                   :         0.0022630504 Kcal/mol/Angs
+          Max gradient                   :         0.0058438328 Kcal/mol/Angs
+          Total geometry steps           :    188
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7761010245 kcal/mol
+          Difference w.r.t current lowest energy          0.2734737375 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809839906 Kcal/mol
+          GB Solvation energy            :       -66.5569054838 Kcal/mol
+          GB Energy                      :       -56.7759214932 Kcal/mol
+
+          RMS gradient                   :         0.0002455165 Kcal/mol/Angs
+          Max gradient                   :         0.0008682050 Kcal/mol/Angs
+          Total geometry steps           :     53
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7759214932 kcal/mol
+          Difference w.r.t current lowest energy          0.2736532687 kcal/mol
+
+          PBSA energy of this structure                 -58.0510292343 kcal/mol
+          Difference w.r.t current lowest energy          0.2813300533 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    11
+          -----------------------------------------------------------------------
+
+          Process Rank:    10
+
+          Unique Conformer ID:        11
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 6
+                                   ID                     1
+                                   Direction             -1
+                                   Force Constant      16.0
+
+          *** Hit distortion energy limit. Partial distortion carried out. ***
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -58.1939921147 kcal/mol
+                                   Steps                  4
+                                   Size                  72.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3884227276 Kcal/mol
+          GB Solvation energy            :       -65.7781817376 Kcal/mol
+          GB Energy                      :       -58.3897590100 Kcal/mol
+
+          RMS gradient                   :         0.0028979590 Kcal/mol/Angs
+          Max gradient                   :         0.0066923084 Kcal/mol/Angs
+          Total geometry steps           :    151
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3897590100 kcal/mol
+          Difference w.r.t current lowest energy         -1.3401842481 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887239339 Kcal/mol
+          GB Solvation energy            :       -65.7780521217 Kcal/mol
+          GB Energy                      :       -58.3893281879 Kcal/mol
+
+          RMS gradient                   :         0.0003313860 Kcal/mol/Angs
+          Max gradient                   :         0.0008010379 Kcal/mol/Angs
+          Total geometry steps           :     47
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893281879 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397534259 kcal/mol
+
+          PBSA energy of this structure                 -59.5210201324 kcal/mol
+          Difference w.r.t current lowest energy         -1.1886608448 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    12
+          -----------------------------------------------------------------------
+
+          Process Rank:    11
+
+          Unique Conformer ID:        12
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 6
+                                   ID                     1
+                                   Direction              1
+                                   Force Constant      16.0
+
+          *** Hit distortion energy limit. Partial distortion carried out. ***
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -58.1870079197 kcal/mol
+                                   Steps                  4
+                                   Size                  72.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887847335 Kcal/mol
+          GB Solvation energy            :       -65.7780411557 Kcal/mol
+          GB Energy                      :       -58.3892564222 Kcal/mol
+
+          RMS gradient                   :         0.0024119134 Kcal/mol/Angs
+          Max gradient                   :         0.0060181956 Kcal/mol/Angs
+          Total geometry steps           :    139
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892564222 kcal/mol
+          Difference w.r.t current lowest energy         -1.3396816603 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889973797 Kcal/mol
+          GB Solvation energy            :       -65.7779506895 Kcal/mol
+          GB Energy                      :       -58.3889533098 Kcal/mol
+
+          RMS gradient                   :         0.0001646576 Kcal/mol/Angs
+          Max gradient                   :         0.0005195170 Kcal/mol/Angs
+          Total geometry steps           :     59
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889533098 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393785478 kcal/mol
+
+          PBSA energy of this structure                 -59.6697716210 kcal/mol
+          Difference w.r.t current lowest energy         -1.3374123334 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    13
+          -----------------------------------------------------------------------
+
+          Process Rank:    12
+
+          Unique Conformer ID:        13
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 7
+                                   ID                     2
+                                   Direction             -1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -53.8222583563 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3888993112 Kcal/mol
+          GB Solvation energy            :       -65.7781420048 Kcal/mol
+          GB Energy                      :       -58.3892426936 Kcal/mol
+
+          RMS gradient                   :         0.0031267162 Kcal/mol/Angs
+          Max gradient                   :         0.0088418113 Kcal/mol/Angs
+          Total geometry steps           :    312
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892426936 kcal/mol
+          Difference w.r.t current lowest energy         -1.3396679317 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889930967 Kcal/mol
+          GB Solvation energy            :       -65.7779488090 Kcal/mol
+          GB Energy                      :       -58.3889557123 Kcal/mol
+
+          RMS gradient                   :         0.0002638407 Kcal/mol/Angs
+          Max gradient                   :         0.0005438403 Kcal/mol/Angs
+          Total geometry steps           :     65
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889557123 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393809503 kcal/mol
+
+          PBSA energy of this structure                 -59.6715110955 kcal/mol
+          Difference w.r.t current lowest energy         -1.3391518080 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    14
+          -----------------------------------------------------------------------
+
+          Process Rank:    13
+
+          Unique Conformer ID:        14
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 7
+                                   ID                     2
+                                   Direction              1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -53.8122455568 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886937563 Kcal/mol
+          GB Solvation energy            :       -65.7781800457 Kcal/mol
+          GB Energy                      :       -58.3894862894 Kcal/mol
+
+          RMS gradient                   :         0.0025715431 Kcal/mol/Angs
+          Max gradient                   :         0.0059456203 Kcal/mol/Angs
+          Total geometry steps           :    288
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3894862894 kcal/mol
+          Difference w.r.t current lowest energy         -1.3399115274 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887232409 Kcal/mol
+          GB Solvation energy            :       -65.7780536781 Kcal/mol
+          GB Energy                      :       -58.3893304372 Kcal/mol
+
+          RMS gradient                   :         0.0003254098 Kcal/mol/Angs
+          Max gradient                   :         0.0008283586 Kcal/mol/Angs
+          Total geometry steps           :     66
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893304372 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397556753 kcal/mol
+
+          PBSA energy of this structure                 -59.5225943334 kcal/mol
+          Difference w.r.t current lowest energy         -1.1902350458 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    15
+          -----------------------------------------------------------------------
+
+          Process Rank:    14
+
+          Unique Conformer ID:        15
+
+          Attempt a driver rotation of -180.0 degrees.
+
+          Driver Information     : Number                 8
+                                   ID                     3
+                                   Direction             -1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -50.2635421281 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7818580270 Kcal/mol
+          GB Solvation energy            :       -66.5569284903 Kcal/mol
+          GB Energy                      :       -56.7750704633 Kcal/mol
+
+          RMS gradient                   :         0.0030782001 Kcal/mol/Angs
+          Max gradient                   :         0.0078231566 Kcal/mol/Angs
+          Total geometry steps           :    205
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750704633 kcal/mol
+          Difference w.r.t current lowest energy          0.2745042986 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7817318227 Kcal/mol
+          GB Solvation energy            :       -66.5567348649 Kcal/mol
+          GB Energy                      :       -56.7750030422 Kcal/mol
+
+          RMS gradient                   :         0.0003122263 Kcal/mol/Angs
+          Max gradient                   :         0.0009698419 Kcal/mol/Angs
+          Total geometry steps           :     53
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750030422 kcal/mol
+          Difference w.r.t current lowest energy          0.2745717198 kcal/mol
+
+          PBSA energy of this structure                 -58.0284532327 kcal/mol
+          Difference w.r.t current lowest energy          0.3039060549 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    16
+          -----------------------------------------------------------------------
+
+          Process Rank:    15
+
+          Unique Conformer ID:        16
+
+          Attempt a driver rotation of  180.0 degrees.
+
+          Driver Information     : Number                 8
+                                   ID                     3
+                                   Direction              1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -50.2658197056 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7812593531 Kcal/mol
+          GB Solvation energy            :       -66.5573603776 Kcal/mol
+          GB Energy                      :       -56.7761010245 Kcal/mol
+
+          RMS gradient                   :         0.0022630504 Kcal/mol/Angs
+          Max gradient                   :         0.0058438328 Kcal/mol/Angs
+          Total geometry steps           :    188
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7761010245 kcal/mol
+          Difference w.r.t current lowest energy          0.2734737375 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809839906 Kcal/mol
+          GB Solvation energy            :       -66.5569054838 Kcal/mol
+          GB Energy                      :       -56.7759214932 Kcal/mol
+
+          RMS gradient                   :         0.0002455165 Kcal/mol/Angs
+          Max gradient                   :         0.0008682050 Kcal/mol/Angs
+          Total geometry steps           :     53
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7759214932 kcal/mol
+          Difference w.r.t current lowest energy          0.2736532687 kcal/mol
+
+          PBSA energy of this structure                 -58.0510292343 kcal/mol
+          Difference w.r.t current lowest energy          0.2813300533 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    17
+          -----------------------------------------------------------------------
+
+          Process Rank:     0
+
+          Unique Conformer ID:        17
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                 6
+                                   ID                     1
+                                   Direction             -1
+                                   Force Constant      16.0
+
+          Distortion Information : Energy before        -58.3889557123 kcal/mol
+                                   Energy after         -57.6694892282 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886760983 Kcal/mol
+          GB Solvation energy            :       -65.7781706023 Kcal/mol
+          GB Energy                      :       -58.3894945040 Kcal/mol
+
+          RMS gradient                   :         0.0022981516 Kcal/mol/Angs
+          Max gradient                   :         0.0055865137 Kcal/mol/Angs
+          Total geometry steps           :    201
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3894945040 kcal/mol
+          Difference w.r.t current lowest energy         -0.0005387917 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886965709 Kcal/mol
+          GB Solvation energy            :       -65.7780757398 Kcal/mol
+          GB Energy                      :       -58.3893791689 Kcal/mol
+
+          RMS gradient                   :         0.0002421372 Kcal/mol/Angs
+          Max gradient                   :         0.0005945051 Kcal/mol/Angs
+          Total geometry steps           :     77
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893791689 kcal/mol
+          Difference w.r.t current lowest energy         -0.0004234566 kcal/mol
+
+          PBSA energy of this structure                 -59.5225050092 kcal/mol
+          Difference w.r.t current lowest energy          0.1490060863 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    18
+          -----------------------------------------------------------------------
+
+          Process Rank:     1
+
+          Unique Conformer ID:        18
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                 6
+                                   ID                     1
+                                   Direction              1
+                                   Force Constant      16.0
+
+          Distortion Information : Energy before        -58.3893304372 kcal/mol
+                                   Energy after         -57.6881620217 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889323651 Kcal/mol
+          GB Solvation energy            :       -65.7778922219 Kcal/mol
+          GB Energy                      :       -58.3889598568 Kcal/mol
+
+          RMS gradient                   :         0.0031853466 Kcal/mol/Angs
+          Max gradient                   :         0.0076252063 Kcal/mol/Angs
+          Total geometry steps           :    186
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889598568 kcal/mol
+          Difference w.r.t current lowest energy          0.0003705804 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889846805 Kcal/mol
+          GB Solvation energy            :       -65.7779500150 Kcal/mol
+          GB Energy                      :       -58.3889653346 Kcal/mol
+
+          RMS gradient                   :         0.0002101551 Kcal/mol/Angs
+          Max gradient                   :         0.0005707922 Kcal/mol/Angs
+          Total geometry steps           :     80
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889653346 kcal/mol
+          Difference w.r.t current lowest energy          0.0003651026 kcal/mol
+
+          PBSA energy of this structure                 -59.6694738013 kcal/mol
+          Difference w.r.t current lowest energy         -0.1468794679 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    19
+          -----------------------------------------------------------------------
+
+          Process Rank:     2
+
+          Unique Conformer ID:        19
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                 7
+                                   ID                     2
+                                   Direction             -1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -56.6063506545 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889219999 Kcal/mol
+          GB Solvation energy            :       -65.7778331617 Kcal/mol
+          GB Energy                      :       -58.3889111618 Kcal/mol
+
+          RMS gradient                   :         0.0031989399 Kcal/mol/Angs
+          Max gradient                   :         0.0079825761 Kcal/mol/Angs
+          Total geometry steps           :    286
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889111618 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393363999 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889967100 Kcal/mol
+          GB Solvation energy            :       -65.7779587334 Kcal/mol
+          GB Energy                      :       -58.3889620235 Kcal/mol
+
+          RMS gradient                   :         0.0002900800 Kcal/mol/Angs
+          Max gradient                   :         0.0008252200 Kcal/mol/Angs
+          Total geometry steps           :     66
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889620235 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393872615 kcal/mol
+
+          PBSA energy of this structure                 -59.6696556871 kcal/mol
+          Difference w.r.t current lowest energy         -1.3372963996 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    20
+          -----------------------------------------------------------------------
+
+          Process Rank:     3
+
+          Unique Conformer ID:        20
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                 7
+                                   ID                     2
+                                   Direction              1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -56.6049794970 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887649099 Kcal/mol
+          GB Solvation energy            :       -65.7780495857 Kcal/mol
+          GB Energy                      :       -58.3892846758 Kcal/mol
+
+          RMS gradient                   :         0.0029725710 Kcal/mol/Angs
+          Max gradient                   :         0.0065059908 Kcal/mol/Angs
+          Total geometry steps           :    284
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892846758 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397099138 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887034271 Kcal/mol
+          GB Solvation energy            :       -65.7780695586 Kcal/mol
+          GB Energy                      :       -58.3893661315 Kcal/mol
+
+          RMS gradient                   :         0.0002669179 Kcal/mol/Angs
+          Max gradient                   :         0.0006527009 Kcal/mol/Angs
+          Total geometry steps           :     73
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893661315 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397913695 kcal/mol
+
+          PBSA energy of this structure                 -59.5231821725 kcal/mol
+          Difference w.r.t current lowest energy         -1.1908228850 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    21
+          -----------------------------------------------------------------------
+
+          Process Rank:     4
+
+          Unique Conformer ID:        21
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                 8
+                                   ID                     3
+                                   Direction             -1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -58.3893281879 kcal/mol
+                                   Energy after         -54.8532020666 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7815050724 Kcal/mol
+          GB Solvation energy            :       -66.5570154034 Kcal/mol
+          GB Energy                      :       -56.7755103310 Kcal/mol
+
+          RMS gradient                   :         0.0023395802 Kcal/mol/Angs
+          Max gradient                   :         0.0058726377 Kcal/mol/Angs
+          Total geometry steps           :    161
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7755103310 kcal/mol
+          Difference w.r.t current lowest energy          1.6138178569 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809824459 Kcal/mol
+          GB Solvation energy            :       -66.5568514718 Kcal/mol
+          GB Energy                      :       -56.7758690259 Kcal/mol
+
+          RMS gradient                   :         0.0002180298 Kcal/mol/Angs
+          Max gradient                   :         0.0005018589 Kcal/mol/Angs
+          Total geometry steps           :     61
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7758690259 kcal/mol
+          Difference w.r.t current lowest energy          1.6134591619 kcal/mol
+
+          PBSA energy of this structure                 -58.0600259525 kcal/mol
+          Difference w.r.t current lowest energy          1.4609941799 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    22
+          -----------------------------------------------------------------------
+
+          Process Rank:     5
+
+          Unique Conformer ID:        22
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                 8
+                                   ID                     3
+                                   Direction              1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -58.3889533098 kcal/mol
+                                   Energy after         -54.8521081028 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7815667319 Kcal/mol
+          GB Solvation energy            :       -66.5574985012 Kcal/mol
+          GB Energy                      :       -56.7759317694 Kcal/mol
+
+          RMS gradient                   :         0.0027339606 Kcal/mol/Angs
+          Max gradient                   :         0.0069166184 Kcal/mol/Angs
+          Total geometry steps           :    176
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7759317694 kcal/mol
+          Difference w.r.t current lowest energy          1.6130215404 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816791381 Kcal/mol
+          GB Solvation energy            :       -66.5567780618 Kcal/mol
+          GB Energy                      :       -56.7750989238 Kcal/mol
+
+          RMS gradient                   :         0.0002374493 Kcal/mol/Angs
+          Max gradient                   :         0.0005720967 Kcal/mol/Angs
+          Total geometry steps           :     52
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750989238 kcal/mol
+          Difference w.r.t current lowest energy          1.6138543860 kcal/mol
+
+          PBSA energy of this structure                 -57.9922489325 kcal/mol
+          Difference w.r.t current lowest energy          1.6775226885 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    23
+          -----------------------------------------------------------------------
+
+          Process Rank:     6
+
+          Unique Conformer ID:        23
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                 9
+                                   ID                     1
+                                   Direction             -1
+                                   Force Constant      16.0
+
+          Distortion Information : Energy before        -58.3889557123 kcal/mol
+                                   Energy after         -57.6694892282 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886760983 Kcal/mol
+          GB Solvation energy            :       -65.7781706023 Kcal/mol
+          GB Energy                      :       -58.3894945040 Kcal/mol
+
+          RMS gradient                   :         0.0022981516 Kcal/mol/Angs
+          Max gradient                   :         0.0055865137 Kcal/mol/Angs
+          Total geometry steps           :    201
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3894945040 kcal/mol
+          Difference w.r.t current lowest energy         -0.0005387917 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886965709 Kcal/mol
+          GB Solvation energy            :       -65.7780757398 Kcal/mol
+          GB Energy                      :       -58.3893791689 Kcal/mol
+
+          RMS gradient                   :         0.0002421372 Kcal/mol/Angs
+          Max gradient                   :         0.0005945051 Kcal/mol/Angs
+          Total geometry steps           :     77
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893791689 kcal/mol
+          Difference w.r.t current lowest energy         -0.0004234566 kcal/mol
+
+          PBSA energy of this structure                 -59.5225050092 kcal/mol
+          Difference w.r.t current lowest energy          0.1490060863 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    24
+          -----------------------------------------------------------------------
+
+          Process Rank:     7
+
+          Unique Conformer ID:        24
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                 9
+                                   ID                     1
+                                   Direction              1
+                                   Force Constant      16.0
+
+          Distortion Information : Energy before        -58.3893304372 kcal/mol
+                                   Energy after         -57.6881620217 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889323651 Kcal/mol
+          GB Solvation energy            :       -65.7778922219 Kcal/mol
+          GB Energy                      :       -58.3889598568 Kcal/mol
+
+          RMS gradient                   :         0.0031853466 Kcal/mol/Angs
+          Max gradient                   :         0.0076252063 Kcal/mol/Angs
+          Total geometry steps           :    186
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889598568 kcal/mol
+          Difference w.r.t current lowest energy          0.0003705804 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889846805 Kcal/mol
+          GB Solvation energy            :       -65.7779500150 Kcal/mol
+          GB Energy                      :       -58.3889653346 Kcal/mol
+
+          RMS gradient                   :         0.0002101551 Kcal/mol/Angs
+          Max gradient                   :         0.0005707922 Kcal/mol/Angs
+          Total geometry steps           :     80
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889653346 kcal/mol
+          Difference w.r.t current lowest energy          0.0003651026 kcal/mol
+
+          PBSA energy of this structure                 -59.6694738013 kcal/mol
+          Difference w.r.t current lowest energy         -0.1468794679 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    25
+          -----------------------------------------------------------------------
+
+          Process Rank:     8
+
+          Unique Conformer ID:        25
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                10
+                                   ID                     2
+                                   Direction             -1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -56.6063506545 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889219999 Kcal/mol
+          GB Solvation energy            :       -65.7778331617 Kcal/mol
+          GB Energy                      :       -58.3889111618 Kcal/mol
+
+          RMS gradient                   :         0.0031989399 Kcal/mol/Angs
+          Max gradient                   :         0.0079825761 Kcal/mol/Angs
+          Total geometry steps           :    286
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889111618 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393363999 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889967100 Kcal/mol
+          GB Solvation energy            :       -65.7779587334 Kcal/mol
+          GB Energy                      :       -58.3889620235 Kcal/mol
+
+          RMS gradient                   :         0.0002900800 Kcal/mol/Angs
+          Max gradient                   :         0.0008252200 Kcal/mol/Angs
+          Total geometry steps           :     66
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889620235 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393872615 kcal/mol
+
+          PBSA energy of this structure                 -59.6696556871 kcal/mol
+          Difference w.r.t current lowest energy         -1.3372963996 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    26
+          -----------------------------------------------------------------------
+
+          Process Rank:     9
+
+          Unique Conformer ID:        26
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                10
+                                   ID                     2
+                                   Direction              1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -56.6049794970 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887649099 Kcal/mol
+          GB Solvation energy            :       -65.7780495857 Kcal/mol
+          GB Energy                      :       -58.3892846758 Kcal/mol
+
+          RMS gradient                   :         0.0029725710 Kcal/mol/Angs
+          Max gradient                   :         0.0065059908 Kcal/mol/Angs
+          Total geometry steps           :    284
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892846758 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397099138 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887034271 Kcal/mol
+          GB Solvation energy            :       -65.7780695586 Kcal/mol
+          GB Energy                      :       -58.3893661315 Kcal/mol
+
+          RMS gradient                   :         0.0002669179 Kcal/mol/Angs
+          Max gradient                   :         0.0006527009 Kcal/mol/Angs
+          Total geometry steps           :     73
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893661315 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397913695 kcal/mol
+
+          PBSA energy of this structure                 -59.5231821725 kcal/mol
+          Difference w.r.t current lowest energy         -1.1908228850 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    27
+          -----------------------------------------------------------------------
+
+          Process Rank:    10
+
+          Unique Conformer ID:        27
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                11
+                                   ID                     3
+                                   Direction             -1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -58.3893281879 kcal/mol
+                                   Energy after         -54.8532020666 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7815050724 Kcal/mol
+          GB Solvation energy            :       -66.5570154034 Kcal/mol
+          GB Energy                      :       -56.7755103310 Kcal/mol
+
+          RMS gradient                   :         0.0023395802 Kcal/mol/Angs
+          Max gradient                   :         0.0058726377 Kcal/mol/Angs
+          Total geometry steps           :    161
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7755103310 kcal/mol
+          Difference w.r.t current lowest energy          1.6138178569 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809824459 Kcal/mol
+          GB Solvation energy            :       -66.5568514718 Kcal/mol
+          GB Energy                      :       -56.7758690259 Kcal/mol
+
+          RMS gradient                   :         0.0002180298 Kcal/mol/Angs
+          Max gradient                   :         0.0005018589 Kcal/mol/Angs
+          Total geometry steps           :     61
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7758690259 kcal/mol
+          Difference w.r.t current lowest energy          1.6134591619 kcal/mol
+
+          PBSA energy of this structure                 -58.0600259525 kcal/mol
+          Difference w.r.t current lowest energy          1.4609941799 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    28
+          -----------------------------------------------------------------------
+
+          Process Rank:    11
+
+          Unique Conformer ID:        28
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                11
+                                   ID                     3
+                                   Direction              1
+                                   Force Constant     121.6
+
+          Distortion Information : Energy before        -58.3889533098 kcal/mol
+                                   Energy after         -54.8521081028 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7815667319 Kcal/mol
+          GB Solvation energy            :       -66.5574985012 Kcal/mol
+          GB Energy                      :       -56.7759317694 Kcal/mol
+
+          RMS gradient                   :         0.0027339606 Kcal/mol/Angs
+          Max gradient                   :         0.0069166184 Kcal/mol/Angs
+          Total geometry steps           :    176
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7759317694 kcal/mol
+          Difference w.r.t current lowest energy          1.6130215404 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816791381 Kcal/mol
+          GB Solvation energy            :       -66.5567780618 Kcal/mol
+          GB Energy                      :       -56.7750989238 Kcal/mol
+
+          RMS gradient                   :         0.0002374493 Kcal/mol/Angs
+          Max gradient                   :         0.0005720967 Kcal/mol/Angs
+          Total geometry steps           :     52
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750989238 kcal/mol
+          Difference w.r.t current lowest energy          1.6138543860 kcal/mol
+
+          PBSA energy of this structure                 -57.9922489325 kcal/mol
+          Difference w.r.t current lowest energy          1.6775226885 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    29
+          -----------------------------------------------------------------------
+
+          Process Rank:    12
+
+          Unique Conformer ID:        29
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                12
+                                   ID                     1
+                                   Direction             -1
+                                   Force Constant      16.0
+
+          Distortion Information : Energy before        -58.3889557123 kcal/mol
+                                   Energy after         -57.6694892282 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886760983 Kcal/mol
+          GB Solvation energy            :       -65.7781706023 Kcal/mol
+          GB Energy                      :       -58.3894945040 Kcal/mol
+
+          RMS gradient                   :         0.0022981516 Kcal/mol/Angs
+          Max gradient                   :         0.0055865137 Kcal/mol/Angs
+          Total geometry steps           :    201
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3894945040 kcal/mol
+          Difference w.r.t current lowest energy         -0.0005387917 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3886965709 Kcal/mol
+          GB Solvation energy            :       -65.7780757398 Kcal/mol
+          GB Energy                      :       -58.3893791689 Kcal/mol
+
+          RMS gradient                   :         0.0002421372 Kcal/mol/Angs
+          Max gradient                   :         0.0005945051 Kcal/mol/Angs
+          Total geometry steps           :     77
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893791689 kcal/mol
+          Difference w.r.t current lowest energy         -0.0004234566 kcal/mol
+
+          PBSA energy of this structure                 -59.5225050092 kcal/mol
+          Difference w.r.t current lowest energy          0.1490060863 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    30
+          -----------------------------------------------------------------------
+
+          Process Rank:    13
+
+          Unique Conformer ID:        30
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                12
+                                   ID                     1
+                                   Direction              1
+                                   Force Constant      16.0
+
+          Distortion Information : Energy before        -58.3893304372 kcal/mol
+                                   Energy after         -57.6881620217 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889323651 Kcal/mol
+          GB Solvation energy            :       -65.7778922219 Kcal/mol
+          GB Energy                      :       -58.3889598568 Kcal/mol
+
+          RMS gradient                   :         0.0031853466 Kcal/mol/Angs
+          Max gradient                   :         0.0076252063 Kcal/mol/Angs
+          Total geometry steps           :    186
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889598568 kcal/mol
+          Difference w.r.t current lowest energy          0.0003705804 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889846805 Kcal/mol
+          GB Solvation energy            :       -65.7779500150 Kcal/mol
+          GB Energy                      :       -58.3889653346 Kcal/mol
+
+          RMS gradient                   :         0.0002101551 Kcal/mol/Angs
+          Max gradient                   :         0.0005707922 Kcal/mol/Angs
+          Total geometry steps           :     80
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889653346 kcal/mol
+          Difference w.r.t current lowest energy          0.0003651026 kcal/mol
+
+          PBSA energy of this structure                 -59.6694738013 kcal/mol
+          Difference w.r.t current lowest energy         -0.1468794679 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    31
+          -----------------------------------------------------------------------
+
+          Process Rank:    14
+
+          Unique Conformer ID:        31
+
+          Attempt a driver rotation of -135.0 degrees.
+
+          Driver Information     : Number                13
+                                   ID                     2
+                                   Direction             -1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -56.6063506545 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889219999 Kcal/mol
+          GB Solvation energy            :       -65.7778331617 Kcal/mol
+          GB Energy                      :       -58.3889111618 Kcal/mol
+
+          RMS gradient                   :         0.0031989399 Kcal/mol/Angs
+          Max gradient                   :         0.0079825761 Kcal/mol/Angs
+          Total geometry steps           :    286
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889111618 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393363999 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889967100 Kcal/mol
+          GB Solvation energy            :       -65.7779587334 Kcal/mol
+          GB Energy                      :       -58.3889620235 Kcal/mol
+
+          RMS gradient                   :         0.0002900800 Kcal/mol/Angs
+          Max gradient                   :         0.0008252200 Kcal/mol/Angs
+          Total geometry steps           :     66
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889620235 kcal/mol
+          Difference w.r.t current lowest energy         -1.3393872615 kcal/mol
+
+          PBSA energy of this structure                 -59.6696556871 kcal/mol
+          Difference w.r.t current lowest energy         -1.3372963996 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                              Single-mode search number    32
+          -----------------------------------------------------------------------
+
+          Process Rank:    15
+
+          Unique Conformer ID:        32
+
+          Attempt a driver rotation of  135.0 degrees.
+
+          Driver Information     : Number                13
+                                   ID                     2
+                                   Direction              1
+                                   Force Constant     104.0
+
+          Distortion Information : Energy before        -57.0495747619 kcal/mol
+                                   Energy after         -56.6049794970 kcal/mol
+                                   Steps                 10
+                                   Size                 135.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887649099 Kcal/mol
+          GB Solvation energy            :       -65.7780495857 Kcal/mol
+          GB Energy                      :       -58.3892846758 Kcal/mol
+
+          RMS gradient                   :         0.0029725710 Kcal/mol/Angs
+          Max gradient                   :         0.0065059908 Kcal/mol/Angs
+          Total geometry steps           :    284
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3892846758 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397099138 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887034271 Kcal/mol
+          GB Solvation energy            :       -65.7780695586 Kcal/mol
+          GB Energy                      :       -58.3893661315 Kcal/mol
+
+          RMS gradient                   :         0.0002669179 Kcal/mol/Angs
+          Max gradient                   :         0.0006527009 Kcal/mol/Angs
+          Total geometry steps           :     73
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893661315 kcal/mol
+          Difference w.r.t current lowest energy         -1.3397913695 kcal/mol
+
+          PBSA energy of this structure                 -59.5231821725 kcal/mol
+          Difference w.r.t current lowest energy         -1.1908228850 kcal/mol
+
+          ... found new lowest energy minimum.
+
+          ----------------------------------------------------------------
+          Done with single-mode search.
+          It changed the lowest PBSA energy by      -1.3391518080 kcal/mol
+          ----------------------------------------------------------------
+
+          -----------------------------
+          Random pairs of modes search.
+          -----------------------------
+
+          Build initial drivers for the search ...
+
+          Number of regular Tork drivers            :       3
+          Number of drivers below energy cutoff     :       3
+          Number of drivers to be selected for use  :       3
+          Selection method                          : A range of drivers in order.
+          Range selected                            :    1 to    3
+
+
+          ... Done with building drivers.
+
+          WARNING: maxsearches is less than the number of
+           processes - increasing maxsearches to    16
+
+          ----------------------------------------
+          MPI parallelization over search drivers.
+          ----------------------------------------
+
+          Number of MPI processes     :   16
+          MPI process work assignment : each process assigned    1 search iters.
+          MPI process communication   : none (independent searches)
+          MPI load balancing          : off
+
+          Lowest energy (U+W) of process rank 0 for each MPI search ...
+
+                                                              CPU Time (mins)
+          MPI Rank    Search    Energy found (kcal/mol)     Search    MPI Commn.
+               0         1             -59.6715110955         0.00        0.00
+
+
+          Parallel search details ...
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     1
+          -----------------------------------------------------------------------
+
+          Process Rank:     0
+
+          Unique Conformer ID:        33
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction              1
+                                     Force Constant     104.1
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction             -1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889557123 kcal/mol
+                                   Energy after         -31.7529927631 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816422968 Kcal/mol
+          GB Solvation energy            :       -66.5577393198 Kcal/mol
+          GB Energy                      :       -56.7760970230 Kcal/mol
+
+          RMS gradient                   :         0.0026137855 Kcal/mol/Angs
+          Max gradient                   :         0.0065618788 Kcal/mol/Angs
+          Total geometry steps           :    183
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7760970230 kcal/mol
+          Difference w.r.t current lowest energy          1.6128586893 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816872440 Kcal/mol
+          GB Solvation energy            :       -66.5567789265 Kcal/mol
+          GB Energy                      :       -56.7750916825 Kcal/mol
+
+          RMS gradient                   :         0.0001801344 Kcal/mol/Angs
+          Max gradient                   :         0.0004274992 Kcal/mol/Angs
+          Total geometry steps           :     63
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750916825 kcal/mol
+          Difference w.r.t current lowest energy          1.6138640297 kcal/mol
+
+          PBSA energy of this structure                 -57.9914895990 kcal/mol
+          Difference w.r.t current lowest energy          1.6800214965 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     2
+          -----------------------------------------------------------------------
+
+          Process Rank:     1
+
+          Unique Conformer ID:        34
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction             -1
+                                     Force Constant     104.1
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889653346 kcal/mol
+                                   Energy after         -32.8347202167 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7824837390 Kcal/mol
+          GB Solvation energy            :       -66.5576816168 Kcal/mol
+          GB Energy                      :       -56.7751978778 Kcal/mol
+
+          RMS gradient                   :         0.0026422521 Kcal/mol/Angs
+          Max gradient                   :         0.0060934400 Kcal/mol/Angs
+          Total geometry steps           :    165
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7751978778 kcal/mol
+          Difference w.r.t current lowest energy          1.6137674568 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816792380 Kcal/mol
+          GB Solvation energy            :       -66.5567481505 Kcal/mol
+          GB Energy                      :       -56.7750689125 Kcal/mol
+
+          RMS gradient                   :         0.0001747387 Kcal/mol/Angs
+          Max gradient                   :         0.0003230919 Kcal/mol/Angs
+          Total geometry steps           :     55
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750689125 kcal/mol
+          Difference w.r.t current lowest energy          1.6138964221 kcal/mol
+
+          PBSA energy of this structure                 -58.0287523786 kcal/mol
+          Difference w.r.t current lowest energy          1.6407214227 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     3
+          -----------------------------------------------------------------------
+
+          Process Rank:     2
+
+          Unique Conformer ID:        35
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 1
+                                     ID                     1
+                                     Direction              1
+                                     Force Constant      16.0
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889620235 kcal/mol
+                                   Energy after         -48.3946611300 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7805227027 Kcal/mol
+          GB Solvation energy            :       -66.5569303381 Kcal/mol
+          GB Energy                      :       -56.7764076354 Kcal/mol
+
+          RMS gradient                   :         0.0024468538 Kcal/mol/Angs
+          Max gradient                   :         0.0059682454 Kcal/mol/Angs
+          Total geometry steps           :    174
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7764076354 kcal/mol
+          Difference w.r.t current lowest energy          1.6125543881 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809586839 Kcal/mol
+          GB Solvation energy            :       -66.5568738399 Kcal/mol
+          GB Energy                      :       -56.7759151559 Kcal/mol
+
+          RMS gradient                   :         0.0002591463 Kcal/mol/Angs
+          Max gradient                   :         0.0008049131 Kcal/mol/Angs
+          Total geometry steps           :     81
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7759151559 kcal/mol
+          Difference w.r.t current lowest energy          1.6130468676 kcal/mol
+
+          PBSA energy of this structure                 -58.0504621208 kcal/mol
+          Difference w.r.t current lowest energy          1.6191935663 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     4
+          -----------------------------------------------------------------------
+
+          Process Rank:     3
+
+          Unique Conformer ID:        36
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction             -1
+                                     Force Constant     104.1
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3893661315 kcal/mol
+                                   Energy after         -32.8365150662 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7812165665 Kcal/mol
+          GB Solvation energy            :       -66.5569822673 Kcal/mol
+          GB Energy                      :       -56.7757657007 Kcal/mol
+
+          RMS gradient                   :         0.0031505796 Kcal/mol/Angs
+          Max gradient                   :         0.0087673101 Kcal/mol/Angs
+          Total geometry steps           :    164
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7757657007 kcal/mol
+          Difference w.r.t current lowest energy          1.6136004307 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7810007816 Kcal/mol
+          GB Solvation energy            :       -66.5568606489 Kcal/mol
+          GB Energy                      :       -56.7758598673 Kcal/mol
+
+          RMS gradient                   :         0.0001764762 Kcal/mol/Angs
+          Max gradient                   :         0.0004679989 Kcal/mol/Angs
+          Total geometry steps           :     59
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7758598673 kcal/mol
+          Difference w.r.t current lowest energy          1.6135062642 kcal/mol
+
+          PBSA energy of this structure                 -58.0600435254 kcal/mol
+          Difference w.r.t current lowest energy          1.4631386471 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     5
+          -----------------------------------------------------------------------
+
+          Process Rank:     4
+
+          Unique Conformer ID:        37
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 1
+                                     ID                     1
+                                     Direction              1
+                                     Force Constant      16.2
+
+          Driver 2 Information     : Number                 2
+                                     ID                     2
+                                     Direction              1
+                                     Force Constant     104.0
+
+          Distortion Information : Energy before        -58.3893281879 kcal/mol
+                                   Energy after         -54.8027454784 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887529974 Kcal/mol
+          GB Solvation energy            :       -65.7782778455 Kcal/mol
+          GB Energy                      :       -58.3895248481 Kcal/mol
+
+          RMS gradient                   :         0.0030654254 Kcal/mol/Angs
+          Max gradient                   :         0.0073939951 Kcal/mol/Angs
+          Total geometry steps           :    252
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3895248481 kcal/mol
+          Difference w.r.t current lowest energy         -0.0001966602 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3889771547 Kcal/mol
+          GB Solvation energy            :       -65.7779605881 Kcal/mol
+          GB Energy                      :       -58.3889834333 Kcal/mol
+
+          RMS gradient                   :         0.0002461248 Kcal/mol/Angs
+          Max gradient                   :         0.0005880820 Kcal/mol/Angs
+          Total geometry steps           :     65
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3889834333 kcal/mol
+          Difference w.r.t current lowest energy          0.0003447545 kcal/mol
+
+          PBSA energy of this structure                 -59.6709280958 kcal/mol
+          Difference w.r.t current lowest energy         -0.1499079634 kcal/mol
+
+          ... found new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     6
+          -----------------------------------------------------------------------
+
+          Process Rank:     5
+
+          Unique Conformer ID:        38
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction              1
+                                     Force Constant     104.0
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction             -1
+                                     Force Constant     120.5
+
+          Distortion Information : Energy before        -58.3889533098 kcal/mol
+                                   Energy after         -34.8906050987 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7806595594 Kcal/mol
+          GB Solvation energy            :       -66.5562532832 Kcal/mol
+          GB Energy                      :       -56.7755937238 Kcal/mol
+
+          RMS gradient                   :         0.0028767126 Kcal/mol/Angs
+          Max gradient                   :         0.0079766062 Kcal/mol/Angs
+          Total geometry steps           :    170
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7755937238 kcal/mol
+          Difference w.r.t current lowest energy          1.6133595859 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7817015201 Kcal/mol
+          GB Solvation energy            :       -66.5567830710 Kcal/mol
+          GB Energy                      :       -56.7750815510 Kcal/mol
+
+          RMS gradient                   :         0.0001367659 Kcal/mol/Angs
+          Max gradient                   :         0.0002977480 Kcal/mol/Angs
+          Total geometry steps           :     59
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750815510 kcal/mol
+          Difference w.r.t current lowest energy          1.6138717588 kcal/mol
+
+          PBSA energy of this structure                 -57.9919584724 kcal/mol
+          Difference w.r.t current lowest energy          1.6778131486 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     7
+          -----------------------------------------------------------------------
+
+          Process Rank:     6
+
+          Unique Conformer ID:        39
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 1
+                                     ID                     1
+                                     Direction             -1
+                                     Force Constant      16.0
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction             -1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889557123 kcal/mol
+                                   Energy after         -48.3950234857 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7819023008 Kcal/mol
+          GB Solvation energy            :       -66.5569293877 Kcal/mol
+          GB Energy                      :       -56.7750270869 Kcal/mol
+
+          RMS gradient                   :         0.0032810692 Kcal/mol/Angs
+          Max gradient                   :         0.0069215411 Kcal/mol/Angs
+          Total geometry steps           :    184
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750270869 kcal/mol
+          Difference w.r.t current lowest energy          1.6139286254 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809740905 Kcal/mol
+          GB Solvation energy            :       -66.5568568169 Kcal/mol
+          GB Energy                      :       -56.7758827264 Kcal/mol
+
+          RMS gradient                   :         0.0002664470 Kcal/mol/Angs
+          Max gradient                   :         0.0006926612 Kcal/mol/Angs
+          Total geometry steps           :     61
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7758827264 kcal/mol
+          Difference w.r.t current lowest energy          1.6130729859 kcal/mol
+
+          PBSA energy of this structure                 -58.0598934148 kcal/mol
+          Difference w.r.t current lowest energy          1.6116176807 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     8
+          -----------------------------------------------------------------------
+
+          Process Rank:     7
+
+          Unique Conformer ID:        40
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction             -1
+                                     Force Constant     104.1
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889653346 kcal/mol
+                                   Energy after         -32.8347202167 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7824837390 Kcal/mol
+          GB Solvation energy            :       -66.5576816168 Kcal/mol
+          GB Energy                      :       -56.7751978778 Kcal/mol
+
+          RMS gradient                   :         0.0026422521 Kcal/mol/Angs
+          Max gradient                   :         0.0060934400 Kcal/mol/Angs
+          Total geometry steps           :    165
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7751978778 kcal/mol
+          Difference w.r.t current lowest energy          1.6137674568 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816792380 Kcal/mol
+          GB Solvation energy            :       -66.5567481505 Kcal/mol
+          GB Energy                      :       -56.7750689125 Kcal/mol
+
+          RMS gradient                   :         0.0001747387 Kcal/mol/Angs
+          Max gradient                   :         0.0003230919 Kcal/mol/Angs
+          Total geometry steps           :     55
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750689125 kcal/mol
+          Difference w.r.t current lowest energy          1.6138964221 kcal/mol
+
+          PBSA energy of this structure                 -58.0287523786 kcal/mol
+          Difference w.r.t current lowest energy          1.6407214227 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number     9
+          -----------------------------------------------------------------------
+
+          Process Rank:     8
+
+          Unique Conformer ID:        41
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 1
+                                     ID                     1
+                                     Direction              1
+                                     Force Constant      16.0
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889620235 kcal/mol
+                                   Energy after         -48.3946611300 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7805227027 Kcal/mol
+          GB Solvation energy            :       -66.5569303381 Kcal/mol
+          GB Energy                      :       -56.7764076354 Kcal/mol
+
+          RMS gradient                   :         0.0024468538 Kcal/mol/Angs
+          Max gradient                   :         0.0059682454 Kcal/mol/Angs
+          Total geometry steps           :    174
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7764076354 kcal/mol
+          Difference w.r.t current lowest energy          1.6125543881 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809586839 Kcal/mol
+          GB Solvation energy            :       -66.5568738399 Kcal/mol
+          GB Energy                      :       -56.7759151559 Kcal/mol
+
+          RMS gradient                   :         0.0002591463 Kcal/mol/Angs
+          Max gradient                   :         0.0008049131 Kcal/mol/Angs
+          Total geometry steps           :     81
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7759151559 kcal/mol
+          Difference w.r.t current lowest energy          1.6130468676 kcal/mol
+
+          PBSA energy of this structure                 -58.0504621208 kcal/mol
+          Difference w.r.t current lowest energy          1.6191935663 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number    10
+          -----------------------------------------------------------------------
+
+          Process Rank:     9
+
+          Unique Conformer ID:        42
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction             -1
+                                     Force Constant     104.1
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction             -1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3893661315 kcal/mol
+                                   Energy after         -34.9341366731 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7804214183 Kcal/mol
+          GB Solvation energy            :       -66.5565917866 Kcal/mol
+          GB Energy                      :       -56.7761703682 Kcal/mol
+
+          RMS gradient                   :         0.0025010865 Kcal/mol/Angs
+          Max gradient                   :         0.0086248896 Kcal/mol/Angs
+          Total geometry steps           :    199
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7761703682 kcal/mol
+          Difference w.r.t current lowest energy          1.6131957633 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7810034365 Kcal/mol
+          GB Solvation energy            :       -66.5568240794 Kcal/mol
+          GB Energy                      :       -56.7758206428 Kcal/mol
+
+          RMS gradient                   :         0.0002651506 Kcal/mol/Angs
+          Max gradient                   :         0.0006568665 Kcal/mol/Angs
+          Total geometry steps           :     70
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7758206428 kcal/mol
+          Difference w.r.t current lowest energy          1.6135454886 kcal/mol
+
+          PBSA energy of this structure                 -58.0598985762 kcal/mol
+          Difference w.r.t current lowest energy          1.4632835963 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number    11
+          -----------------------------------------------------------------------
+
+          Process Rank:    10
+
+          Unique Conformer ID:        43
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction              1
+                                     Force Constant     104.0
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.5
+
+          Distortion Information : Energy before        -58.3893281879 kcal/mol
+                                   Energy after         -38.8559142871 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7802502408 Kcal/mol
+          GB Solvation energy            :       -66.5567558480 Kcal/mol
+          GB Energy                      :       -56.7765056071 Kcal/mol
+
+          RMS gradient                   :         0.0022658788 Kcal/mol/Angs
+          Max gradient                   :         0.0052963034 Kcal/mol/Angs
+          Total geometry steps           :    177
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7765056071 kcal/mol
+          Difference w.r.t current lowest energy          1.6128225807 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7809856897 Kcal/mol
+          GB Solvation energy            :       -66.5568577562 Kcal/mol
+          GB Energy                      :       -56.7758720665 Kcal/mol
+
+          RMS gradient                   :         0.0002024146 Kcal/mol/Angs
+          Max gradient                   :         0.0005167510 Kcal/mol/Angs
+          Total geometry steps           :     59
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7758720665 kcal/mol
+          Difference w.r.t current lowest energy          1.6134561214 kcal/mol
+
+          PBSA energy of this structure                 -58.0491493967 kcal/mol
+          Difference w.r.t current lowest energy          1.4718707357 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number    12
+          -----------------------------------------------------------------------
+
+          Process Rank:    11
+
+          Unique Conformer ID:        44
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 1
+                                     ID                     1
+                                     Direction             -1
+                                     Force Constant      16.3
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.5
+
+          Distortion Information : Energy before        -58.3889533098 kcal/mol
+                                   Energy after         -48.3939602813 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7797515347 Kcal/mol
+          GB Solvation energy            :       -66.5568415493 Kcal/mol
+          GB Energy                      :       -56.7770900147 Kcal/mol
+
+          RMS gradient                   :         0.0031654284 Kcal/mol/Angs
+          Max gradient                   :         0.0067354643 Kcal/mol/Angs
+          Total geometry steps           :    191
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7770900147 kcal/mol
+          Difference w.r.t current lowest energy          1.6118632951 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7810258746 Kcal/mol
+          GB Solvation energy            :       -66.5568145629 Kcal/mol
+          GB Energy                      :       -56.7757886883 Kcal/mol
+
+          RMS gradient                   :         0.0002600421 Kcal/mol/Angs
+          Max gradient                   :         0.0008940859 Kcal/mol/Angs
+          Total geometry steps           :     68
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7757886883 kcal/mol
+          Difference w.r.t current lowest energy          1.6131646214 kcal/mol
+
+          PBSA energy of this structure                 -58.0508143348 kcal/mol
+          Difference w.r.t current lowest energy          1.6189572862 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number    13
+          -----------------------------------------------------------------------
+
+          Process Rank:    12
+
+          Unique Conformer ID:        45
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction              1
+                                     Force Constant     104.1
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction             -1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889557123 kcal/mol
+                                   Energy after         -31.7529927631 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816422968 Kcal/mol
+          GB Solvation energy            :       -66.5577393198 Kcal/mol
+          GB Energy                      :       -56.7760970230 Kcal/mol
+
+          RMS gradient                   :         0.0026137855 Kcal/mol/Angs
+          Max gradient                   :         0.0065618788 Kcal/mol/Angs
+          Total geometry steps           :    183
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7760970230 kcal/mol
+          Difference w.r.t current lowest energy          1.6128586893 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816872440 Kcal/mol
+          GB Solvation energy            :       -66.5567789265 Kcal/mol
+          GB Energy                      :       -56.7750916825 Kcal/mol
+
+          RMS gradient                   :         0.0001801344 Kcal/mol/Angs
+          Max gradient                   :         0.0004274992 Kcal/mol/Angs
+          Total geometry steps           :     63
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750916825 kcal/mol
+          Difference w.r.t current lowest energy          1.6138640297 kcal/mol
+
+          PBSA energy of this structure                 -57.9914895990 kcal/mol
+          Difference w.r.t current lowest energy          1.6800214965 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number    14
+          -----------------------------------------------------------------------
+
+          Process Rank:    13
+
+          Unique Conformer ID:        46
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 2
+                                     ID                     2
+                                     Direction              1
+                                     Force Constant     104.1
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3889653346 kcal/mol
+                                   Energy after         -34.9333973772 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816279415 Kcal/mol
+          GB Solvation energy            :       -66.5579804512 Kcal/mol
+          GB Energy                      :       -56.7763525097 Kcal/mol
+
+          RMS gradient                   :         0.0032313018 Kcal/mol/Angs
+          Max gradient                   :         0.0081107755 Kcal/mol/Angs
+          Total geometry steps           :    179
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7763525097 kcal/mol
+          Difference w.r.t current lowest energy          1.6126128249 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816590499 Kcal/mol
+          GB Solvation energy            :       -66.5567681177 Kcal/mol
+          GB Energy                      :       -56.7751090679 Kcal/mol
+
+          RMS gradient                   :         0.0002340087 Kcal/mol/Angs
+          Max gradient                   :         0.0005102636 Kcal/mol/Angs
+          Total geometry steps           :     54
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7751090679 kcal/mol
+          Difference w.r.t current lowest energy          1.6138562667 kcal/mol
+
+          PBSA energy of this structure                 -57.9922074179 kcal/mol
+          Difference w.r.t current lowest energy          1.6772663834 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number    15
+          -----------------------------------------------------------------------
+
+          Process Rank:    14
+
+          Unique Conformer ID:        47
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 1
+                                     ID                     1
+                                     Direction             -1
+                                     Force Constant      16.0
+
+          Driver 2 Information     : Number                 2
+                                     ID                     2
+                                     Direction              1
+                                     Force Constant     104.1
+
+          Distortion Information : Energy before        -58.3889620235 kcal/mol
+                                   Energy after         -55.1481188120 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3884861078 Kcal/mol
+          GB Solvation energy            :       -65.7782877389 Kcal/mol
+          GB Energy                      :       -58.3898016311 Kcal/mol
+
+          RMS gradient                   :         0.0030634179 Kcal/mol/Angs
+          Max gradient                   :         0.0084052315 Kcal/mol/Angs
+          Total geometry steps           :    199
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3898016311 kcal/mol
+          Difference w.r.t current lowest energy         -0.0008396076 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         7.3887112601 Kcal/mol
+          GB Solvation energy            :       -65.7780550726 Kcal/mol
+          GB Energy                      :       -58.3893438124 Kcal/mol
+
+          RMS gradient                   :         0.0002363906 Kcal/mol/Angs
+          Max gradient                   :         0.0007335022 Kcal/mol/Angs
+          Total geometry steps           :     86
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -58.3893438124 kcal/mol
+          Difference w.r.t current lowest energy         -0.0003817890 kcal/mol
+
+          PBSA energy of this structure                 -59.5225142164 kcal/mol
+          Difference w.r.t current lowest energy          0.1471414708 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+
+          -----------------------------------------------------------------------
+                         Random pairs of modes: search number    16
+          -----------------------------------------------------------------------
+
+          Process Rank:    15
+
+          Unique Conformer ID:        48
+
+          Attempt a combined driver rotation of  180.0 degrees.
+
+          Driver 1 Information     : Number                 1
+                                     ID                     1
+                                     Direction             -1
+                                     Force Constant      16.0
+
+          Driver 2 Information     : Number                 3
+                                     ID                     3
+                                     Direction              1
+                                     Force Constant     120.4
+
+          Distortion Information : Energy before        -58.3893661315 kcal/mol
+                                   Energy after         -48.3911938054 kcal/mol
+                                   Steps                 10
+                                   Size                 180.0 Degrees
+
+          Done with distortion. Now carry out geometry optimization ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7817480520 Kcal/mol
+          GB Solvation energy            :       -66.5562749921 Kcal/mol
+          GB Energy                      :       -56.7745269402 Kcal/mol
+
+          RMS gradient                   :         0.0029999522 Kcal/mol/Angs
+          Max gradient                   :         0.0087610647 Kcal/mol/Angs
+          Total geometry steps           :    225
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7745269402 kcal/mol
+          Difference w.r.t current lowest energy          1.6148391913 kcal/mol
+
+          Tighten geometry convergence criterion and re-minimze ...
+
+          --------------------------------------
+          GB Quasi-Newton Geometry Optimization.
+          --------------------------------------
+
+          In Vacuo energy                :         9.7816426098 Kcal/mol
+          GB Solvation energy            :       -66.5567348160 Kcal/mol
+          GB Energy                      :       -56.7750922061 Kcal/mol
+
+          RMS gradient                   :         0.0002713146 Kcal/mol/Angs
+          Max gradient                   :         0.0006551484 Kcal/mol/Angs
+          Total geometry steps           :     21
+
+          Structure accepted. Taking a closer look.
+
+          --------------------
+          Single-point energy.
+          --------------------
+
+          GB   energy of this structure                 -56.7750922061 kcal/mol
+          Difference w.r.t current lowest energy          1.6142739254 kcal/mol
+
+          PBSA energy of this structure                 -57.9914578686 kcal/mol
+          Difference w.r.t current lowest energy          1.5317243039 kcal/mol
+
+          ... did not find a new lowest energy minimum.
+
+          ----------------------------------------------------------------
+          Done with random pair-mode search.
+          It changed the lowest PBSA energy by       0.0000000000 kcal/mol
+          ----------------------------------------------------------------
+
+          ----------------------------------------------------------------------
+
+                         Conformational Search Summary.
+
+          ----------------------------------------------------------------------
+
+          This conformational search produced   49 conformers.
+
+          This conformational search changed the lowest energy by:
+                 -1.3394821521 Kcal/mol
+
+          Final lowest energy after this conformational search is:
+                -59.6715110955 Kcal/mol
+
+          ----------------------------------------------------------------------
+
+     ----------------------------------
+     ----------------------------------
+     VConf Iteration   1
+
+     Conformer Filter Step.
+     ----------------------------------
+     ----------------------------------
+
+          ---------------------------------------------------------------
+          Filter Individual Conformer Set(s) for Repeats and High Energy.
+          ---------------------------------------------------------------
+
+          Check conformer pair when within   :   2.00 kcal/mol
+          Conformer pair overlap RMSD cutoff :   0.50
+          High energy conformer cutoff       : 100.00 kcal/mol
+
+          Conformer pair filter check by                     : Potential Energy
+          Choose conformer to keep in repeat pairs by lowest : Potential Energy
+          Remove high energy conformers according to         : Potential Energy
+
+          -----------------------
+          New set filter results.
+          -----------------------
+
+          Number of new conformers before filtering :    49
+          Number of new conformers after filtering  :     4
+
+          ... Done with individual conformer set(s) filtering.
+
+          --------------------------
+          Individual Conformer Data.
+          --------------------------
+
+          Rankings are with respect to : Potential Energy (U+W)
+
+          -----------------------
+          Potential Energy: U+W
+          -----------------------
+
+          ------------------------------------------------------------------------------------------
+          Rank    ID     Del(U+W)     U+W         U        W(PBSA)          PB           SA
+          ------------------------------------------------------------------------------------------
+             1      1     0.00       -59.67         7.39       -67.06       -68.77         1.71
+             2      0     1.34       -58.33         8.39       -66.72       -68.45         1.73
+             3     36     1.61       -58.06         9.78       -67.84       -69.54         1.70
+             4      4     1.62       -58.05         9.78       -67.83       -69.54         1.70
+          ------------------------------------------------------------------------------------------
+ 
+
+     WARNING: Vconf Potential Energy failed to converge after    1 iterations.
+
+     Final Vconf Potential Energy is     -59.671511 Kcal/mol.
+
+          Calculating single reference conformer RMSDs ...
+
+     Total cpu time for run          1.58 seconds.
+                                     0.03 minutes.
+
+     Total wall time for run         1.72 seconds.
+                                     0.03 minutes.
+
+     TIME STAMP: VCPack job finished normally : Saturday, August 06, 2022 at 16:09:14

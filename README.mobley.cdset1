@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Example of automated setup of run directories for VM2 calculation of host-guest
+binding free energies for alpha-cyclodextrin and 22 guests taken from the 
+Mobley benchmark set "cd-set1", which can be downloaded at
+
+ https://github.com/MobleyLab/benchmarksets/tree/master/input_files/cd-set1
+
+--------------------------------------------------------------------------------
+
+Host-Guest Systems.
+----------------------
+
+From: Rekharsky et al. (1997) Thermodynamic and nuclear magnetic resonance study
+      of the reactions of α-and β-cyclodextrin with acids, aliphatic amines, and
+      cyclic alcohols. J Phys Chem B. 101(1):87-100. doi: 10.1021/jp962715n
+
+
+    Host                    Labels in ref.    Labels in run dirs.
+------------------          --------------    -------------------
+alpha-cyclodextrin       `:    aCD              a-cyclodex
+
+
+                            Labels in ref.    Labels in run dirs.
+                            --------------    -------------------
+Guest molecules           :   1 to 8           guest-1 to guest-8
+                              s9 to s22        guest-s9 to guest-s22
+
+
+Experimental host-guest binding affinities.
+-------------------------------------------
+
+Temperature: 298 K
+pH: 6.9
+
+ Host       Guest IDs                   SMILES              DelG(Kcal/mol)    DelH(Kcal/mol) 
+------  ---------------------------    ----------------     ---------------  ---------------
+ aCD     1    1-butylammonium          CCCC[NH3+]           -1.575 ± 0.019    -2.17 ± 0.05
+ aCD     2    1-hexylammonium          CCCCCC[NH3+]         -3.533 ± 0.004    -4.19 ± 0.02
+ aCD     3    1-octylammonium          CCCCCCCC[NH3+]       -4.606 ± 0.007    -5.46 ± 0.03
+ aCD     4    cyclopentanol            OC1CCCC1             -2.130 ± 0.016    -2.74 ± 0.02
+ aCD     5    cycloheptanol            OC1CCCCCC1           -2.510 ± 0.060    -2.99 ± 0.23
+ aCD     6    butanoate                CCCC([O-])=O         -1.506 ± 0.036    -2.53 ± 0.12
+ aCD     7    hexanoate                CCCCCC([O-])=O       -3.380 ± 0.005    -3.40 ± 0.02
+ aCD     8    octanoate                CCCCCCCC([O-])=O     -4.622 ± 0.017    -4.89 ± 0.03
+
+ aCD    s9    n-methylbutylammonium    CCCC[NH2+]C          -1.685 ± 0.018    -2.57 ± 0.06
+ aCD    s10   1-methylbutylammonium    CCCC(C)[NH3+]        -1.764 ± 0.020    -2.68 ± 0.07
+ aCD    s11   1-pentylammonium         CCCCC[NH3+]          -2.720 ± 0.004    -3.28 ± 0.02
+ aCD    s12   n-methylhexylammonium    CCCCCC[NH2+]C        -3.516 ± 0.012    -4.20 ± 0.08
+ aCD    s13   1-methylhexylammonium    CCCCCC(C)[NH3+]      -3.604 ± 0.004    -4.28 ± 0.02
+ aCD    s14   1-heptylammonium         CCCCCCC[NH3+]        -4.137 ± 0.004    -4.66 ± 0.02
+ aCD    s15   1-methylheptylammonium   CCCCCCC(C)[NH3+]     -4.166 ± 0.004    -4.74 ± 0.02
+ aCD    s16   cyclobutanol             OC1CCC1              -2.022 ± 0.016    -2.75 ± 0.05
+ aCD    s17   cyclooctanol             OC1CCCCCCC1          -3.227 ± 1.135    -0.93 ± 0.32
+ aCD    s18   pentanoate               CCCCC([O-])=O        -2.596 ± 0.005    -2.75 ± 0.01
+ aCD    s19   trans-2-hexenoate        CCC/C=C/C([O-])=O    -3.344 ± 0.010    -4.12 ± 0.06
+ aCD    s20   trans-3-hexenoate        CC/C=C/CC([O-])=O    -3.011 ± 0.010    -3.36 ± 0.05
+ aCD    s21   heptanoate               CCCCCCC([O-])=O      -3.991 ± 0.013    -4.19 ± 0.09
+ aCD    s22   6-heptenoate             [O-]C(=O)CCCCC=C     -3.597 ± 0.004    -4.48 ± 0.02
+
+
+Top Level Directories.
+----------------------
+
+./setup     ------> Proceed to this directory first and follow the step-by-step
+                    directions in the supplied README file for VM2 calculation
+                    setup starting from host and guest molecule SDF/MOL files.
+
+./run       ------> Proceed to this directory and follow the step-by-step
+                    directions in the supplied README file for making run
+                    directories and running VM2 free energy calculations for
+                    the Sampl4 CB7 host-guest systems.
+
+./results   ------> After completing the runs proceed to this directory and
+                    follow the step-by-step directions in the supplied README
+                    file for processing the run results to produce spreadsheets
+                    containing calculated binding affinities etc.

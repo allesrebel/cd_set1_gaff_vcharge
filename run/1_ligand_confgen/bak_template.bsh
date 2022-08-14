@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# Bash-shell script
+
+ulimit -s unlimited
+
+_VCRTLIBRARIESINFO_
+
+export OMP_NUM_THREADS=32
+export MKL_NUM_THREADS=32
+export I_MPI_PIN_DOMAIN=omp
+export KMP_STACKSIZE=16m
+
+# Set VM2 executable to use
+VC_FORTRAN_EXE=_VCEXELOCATION_/VC_CompChemPackage_mpi.exe
+
+# Set VM2 input and output file names
+VC_IN_FILE=_VCFILEINP_
+VC_OUT_FILE=_VCFILEOUT_
+
+# Will run 8 MPI processes
+nohup mpirun -n 32 $VC_FORTRAN_EXE $VC_IN_FILE $VC_OUT_FILE

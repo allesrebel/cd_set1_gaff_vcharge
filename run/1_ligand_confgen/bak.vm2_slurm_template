@@ -1,0 +1,29 @@
+#!/bin/bash
+##SBATCH --partition=
+#SBATCH --job-name=vchemrun
+#SBATCH --time=72:00:00
+#SBATCH --ntasks=8
+#SBATCH --ntasks-per-node=8
+#SBATCH --output=vchemrun.out
+#SBATCH --error=vchemrun.err
+#SBATCH --export=NONE
+
+ulimit -s unlimited
+
+_VCRTLIBRARIESINFO_
+
+# Set number of OpenMP threads to run per MPI process
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export I_MPI_PIN_DOMAIN=omp
+export KMP_STACKSIZE=16m
+
+# Set VM2 executable to use
+VC_FORTRAN_EXE=_VCEXELOCATION_/VC_CompChemPackage_mpi.exe
+
+# Set VM2 input and output file names
+VC_IN_FILE=_VCFILEINP_
+VC_OUT_FILE=_VCFILEOUT_
+
+# Will run a total of 8 MPI processes on a single node
+mpirun -n 8 $VC_FORTRAN_EXE $VC_IN_FILE $VC_OUT_FILE

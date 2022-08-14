@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -q default
+#PBS -N vchemrun
+#PBS -l walltime=72:00:00
+#PBS -l nodes=1:ppn=8
+#PBS -o vchemrun.out
+#PBS -e vchemrun.err
+
+ulimit -s unlimited
+
+_VCRTLIBRARIESINFO_
+
+# Set number of OpenMP threads to run per MPI process
+export OMP_NUM_THREADS=_VCOMPTHREADS_
+export MKL_NUM_THREADS=_VCMKLTHREADS_
+export I_MPI_PIN_DOMAIN=omp
+export KMP_STACKSIZE=16m
+
+# Set VM2 executable to use
+VC_FORTRAN_EXE=_VCEXELOCATION_/_VCRUNEXE_
+
+# Set VM2 input and output file names
+VC_IN_FILE=_VCFILEINP_
+VC_OUT_FILE=_VCFILEOUT_
+
+cd $PBS_O_WORKDIR
+
+# Will run a total of 8 MPI processes on a single node
+mpirun -n 8 $VC_FORTRAN_EXE $VC_IN_FILE $VC_OUT_FILE
