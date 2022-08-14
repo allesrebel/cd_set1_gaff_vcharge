@@ -1,0 +1,107 @@
+Step-by-step instructions for VM2 calculation setup starting from a 
+alpha-cyclodextrin .sdf and .mol/.sdf files for a series of 22 guests
+taken from the cd-set1 in the Mobley benchmarking sets:
+
+ https://github.com/MobleyLab/benchmarksets/tree/master/input_files/cd-set1
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Step 1: Prepare, type, and parameterize the host system using AmberTools,
+        and then convert the resulting files to the .crd, .top, and .mol files
+        used by VM2.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+i) Go to the directory ./hosts/prepareHosts and copy the a-cyclodex.sdf file
+fro the source_files directory:
+
+   cp ../source_files/a-cyclodex.sdf .
+
+
+
+NOTE: The host .sdf used here i.e. a-cyclodex.sdf is taken from the setup for
+      the cd_gilson_set, not from the Mobley data set. See ../source_files/README
+      for further explanation. If you want to use the corrected Mobley .sdf
+      copy it instead i.e.
+
+      cp ../source_files/host-acd.sdf .
+
+-------------------------------------------------------------------------------
+
+ii) Next, generation of partial charges, assignment of other parameters, generation
+of .prmtop and .inpcrd files, and subsequent conversion to .crd, .top, and .mol
+files for use with VM2 are automated by the VeraChem tool prepareLigands.pyc.
+(This tool originally designed for ligands can also handle host molecules.)
+Use the provided script to invoke this tool:
+
+   ./run_prepareHosts.sh &
+
+This script points to the location of the prepareLigands tool, and provides the
+name of the input file with a-CD host molecule i.e.
+
+   $VCHOME/exe/vc_python $VCHOME/exe/prepareLigands.pyc -charge_method vcharge
+   a-cyclodex.sdf >& run_prepareHosts.out &
+
+This process uses AmberTools to assign parameters and VeraChem's VCharge to generate
+partial charges for the host(s).
+
+The results may be compared with the reference set in ./hosts/prepareHosts/reference
+to confirm the process completed correctly.
+
+A report of the time taken to generate partial charges for the a-CD host can
+be found in the log file a-cyclodex_runAc.log. 
+
+
+NOTE: If you are using the corrected Mobley .sdf use host-acd.sdf instead of
+      a-cyclodex.sdf in the above commands etc. 
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Step 2: Prepare, type, and parameterize the set of guest molecules using
+        AmberTools, and then convert the resulting files to the .crd,.top, and
+        .mol files used by VM2.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+i) Go to the directory ./ligands/source_files and concatenate the 22 ligand 
+.mol files into a single .sdf file using the provided script:
+
+   python mol_2_sdf.py -o cdset1_ligands.sdf 
+
+NOTE: The 22 .mol files in ./ligands/source_files are the result of a number
+      of corrective steps carried out on the original set of 22 .sdf's provided
+      in the Mobley data set. See ./ligands/source_files/README for further
+      details.
+
+-------------------------------------------------------------------------------
+
+ii) Go to the directory ./ligands/prepareLigands and copy the ligand sdf file
+from the source_files directory:
+
+   cp ../source_files/cdset1_ligands.sdf .
+
+-------------------------------------------------------------------------------
+
+iii) Next, generation of partial charges, assignment of other parameters, generation
+of .prmtop and .inpcrd files, and subsequent conversion to .crd, .top, and .mol
+files for use with VM2 are automated by the VeraChem tool prepareLigands.pyc.
+Use the provided script to invoke this tool:
+
+   ./run_prepareLigands.sh &
+
+This script points to the location of the prepareLigands tool, and provides the
+name of the input file with the a-CD ligand molecules i.e.
+
+   $VCHOME/exe/vc_python $VCHOME/exe/prepareLigands.pyc -charge_method vcharge
+   cdset1_ligands.sdf >& run_prepareLigands.out &
+
+This process uses AmberTools to assign parameters and VeraChem's VCharge to generate
+partial charges for the ligands.
+
+The results may be compared with the reference set in ./ligands/prepareLigands/reference
+to confirm the process completed correctly.
+
+A report of the time taken to generate partial charges for the a-CD ligands can
+be found in the log file cdset1_ligands_runAc.log.
+
+

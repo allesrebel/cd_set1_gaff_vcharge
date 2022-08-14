@@ -1,0 +1,9 @@
+
+Welcome to antechamber 17.3: molecular input file processor.
+
+Running: /home/vm2_prod_2.8/amber18/bin/bondtype -j part -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac
+
+
+Running: /home/vm2_prod_2.8/amber18/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p gaff
+Running: /home/vm2_prod_2.8/amber18/bin/atomtype -i ANTECHAMBER_GAS.AC -o ANTECHAMBER_GAS_AT.AC -d /home/vm2_prod_2.8/amber18/dat/antechamber/ATOMTYPE_GAS.DEF
+

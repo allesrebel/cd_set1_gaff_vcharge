@@ -1,0 +1,14 @@
+
+Welcome to antechamber 22.0: molecular input file processor.
+
+Info: The atom type is set to gaff; the options available to the -at flag are
+      gaff, gaff2, amber, bcc, and sybyl.
+
+Info: Determining atomic numbers from atomic symbols which are case sensitive.
+Running: /data/neginf/amber22/bin/bondtype -j part -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac
+
+
+Running: /data/neginf/amber22/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p gaff
+Running: /data/neginf/amber22/bin/atomtype -i ANTECHAMBER_GAS.AC -o ANTECHAMBER_GAS_AT.AC -d /data/neginf/amber22/dat/antechamber/ATOMTYPE_GAS.DEF
+
+convert_only None
