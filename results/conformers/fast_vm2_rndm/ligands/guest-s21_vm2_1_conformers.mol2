@@ -1,0 +1,168 @@
+@<TRIPOS>MOLECULE
+guest-s21_vm2.mol2 : vm2 ligand conformer 1
+          22          21           1
+SMALL
+USER_CHARGES
+ 
+@<TRIPOS>ATOM
+       1    C1      19.831436   19.134098   26.187472 C.2        1 MOL1         0.6145
+       2    O1      20.058743   20.237246   26.643355 O.co2      1 MOL1        -0.6735
+       3    O2      20.174473   18.099850   26.725141 O.co2      1 MOL1        -0.6735
+       4    C2      19.094614   19.043256   24.855911 C.3        1 MOL1        -0.1985
+       5    H1      18.397967   19.887928   24.793671 H          1 MOL1         0.0740
+       6    H2      18.492885   18.126439   24.861323 H          1 MOL1         0.0740
+       7    C3      20.050609   19.047985   23.637674 C.3        1 MOL1        -0.1882
+       8    H3      20.654842   19.965703   23.654124 H          1 MOL1         0.0742
+       9    H4      20.749639   18.204258   23.721673 H          1 MOL1         0.0742
+      10    C4      19.280785   18.955370   22.302505 C.3        1 MOL1        -0.1880
+      11    H5      18.582094   19.799507   22.222272 H          1 MOL1         0.0742
+      12    H6      18.676844   18.037618   22.289845 H          1 MOL1         0.0742
+      13    C5      20.236308   18.960253   21.089971 C.3        1 MOL1        -0.1880
+      14    H7      20.840535   19.877795   21.102346 H          1 MOL1         0.0742
+      15    H8      20.935093   18.116182   21.169778 H          1 MOL1         0.0742
+      16    C6      19.467662   18.867903   19.755160 C.3        1 MOL1        -0.1856
+      17    H9      18.768963   19.711806   19.670758 H          1 MOL1         0.0742
+      18    H10     18.863500   17.950202   19.738196 H          1 MOL1         0.0742
+      19    C7      20.425370   18.873039   18.546812 C.3        1 MOL1        -0.2871
+      20    H11     21.020545   19.795276   18.521251 H          1 MOL1         0.0754
+      21    H12     19.862430   18.806832   17.606702 H          1 MOL1         0.0754
+      22    H13     21.115798   18.020444   18.589208 H          1 MOL1         0.0754
+@<TRIPOS>BOND
+    1     1     2    1
+    2     1     3    2
+    3     1     4    1
+    4     4     5    1
+    5     4     6    1
+    6     4     7    1
+    7     7     8    1
+    8     7     9    1
+    9     7    10    1
+   10    10    11    1
+   11    10    12    1
+   12    10    13    1
+   13    13    14    1
+   14    13    15    1
+   15    13    16    1
+   16    16    17    1
+   17    16    18    1
+   18    16    19    1
+   19    19    20    1
+   20    19    21    1
+   21    19    22    1
+@<TRIPOS>SUBSTRUCTURE
+       1 MOL1            1 RESIDUE      1      MOL     
+@<SCITEGIC>MOL_PROPERTY
+VM2 Rank
+SciTegic.value.IntegerValue
+1
+
+@<SCITEGIC>MOL_PROPERTY
+Conf_Id
+SciTegic.value.IntegerValue
+394
+
+@<SCITEGIC>MOL_PROPERTY
+Probability
+SciTegic.value.DoubleValue
+32.50
+
+@<SCITEGIC>MOL_PROPERTY
+Sum Probability
+SciTegic.value.DoubleValue
+32.50
+
+@<SCITEGIC>MOL_PROPERTY
+Delta G
+SciTegic.value.DoubleValue
+0.000
+
+@<SCITEGIC>MOL_PROPERTY
+G
+SciTegic.value.DoubleValue
+-16.998
+
+@<SCITEGIC>MOL_PROPERTY
+E
+SciTegic.value.DoubleValue
+-36.566
+
+@<SCITEGIC>MOL_PROPERTY
+-TS
+SciTegic.value.DoubleValue
+19.568
+
+@<SCITEGIC>MOL_PROPERTY
+U+W
+SciTegic.value.DoubleValue
+-54.451
+
+@<SCITEGIC>MOL_PROPERTY
+U
+SciTegic.value.DoubleValue
+5.779
+
+@<SCITEGIC>MOL_PROPERTY
+W
+SciTegic.value.DoubleValue
+-60.230
+
+@<SCITEGIC>MOL_PROPERTY
+W(PB)
+SciTegic.value.DoubleValue
+-62.557
+
+@<SCITEGIC>MOL_PROPERTY
+W(SA)
+SciTegic.value.DoubleValue
+2.328
+
+@<SCITEGIC>MOL_PROPERTY
+Valence
+SciTegic.value.DoubleValue
+7.101
+
+@<SCITEGIC>MOL_PROPERTY
+Coulomb
+SciTegic.value.DoubleValue
+-2.079
+
+@<SCITEGIC>MOL_PROPERTY
+VdW
+SciTegic.value.DoubleValue
+0.757
+
+@<SCITEGIC>MOL_PROPERTY
+VdW6
+SciTegic.value.DoubleValue
+-6.496
+
+@<SCITEGIC>MOL_PROPERTY
+VdW12
+SciTegic.value.DoubleValue
+7.253
+
+@<SCITEGIC>MOL_PROPERTY
+Bond
+SciTegic.value.DoubleValue
+0.100
+
+@<SCITEGIC>MOL_PROPERTY
+Angle
+SciTegic.value.DoubleValue
+2.262
+
+@<SCITEGIC>MOL_PROPERTY
+Pdih
+SciTegic.value.DoubleValue
+4.739
+
+@<SCITEGIC>MOL_PROPERTY
+Idih
+SciTegic.value.DoubleValue
+0.001
+
+@<SCITEGIC>MOL_PROPERTY
+Tether
+SciTegic.value.DoubleValue
+0.000
+
